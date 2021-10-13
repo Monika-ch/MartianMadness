@@ -39,6 +39,7 @@ class Header extends Component {
                   <img src={logo} alt='planets' className='logo inline-block' />
                 </NavLink>
               </NavItem> */}
+                            <div className='mr-auto d-flex'>
               <NavItem>
                 <NavLink className='nav_link' to='/story'>
                   Story
@@ -51,7 +52,7 @@ class Header extends Component {
               </NavItem>
               <NavItem>
                 <NavLink className='nav_link' to='/roadmap'>
-                  Journey
+                  Roadmap
                 </NavLink>
               </NavItem>
               <NavItem>
@@ -63,7 +64,15 @@ class Header extends Component {
                 <NavLink className='nav_link' to='/faq'>
                   FAQ
                 </NavLink>
-              </NavItem>
+                </NavItem>
+                </div>
+              {/* <div>
+                <NavItem>
+                  <NavLink className='nav_link wallet' to='/wallet'>
+                    Wallet
+                  </NavLink>
+                </NavItem>
+              </div> */}
             </Nav>
           </Collapse>
         </Navbar>
@@ -71,17 +80,15 @@ class Header extends Component {
         <section className='header'>
           <Jumbotron>
             <div className='img-wrapper'>
-              {/* <img
-                src={header}
-                alt='planets'
-                className='header-img grayscale'
-              /> */}
+              <div className='siteName'></div>
+              {/* <img src={siteName} alt='planets' className='siteName' /> */}
             </div>
-            <h1>
-              MaRTiAN MAD<span className='styleH1'>ness</span>
-            </h1>
-            {/* <img src={siteName} alt='planets' className='siteName' /> */}
           </Jumbotron>
+        </section>
+
+
+        <section className='galaxy'>
+          
         </section>
       </React.Fragment>
     );

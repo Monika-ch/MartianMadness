@@ -1,0 +1,55 @@
+.Story-section {
+  box-sizing: border-box;
+  width: 90vw;
+  margin: auto;
+  /* margin-top: 1em; */
+  padding: 3em;
+  border-top: 50px dashed rgba(243, 236, 34, 0.664);
+  font-size: 1.1em;
+  background: radial-gradient(
+      ellipse at center,
+      rgba(100, 9, 9, 0.383) 0%,
+      rgba(0, 0, 0, 1) 100%
+    ),url(../logo.png) center;
+
+}
+
+.story-container {
+  box-sizing: border-box;
+  padding: 3em;
+}
+
+.story-heading {
+color : black;
+font-size: 2.5em;
+}
+
+.story-para{
+  border: 1px solid rgb(190, 176, 202);
+  /* height: 15vh; */
+  width: 30%;
+  margin: 1em;
+    padding: 3.3em;
+  display: inline-block;
+  background-color: rgba(224, 166, 211, 0.644);
+  color: black;
+  
+}
+
+.story-para:nth-child(2n+1){
+  text-align: left;
+  border-radius: 30% 10% 70% 50%;
+  -webkit-border-radius: 30% 10% 70% 50%;
+  -moz-border-radius: 30% 10% 70% 50%;
+  -ms-border-radius: 30% 10% 70% 50%;
+  -o-border-radius: 30% 10% 70% 50%;
+}
+
+.story-para:nth-child(2n){
+  text-align: right;
+  border-radius: 10% 30% 50% 70%;
+  -webkit-border-radius: 10% 30% 50% 70%;
+  -moz-border-radius: 10% 30% 50% 70%;
+  -ms-border-radius: 10% 30% 50% 70%;
+  -o-border-radius: 10% 30% 50% 70%;
+}
