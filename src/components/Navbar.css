@@ -1,0 +1,160 @@
+.logo-container {
+  padding: 1em;
+
+  box-shadow: 0 4px 8px 0 rgba(251, 255, 3, 0.884),
+    0 6px 20px 0 rgba(123, 196, 105, 0.562);
+}
+
+.logo {
+  /* margin-top: -1.1em;
+  margin-bottom: -1.6em; */
+  height: 6.5rem;
+  padding: 0.5em;
+  box-shadow: 0 4px 8px 0 rgba(251, 255, 3, 0.884),
+    0 6px 20px 0 rgba(123, 196, 105, 0.562);
+}
+
+.navBar {
+  /* border-bottom: 1px solid #d9ed92; */
+  /* background-color: #ff4800; */
+  background-color: #093438bb;
+  color: #fdfdf6;
+  /* padding: 1em; */
+  box-shadow: 0 4px 8px 5px rgba(94, 5, 102, 0.41),
+    0 6px 20px 100px rgba(0, 0, 0, 0.3);
+}
+
+.navBar .nav_link {
+  font-family: "Exo", sans-serif;
+  color: #ffffff;
+  font-size: 0.8em;
+  cursor: pointer;
+  padding-left: 1.7rem !important;
+  padding-right: 1.7rem !important;
+  margin-top: 1em;
+  /*border: 1px solid #61384e;
+  */
+  margin-right: 1em;
+  margin-left: 1em;
+  letter-spacing: 1px;
+  box-shadow: 0 4px 8px 0 rgba(86, 0, 94, 0.41),
+    0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  border-radius: 8px;
+  -webkit-border-radius: 8px;
+  -moz-border-radius: 8px;
+  -ms-border-radius: 8px;
+  -o-border-radius: 8px;
+  transition: border-radius ease 400ms, transform ease 300ms;
+  -webkit-transition: border-radius ease 400ms, transform ease 300ms;
+  -moz-transition: border-radius ease 400ms, transform ease 300ms;
+  -ms-transition: border-radius ease 400ms, transform ease 300ms;
+  -o-transition: border-radius ease 400ms, transform ease 300ms;
+}
+
+.navBar .nav_link:hover {
+  border: 1px solid #ff4800;
+  margin-top: 0.8em;
+  box-shadow: 0 4px 8px 0 rgba(219, 5, 219, 0.568),
+    0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  border-radius: 3px;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  -ms-border-radius: 3px;
+  -o-border-radius: 3px;
+  transform: scale(1.1) !important;
+  -webkit-transform: scale(1.1) !important;
+  -moz-transform: scale(1.1) !important;
+  -ms-transform: scale(1.1) !important;
+  -o-transform: scale(1.1) !important;
+}
+
+.navBar .gallery_btn {
+  border: 1px solid #ff4800 !important;
+  box-shadow: 0 4px 8px 0 rgba(219, 5, 219, 0.568),
+    0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  transition: border-radius ease 350ms, transform ease 300ms;
+  -webkit-transition: border-radius ease 350ms, transform ease 300ms;
+  -moz-transition: border-radius ease 350ms, transform ease 300ms;
+  -ms-transition: border-radius ease 350ms, transform ease 300ms;
+  -o-transition: border-radius ease 350ms, transform ease 300ms;
+}
+
+.navBar .gallery_btn:hover {
+  background-color: #201b18b6;
+  margin-top: 0.75em;
+  margin-bottom: 0.25em;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+}
+.navBar .nav-wallet {
+  /* border: 1px solid salmon; */
+  /* width: 100%; */
+}
+
+.navBar .wallet {
+  border: 1px ridge #d3bacc91;
+
+  color: #000011;
+  background: #a1e9e2;
+  /*fallbackforoldbrowsers*/
+  background: -webkit-linear-gradient(to right, #ff3a9c, #ffb151, #40e0d0);
+  /*Chrome10-25,Safari5.1-6*/
+  background: linear-gradient(to right, #ff3a9c, #ffb151, #40e0d0);
+  /*W3C,IE10+/Edge,Firefox16+,Chrome26+,Opera12+,Safari7+*/
+  margin-top: 5px;
+  margin-left: 10.5vw;
+  position: absolute;
+  /*font-size: 0.9em;
+  */ /*font-weight: 600;
+  */
+  padding: 0.6rem 1.1rem !important;
+  letter-spacing: 0.5px;
+  word-spacing: 1px;
+  /*box-shadow: 0 4px 8px 0 #dbc60591, 0 6px 20px 0 #00000030;
+  */
+  border-radius: 3px;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  -ms-border-radius: 3px;
+  -o-border-radius: 3px;
+  transition: border-radius ease 400ms, transform ease 250ms;
+  -webkit-transition: border-radius ease 400ms, transform ease 250ms;
+  -moz-transition: border-radius ease 400ms, transform ease 250ms;
+  -ms-transition: border-radius ease 400ms, transform ease 250ms;
+  -o-transition: border-radius ease 400ms, transform ease 250ms;
+}
+
+.navBar .wallet:hover {
+  border-right: 25px solid rgba(96, 53, 255, 0.877);
+  background-color: #f16b36;
+  margin-top: 10px;
+  padding: 0.7rem 0.7rem 0.7rem 1.2rem !important;
+  box-shadow: -3px 4px 8px 0 rgba(139, 142, 177, 0.568),
+    0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  border-radius: 20px 50px;
+  -webkit-border-radius: 20px 50px;
+  -moz-border-radius: 20px 50px;
+  -ms-border-radius: 20px 50px;
+  -o-border-radius: 20px 50px;
+  transform: scale(1.05) !important;
+  -webkit-transform: scale(1.05) !important;
+  -moz-transform: scale(1.05) !important;
+  -ms-transform: scale(1.05) !important;
+  -o-transform: scale(1.05) !important;
+  /*position: absolute;
+  font-size: large;
+  */
+}
+
+.navBar .nav-btns {
+  position: relative;
+}
+
+.fa-wallet {
+  padding-left: 2px;
+  color: #0400ff;
+  font-size: 1.4rem;
+}

@@ -3,21 +3,16 @@
   width: 90vw;
   height: 90vh;
   margin: auto;
-  /* margin-top: 1em; */
-  /* padding: 3em; */
   /* border-top: 5px inset rgba(19, 19, 16, 0.664); */
   font-size: 1.1em;
+  font-family: "Special Elite", cursive;
   background: rgb(17, 19, 57);
   background: radial-gradient(
     circle,
     rgba(17, 19, 57, 1) 0%,
     rgba(162, 234, 246, 0.535) 100%
   );
-  padding: 0;
-  position: relative;
   /* clip-path: polygon(50% 0%, 0% 100%, 100% 100%); */
-  overflow: hidden;
-  /* margin: 50% 0 0; */
 }
 
 .story-container {
@@ -27,23 +22,14 @@
   width: 60%;
   height: 100%;
   margin: 10% auto;
-  perspective: 450px;
+  /* perspective: 450px; */
 }
 
 .story-text {
   text-align: justify;
-  font-size: 2vw;
-  color: #ffc909;
-  line-height: 1.5em;
-  font-weight: bold;
-  position: relative;
-  transform: translateZ(-2500px) rotateX(20deg);
-  -webkit-transform: translateZ(-2500px) rotateX(20deg);
-  -moz-transform: translateZ(-2500px) rotateX(20deg);
-  -ms-transform: translateZ(-2500px) rotateX(20deg);
-  -o-transform: translateZ(-2500px) rotateX(20deg);
-  animation: scroll 60s linear forwards;
-  -webkit-animation: scroll 120s linear;
+  font-size: 1rem;
+  color: #f8f2db;
+  line-height: 2rem;
 }
 
 .story-heading,
@@ -59,60 +45,3 @@
 .story-subheading {
   font-size: 1.5em;
 }
-
-@keyframes scroll {
-  from {
-    top: 0;
-    transform: translateZ(0) rotateX(20deg);
-    -webkit-transform: translateZ(0) rotateX(20deg);
-    -moz-transform: translateZ(0) rotateX(20deg);
-    -ms-transform: translateZ(0) rotateX(20deg);
-    -o-transform: translateZ(0) rotateX(20deg);
-}
-  to {
-    top: -7500px;
-    transform: translateZ(-2500px) rotateX(21deg);
-    -webkit-transform: translateZ(-2500px) rotateX(21deg);
-    -moz-transform: translateZ(-2500px) rotateX(21deg);
-    -ms-transform: translateZ(-2500px) rotateX(21deg);
-    -o-transform: translateZ(-2500px) rotateX(21deg);
-}
-}
-
-/* @media (max-width: 1200px) {
-  
-} */
-
-/* @media (max-width: 1200px) {
-
-  .Story-section {
-    padding: 0;
-    position:relative;
-  }
-
-  .story-container{
-    display: flex;
-    width: 60%;
-    height: 100%;
-    margin: 0 auto;
-    padding: 0;
-    perspective: 450px;
-  }
-
-  .story-heading{
-    text-align: center;
-  }
-
-  .story-text {
-    text-align: justify;
-    font-size: 3vw;
-    color: #ffc909;
-    line-height: 1.5em;
-    font-weight: bold;
-    transform: translateZ(-190px) rotateX(30deg);
-    -webkit-transform: translateZ(-190px) rotateX(30deg);
-    -moz-transform: translateZ(-190px) rotateX(30deg);
-    -ms-transform: translateZ(-190px) rotateX(30deg);
-    -o-transform: translateZ(-190px) rotateX(30deg);
-}
-} */
