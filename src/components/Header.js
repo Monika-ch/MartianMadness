@@ -17,16 +17,16 @@ class Header extends Component {
       <React.Fragment>
         <NavigationBar />
 
-        <section className='header'>
-          <Jumbotron>
+        <section className='header-section'>
+          <Jumbotron className='jumbo'>
             <div className='img-wrapper'>
               <div className='siteName'>
                 <h1 className='h1'>MARTiAN mADNEsS</h1>
-                <h6 className='text-light'>
-                  one of the best science-fiction or action films ever made
-                </h6>
               </div>
             </div>
+            <p className='header-caption'>
+              one of the best science-fiction or action films ever made
+            </p>
             <MintCount />
           </Jumbotron>
         </section>

@@ -1,18 +1,6 @@
 import React, { Component } from "react";
-import {
-  Navbar,
-  NavbarBrand,
-  Nav,
-  NavbarToggler,
-  NavItem,
-  NavLink,
-  Collapse,
-  Jumbotron,
-  Button,
-  Media,
-} from "reactstrap";
-import "./Navbar.css";
-import logo from "../logo.png";
+import { Collapse, Button, Media } from "reactstrap";
+import "./MintCount.css";
 
 class MintCount extends Component {
   constructor(props) {
@@ -27,8 +15,8 @@ class MintCount extends Component {
       <React.Fragment>
         <div className='header-mint-count'>
           <div className='count-wrapper'>
-            <Button>Mint</Button>
-            <h3>0/10000</h3>
+            <button className='mint-btn'>Mint</button>
+            <h3 className='count'>0/10000</h3>
           </div>
         </div>
       </React.Fragment>
