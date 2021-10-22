@@ -1,7 +1,7 @@
 .story-section {
   box-sizing: border-box;
-  width: 90vw;
-  height: 90vh;
+  width: 80vw;
+  height: 100vh;
   margin: auto;
   /* border-top: 5px inset rgba(19, 19, 16, 0.664); */
   font-size: 1.1em;
@@ -19,17 +19,9 @@
   box-sizing: border-box;
   padding: 3em;
   display: flex;
-  width: 60%;
+  width: 70%;
   height: 100%;
-  margin: 10% auto;
   /* perspective: 450px; */
-}
-
-.story-text {
-  text-align: justify;
-  font-size: 1rem;
-  color: #f8f2db;
-  line-height: 2rem;
 }
 
 .story-heading,
@@ -44,4 +36,61 @@
 
 .story-subheading {
   font-size: 1.5em;
+  margin-bottom: 3rem;
+}
+.story-text {
+  text-align: justify;
+  font-size: 1.33rem;
+  color: #f8f2db;
+  line-height: 2.2rem;
+  z-index: 1;
+}
+
+.story-div {
+  z-index: 1;
+}
+
+.story-para-1,
+.story-para-2,
+.story-para-3 {
+  transition: all 200ms;
+  -webkit-transition: all 200ms;
+  -moz-transition: all 200ms;
+  -ms-transition: all 200ms;
+  -o-transition: all 200ms;
+}
+
+.story-para-1:hover,
+.story-para-2:hover,
+.story-para-3:hover {
+  color: rgb(255, 200, 133);
+  transform: scale(1.015);
+  -webkit-transform: scale(1.015);
+  -moz-transform: scale(1.015);
+  -ms-transform: scale(1.015);
+  -o-transform: scale(1.015);
+}
+
+.story-para-1,
+.story-para-3 {
+  margin-top: 6rem;
+}
+
+.story-para-2 {
+  margin-top: 6rem;
+  margin-right: -5rem;
+}
+
+.story-end {
+  margin-top: 6rem;
+}
+
+.ethereum {
+  color: #9dff00;
+  font-size: 2rem;
+  font-weight: 500;
+}
+
+.ethereum:hover {
+  color: #ff6600;
 }

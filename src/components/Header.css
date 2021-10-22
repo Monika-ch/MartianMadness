@@ -2,9 +2,9 @@
 
 .header-section {
   margin: auto;
-  width: 75vw;
-  max-height: 65vh;
-  min-height: 60vh;
+  width: 80vw;
+  max-height: 57vh;
+  min-height: 52vh;
   overflow: hidden;
   opacity: 0.87;
   /* box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); */
@@ -45,8 +45,6 @@
 }
 
 .header-section h1 {
-  /* position: relative; */
-
   color: wheat;
   margin: auto;
   width: 60%;
@@ -63,14 +61,14 @@
 }
 
 .header-section .header-caption {
-  padding-top: 1em;
+  padding-top: 2rem;
   color: #ffb255;
   font-family: "Special Elite", cursive;
 }
 
 .galaxy {
   margin: auto;
-  /* width: 90vw; */
+  width: 90vw;
   max-height: 20vh;
   min-height: 15vh;
   background-image: radial-gradient(#880066c7 1px, transparent 1px);

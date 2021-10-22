@@ -5,7 +5,7 @@
 }
 
 .logo {
-  height: 6.5rem;
+  height: 6rem;
   padding: 0.5em;
   box-shadow: 0 4px 8px 0 rgba(251, 255, 3, 0.884),
     0 6px 20px 0 rgba(123, 196, 105, 0.562);
@@ -92,7 +92,7 @@
   background: linear-gradient(to right, #ff3a9c, #ffb151, #40e0d0);
   /*W3C,IE10+/Edge,Firefox16+,Chrome26+,Opera12+,Safari7+*/
   margin-top: 5px;
-  margin-left: 8.7vw;
+  margin-left: 10.8vw;
   position: absolute;
   font-size: 0.9rem;
   padding: 0.6rem 0.85rem !important;
