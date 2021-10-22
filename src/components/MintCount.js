@@ -15,7 +15,9 @@ class MintCount extends Component {
       <React.Fragment>
         <div className='header-mint-count'>
           <div className='count-wrapper'>
-            <button className='mint-btn'>Mint</button>
+            <button className='mint-btn'>
+              Mint <i class='far fa-certificate'></i>
+            </button>
             <h3 className='count'>0/10000</h3>
           </div>
         </div>

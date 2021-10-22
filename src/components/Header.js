@@ -5,12 +5,12 @@ import NavigationBar from "./Navbar";
 import MintCount from "./MintCount";
 
 class Header extends Component {
-  constructor(props) {
-    super(props);
-    this.state = {
-      isNavOpen: false,
-    };
-  }
+  // constructor(props) {
+  //   super(props);
+  //   this.state = {
+  //     isNavOpen: false,
+  //   };
+  // }
 
   render() {
     return (
@@ -18,14 +18,12 @@ class Header extends Component {
         <NavigationBar />
 
         <section className='header-section'>
-          <Jumbotron className='jumbo'>
+          <Jumbotron>
             <div className='img-wrapper'>
-              <div className='siteName'>
-                <h1 className='h1'>MARTiAN mADNEsS</h1>
-              </div>
+              <h1 className='h1'>MARTiAN mADNEsS</h1>
             </div>
             <p className='header-caption'>
-              one of the best science-fiction or action films ever made
+              digital ocean of digital art based on science-fiction
             </p>
             <MintCount />
           </Jumbotron>

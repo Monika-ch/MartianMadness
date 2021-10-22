@@ -11,13 +11,6 @@
   box-shadow: 0px 4px 100px 50px rgba(219, 5, 219, 0.2),
     0 6px 20px 60px rgba(0, 0, 0, 0.19);
   background: url(../header.png) center/cover;
-  background-attachment: fixed;
-  border-bottom: 2px solid rgba(39, 5, 71, 0.664);
-  -moz-background-size: auto 60%;
-  -webkit-background-size: auto 60%;
-  -o-background-size: auto 60%;
-  background-size: auto 60%;
-  background-repeat: no-repeat;
   /* position: fixed; */
   /* border-bottom: 7px solid rgb(0, 0, 0); */
 
@@ -43,10 +36,6 @@
     ),
     url(../header.png) center/cover; */
 }
-
-/* .jumbo {
-  position: relative;
-} */
 
 .header-section .img-wrapper {
   padding-top: 8em;
@@ -117,14 +106,6 @@
 }
 
 @media (max-width: 768px) {
-  /* .siteName {
-    width: 80vw;
-    height: 10vh;
-    background: url(../sitename1080.png);
-    background-size: contain;
-    background-repeat: no-repeat;
-  } */
-
   .social-media {
     color: #c7fffa;
     position: fixed;

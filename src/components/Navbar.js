@@ -20,32 +20,41 @@ class NavigationBar extends Component {
     this.state = {
       isNavOpen: false,
     };
+    this.toggleNav = this.toggleNav.bind(this);
+  }
+
+  toggleNav() {
+    this.setState({
+      isNavOpen: !this.state.isNavOpen,
+    });
   }
 
   render() {
     return (
       <React.Fragment>
-        <div className='logo-container'>
-          <img src={logo} alt='planets' className='logo' />
+        <div className='logo-container d-none d-md-block'>
+          <img src={logo} alt='Martian Madness Logo' className='logo' />
         </div>
-
-        <Navbar sticky='top' expand='md' className='navBar'>
-          <NavbarToggler onClick={this.toggleNav} />
-          <Collapse isOpen={this.state.isNavOpen} navbar>
-            <Nav navbar className='m-auto'>
-              {/* <NavItem>
+        <Navbar dark sticky='top' expand='md' className='navBar'>
+          <div className='container'>
+            <NavbarBrand className='d-sm-block d-md-none mr-auto' href='/'>
+              <img src={logo} alt='Martian Madness Logo' className='logo' />
+            </NavbarBrand>
+            <NavbarToggler onClick={this.toggleNav} />
+            <Collapse isOpen={this.state.isNavOpen} navbar>
+              <Nav navbar className='m-auto'>
+                {/* <NavItem>
                 <NavLink>
                   <img src={logo} alt='planets' className='logo inline-block' />
                 </NavLink>
               </NavItem> */}
-              <div className='nav-btns d-flex'>
                 <NavItem>
                   <NavLink className='nav_link' to='/story'>
                     Story
                   </NavLink>
                 </NavItem>
                 <NavItem>
-                  <NavLink className='nav_link gallery_btn' to='/story'>
+                  <NavLink className='nav_link gallery_btn' to='/gallery'>
                     Gallery
                   </NavLink>
                 </NavItem>
@@ -64,16 +73,19 @@ class NavigationBar extends Component {
                     FAQ
                   </NavLink>
                 </NavItem>
-              </div>
-              <div className='nav-wallet'>
                 <NavItem>
                   <NavLink className='nav_link wallet' to='/wallet'>
                     Connect Wallet <i class='fas fa-wallet'></i>
                   </NavLink>
                 </NavItem>
-              </div>
-            </Nav>
-          </Collapse>
+                <NavItem className='d-sm-block d-md-none'>
+                  <NavLink className='nav_link nav-mint-btn' to='/wallet'>
+                    Mint <i class='far fa-certificate'></i>
+                  </NavLink>
+                </NavItem>
+              </Nav>
+            </Collapse>
+          </div>
         </Navbar>
       </React.Fragment>
     );
