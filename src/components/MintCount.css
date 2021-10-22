@@ -1,0 +1,70 @@
+.header-mint-count {
+  width: 40%;
+  margin: 5% auto;
+}
+.header-mint-count .count-wrapper {
+  /* background: #00000056; */
+  width: 13rem;
+  margin: auto;
+  padding: 1.7rem 1.5rem;
+  /* border: 5px inset rgba(8, 8, 8, 0.9); */
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+}
+
+.header-mint-count .mint-btn {
+  /* background-color: rgb(255, 240, 107); */
+  background: #fdfc47; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to left,
+    #24fe41,
+    #fdfc47
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to left,
+    #24fe41,
+    #fdfc47
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  border: none;
+  padding: 0.6rem 1.3rem;
+  font-weight: 500;
+  font-size: 1.3rem;
+  font-family: "Exo", sans-serif;
+  border-radius: 3px;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  -ms-border-radius: 3px;
+  -o-border-radius: 3px;
+  letter-spacing: 1px;
+}
+
+.fa-certificate {
+  color: rgb(33, 64, 235);
+}
+
+.header-mint-count .count {
+  color: rgb(80, 39, 39);
+  margin-top: 1rem;
+  padding: 0.6rem 0.2rem;
+  background: rgba(184, 250, 2, 0.55);
+  background: #cac531; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to left,
+    #f3f9a7,
+    #cac531
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to left,
+    #f3f9a7,
+    #cac531
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+  border-radius: 50px;
+  -webkit-border-radius: 50px;
+  -moz-border-radius: 50px;
+  -ms-border-radius: 50px;
+  -o-border-radius: 50px;
+}

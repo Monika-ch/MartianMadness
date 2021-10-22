@@ -1,95 +1,47 @@
 import React, { Component } from "react";
-import {
-  Navbar,
-  NavbarBrand,
-  Nav,
-  NavbarToggler,
-  NavItem,
-  NavLink,
-  Collapse,
-  Jumbotron,
-  Button,
-  Media,
-} from "reactstrap";
+import { Collapse, Jumbotron, Button, Media } from "reactstrap";
 import "./Header.css";
-import logo from "../logo.png";
-import siteName from "../siteName.png";
+import NavigationBar from "./Navbar";
+import MintCount from "./MintCount";
 
 class Header extends Component {
-  constructor(props) {
-    super(props);
-    this.state = {
-      isNavOpen: false,
-    };
-  }
+  // constructor(props) {
+  //   super(props);
+  //   this.state = {
+  //     isNavOpen: false,
+  //   };
+  // }
 
   render() {
     return (
       <React.Fragment>
-        <div className='logo-container'>
-          <img src={logo} alt='planets' className='logo' />
-        </div>
+        <NavigationBar />
 
-        <Navbar sticky='top' expand='md' className='navBar'>
-          <NavbarToggler onClick={this.toggleNav} />
-          <Collapse isOpen={this.state.isNavOpen} navbar>
-            <Nav navbar className='m-auto'>
-              {/* <NavItem>
-                <NavLink>
-                  <img src={logo} alt='planets' className='logo inline-block' />
-                </NavLink>
-              </NavItem> */}
-                            <div className='mr-auto d-flex'>
-              <NavItem>
-                <NavLink className='nav_link' to='/story'>
-                  Story
-                </NavLink>
-              </NavItem>
-              <NavItem>
-                <NavLink className='nav_link gallery_btn' to='/story'>
-                  Gallery
-                </NavLink>
-              </NavItem>
-              <NavItem>
-                <NavLink className='nav_link' to='/roadmap'>
-                  Roadmap
-                </NavLink>
-              </NavItem>
-              <NavItem>
-                <NavLink className='nav_link' to='/game-mechanics'>
-                  Game Mechanics
-                </NavLink>
-              </NavItem>
-              <NavItem>
-                <NavLink className='nav_link' to='/faq'>
-                  FAQ
-                </NavLink>
-                </NavItem>
-                </div>
-              {/* <div>
-                <NavItem>
-                  <NavLink className='nav_link wallet' to='/wallet'>
-                    Wallet
-                  </NavLink>
-                </NavItem>
-              </div> */}
-            </Nav>
-          </Collapse>
-        </Navbar>
-
-        <section className='header'>
+        <section className='header-section'>
           <Jumbotron>
             <div className='img-wrapper'>
-              <div className='siteName'></div>
-              {/* <img src={siteName} alt='planets' className='siteName' /> */}
+              <h1 className='h1'>MARTiAN mADNEsS</h1>
             </div>
+            <p className='header-caption'>
+              digital ocean of digital art based on science-fiction
+            </p>
+            <MintCount />
           </Jumbotron>
         </section>
 
+        <section className='galaxy'></section>
 
-        <section className='galaxy'>
-          
-        </section>
+        {/* <section className='social-media'>
+          <div className='social-media-box'>
+            <i className='fab fa-discord fa-3x'></i>
+          </div>
+          <div className='social-media-box'>
+            <i className='fab fa-instagram fa-3x'></i>
+          </div>
+          <div className='social-media-box'>
+            <i className='fab fa-twitter fa-3x'></i>
+          </div>
+        </section> */}
       </React.Fragment>
     );
   }
