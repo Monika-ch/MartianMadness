@@ -24,13 +24,13 @@
 .navBar .nav_link {
   font-family: "Exo", sans-serif;
   color: #ffffff;
-  font-size: 0.8em;
+  font-size: 1rem;
   cursor: pointer;
   padding-left: 1.7rem !important;
   padding-right: 1.7rem !important;
-  margin-top: 1em;
-  margin-right: 1em;
-  margin-left: 1em;
+  margin: 0.9rem 0.9rem 0.3rem;
+  /* margin-right: 0.9rem;
+  margin-left: 0.9rem; */
   letter-spacing: 1px;
   box-shadow: 0 4px 8px 0 rgba(86, 0, 94, 0.41),
     0 6px 20px 0 rgba(0, 0, 0, 0.19);
@@ -48,7 +48,6 @@
 
 .navBar .nav_link:hover {
   border: 1px solid #ff4800;
-  margin-top: 0.8em;
   box-shadow: 0 4px 8px 0 rgba(219, 5, 219, 0.568),
     0 6px 20px 0 rgba(0, 0, 0, 0.19);
   border-radius: 3px;
@@ -76,8 +75,6 @@
 
 .navBar .gallery_btn:hover {
   background-color: #201b18b6;
-  margin-top: 0.75em;
-  margin-bottom: 0.25em;
   border-radius: 5px;
   -webkit-border-radius: 5px;
   -moz-border-radius: 5px;
@@ -95,9 +92,9 @@
   background: linear-gradient(to right, #ff3a9c, #ffb151, #40e0d0);
   /*W3C,IE10+/Edge,Firefox16+,Chrome26+,Opera12+,Safari7+*/
   margin-top: 5px;
-  margin-left: 10.5vw;
+  margin-left: 8.7vw;
   position: absolute;
-  font-size: 0.87em;
+  font-size: 0.9rem;
   padding: 0.6rem 0.85rem !important;
   letter-spacing: 0.5px;
   word-spacing: 1px;
