@@ -5,13 +5,6 @@ import NavigationBar from "./Navbar";
 import MintCount from "./MintCount";
 
 class Header extends Component {
-  // constructor(props) {
-  //   super(props);
-  //   this.state = {
-  //     isNavOpen: false,
-  //   };
-  // }
-
   render() {
     return (
       <React.Fragment>
@@ -23,13 +16,21 @@ class Header extends Component {
               <h1 className='h1'>MARTiAN mADNEsS</h1>
             </div>
             <p className='header-caption'>
-              digital ocean of digital art based on science-fiction
+              A digital ocean of digital art based on science-fiction
             </p>
             <MintCount />
           </Jumbotron>
         </section>
 
-        <section className='galaxy'></section>
+        <img
+          className='ufo'
+          src={`${process.env.PUBLIC_URL}/ufo.png`}
+          alt='ufo'
+          width='450'
+        />
+
+        {/* <section className='galaxy1'></section>
+        <section className='galaxy2'></section> */}
 
         {/* <section className='social-media'>
           <div className='social-media-box'>

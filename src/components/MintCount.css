@@ -16,22 +16,18 @@
 }
 
 .header-mint-count .mint-btn {
-  /* background-color: rgb(255, 240, 107); */
-  background: #fdfc47; /* fallback for old browsers */
-  background: -webkit-linear-gradient(
-    to left,
-    #24fe41,
-    #fdfc47
-  ); /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(
-    to left,
-    #24fe41,
-    #fdfc47
-  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  /*background-color: rgb(255, 240, 107);
+  */
+  background: #fdfc47;
+  /*fallbackforoldbrowsers*/
+  background: -webkit-linear-gradient(to left, #24fe41, #fdfc47);
+  /*Chrome10-25,Safari5.1-6*/
+  background: linear-gradient(to left, #24fe41, #fdfc47);
+  /*W3C,IE10+/Edge,Firefox16+,Chrome26+,Opera12+,Safari7+*/
   border: none;
-  padding: 0.6rem 1.3rem;
+  padding: 0.9rem 1.8rem;
   font-weight: 500;
-  font-size: 1.3rem;
+  font-size: 1.4rem;
   font-family: "Exo", sans-serif;
   border-radius: 3px;
   -webkit-border-radius: 3px;
@@ -39,6 +35,30 @@
   -ms-border-radius: 3px;
   -o-border-radius: 3px;
   letter-spacing: 1px;
+  transform: skew(1deg, -1.5deg);
+  transition: all ease 200ms;
+  -webkit-transition: all ease 200ms;
+  -moz-transition: all ease 200ms;
+  -ms-transition: all ease 200ms;
+  -o-transition: all ease 200ms;
+  -webkit-transform: skew(1deg, -1.5deg);
+  -moz-transform: skew(1deg, -1.5deg);
+  -ms-transform: skew(1deg, -1.5deg);
+  -o-transform: skew(1deg, -1.5deg);
+}
+
+.header-mint-count .mint-btn:hover {
+  box-shadow: 0px 4px 100px 50px rgba(219, 5, 219, 0.2),
+    0 6px 20px 60px rgba(0, 0, 0, 0.19);
+  transform: skew(-1deg, 1deg) scale(1.07);
+  -webkit-transform: skew(-1deg, 1deg) scale(1.07);
+  -moz-transform: skew(-1deg, 1deg) scale(1.07);
+  -ms-transform: skew(-1deg, 1deg) scale(1.07);
+  -o-transform: skew(-1deg, 1deg) scale(1.07);
+  background: #fda943;
+  /*fallbackforoldbrowsers*/
+  background: -webkit-linear-gradient(100deg, #ff0080, #fda943, #39ffeb);
+  background: linear-gradient(100deg, #ff0080, #fda943, #39ffeb);
 }
 
 .fa-certificate {
@@ -48,7 +68,7 @@
 .header-mint-count .count {
   color: rgb(80, 39, 39);
   margin-top: 1rem;
-  padding: 0.6rem 0.2rem;
+  padding: 0.5rem 0.2rem;
   background: rgba(184, 250, 2, 0.55);
   background: #cac531; /* fallback for old browsers */
   background: -webkit-linear-gradient(

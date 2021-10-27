@@ -9,6 +9,11 @@
   padding: 0.5em;
   box-shadow: 0 4px 8px 0 rgba(251, 255, 3, 0.884),
     0 6px 20px 0 rgba(123, 196, 105, 0.562);
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
 }
 
 .navBar {
