@@ -63,7 +63,6 @@
   background-size: 100%;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-  text-shadow: 8px -3px 9px rgba(244, 255, 11, 0.53);
   opacity: 0.9;
   transition: all ease 200ms;
   -webkit-transition: all ease 200ms;
@@ -74,11 +73,7 @@
 
 .header-section h1:hover {
   opacity: 1;
-  transform: rotateZ(0.2deg);
-  -webkit-transform: rotateZ(0.2deg);
-  -moz-transform: rotateZ(0.2deg);
-  -ms-transform: rotateZ(0.2deg);
-  -o-transform: rotateZ(0.2deg);
+  text-shadow: 2px -3px 6px rgba(244, 255, 11, 0.53);
 }
 
 .header-section .header-caption {

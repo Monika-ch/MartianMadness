@@ -1,7 +1,7 @@
 .story-section {
   box-sizing: border-box;
   width: 80vw;
-  height: 100vh;
+  /* height: 100vh; */
   margin: auto;
   /* border-top: 5px inset rgba(19, 19, 16, 0.664); */
   font-size: 1.1em;
@@ -37,7 +37,7 @@
 
 .story-heading,
 .story-subheading {
-  color: rgb(224, 132, 26);
+  color: rgb(255, 166, 0);
   text-align: center;
 }
 
