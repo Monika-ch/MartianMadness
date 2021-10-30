@@ -71,7 +71,9 @@ class Story extends Component {
                 </div>
               </div>
               <div className='row'>
-                <h4 classNmae='story-end'>Let the games begin!</h4>
+                <div className='col story-end-wrapper'>
+                  <p>. . . Let the games begin!</p>
+                </div>
               </div>
 
               {/* <p className='story-para p1'>
@@ -98,6 +100,14 @@ class Story extends Component {
             </div>
           </div>
         </section>
+
+        <div className='guide-container'>
+          <img
+            className='guide'
+            src={`${process.env.PUBLIC_URL}/guide.png`}
+            alt='guide'
+          />
+        </div>
       </React.Fragment>
     );
   }

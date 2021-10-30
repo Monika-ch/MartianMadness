@@ -22,12 +22,14 @@ class Header extends Component {
           </Jumbotron>
         </section>
 
-        <img
-          className='ufo'
-          src={`${process.env.PUBLIC_URL}/ufo.png`}
-          alt='ufo'
-          width='450'
-        />
+        {/* <div>
+          <img
+            className='ufo'
+            src={`${process.env.PUBLIC_URL}/ufo.png`}
+            alt='ufo'
+            width='450'
+          />
+        </div> */}
 
         {/* <section className='galaxy1'></section>
         <section className='galaxy2'></section> */}
