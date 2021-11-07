@@ -16,7 +16,7 @@ class Header extends Component {
               <h1 className='h1'>MARTiAN mADNEsS</h1>
             </div>
             <p className='header-caption'>
-              A digital ocean of digital art based on science-fiction
+              digital ocean of digital art - Martians
             </p>
             <MintCount />
           </Jumbotron>
@@ -34,17 +34,9 @@ class Header extends Component {
         {/* <section className='galaxy1'></section>
         <section className='galaxy2'></section> */}
 
-        {/* <section className='social-media'>
-          <div className='social-media-box'>
-            <i className='fab fa-discord fa-3x'></i>
-          </div>
-          <div className='social-media-box'>
-            <i className='fab fa-instagram fa-3x'></i>
-          </div>
-          <div className='social-media-box'>
-            <i className='fab fa-twitter fa-3x'></i>
-          </div>
-        </section> */}
+        {/* <div className='logo-container d-none d-md-block'>
+          <img src={logo} alt='Martian Madness Logo' className='logo' />
+        </div> */}
       </React.Fragment>
     );
   }

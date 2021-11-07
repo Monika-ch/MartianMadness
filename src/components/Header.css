@@ -8,33 +8,16 @@
   overflow: hidden;
   opacity: 0.87;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-  /* box-shadow: 0px 4px 100px 50px rgba(219, 5, 219, 0.2),
-    0 6px 20px 60px rgba(0, 0, 0, 0.19); */
-  background: url(../header.png) center/cover;
-  /* position: fixed; */
-  /* border-bottom: 7px solid rgb(0, 0, 0); */
+  /*box-shadow: 0px 4px 100px 50px rgba(219, 5, 219, 0.2),    0 6px 20px 60px rgba(0, 0, 0, 0.19);
+  */
+  background: url(../header1.jpeg) center/cover;
 
-  /* background: #c33764;
-  background: -webkit-linear-gradient(
-      to left,
-      rgba(0, 0, 0, 0.5),
-      rgba(0, 64, 255, 0.4)
-    ),
-    url(../header.png) center/cover;
-  background: linear-gradient(
-      to left,
-      rgba(0, 0, 0, 0.5),
-      rgba(0, 64, 255, 0.4)
-    ),
-    url(../header.png) center/cover; */
-  /* background: url(../header.png) center/cover;; */
-
-  /* background: radial-gradient(
-      ellipse at center,
-      rgba(100, 9, 9, 0.383) 0%,
-      rgba(0, 0, 0, 1) 100%
-    ),
-    url(../header.png) center/cover; */
+  border-bottom: 7px solid rgba(47, 47, 3, 0.623);
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
 }
 
 .header-section .img-wrapper {
@@ -43,16 +26,18 @@
   padding-bottom: 2rem;
   background-color: rgba(0, 0, 0, 0.15);
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
   /* border-bottom: 1px solid #ff4800; */
 }
 
 .header-section h1 {
   /*border-bottom: 1px solid #ff4800;
   */
+  transform: skew(3deg, 2deg);
   color: wheat;
   margin: auto;
   width: 60%;
-  font-size: 4vw;
+  font-size: 3.5vw;
   font-family: "Audiowide", cursive;
   background: #fda943;
   /*fallbackforoldbrowsers*/
@@ -63,12 +48,15 @@
   background-size: 100%;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-  opacity: 0.9;
   transition: all ease 200ms;
   -webkit-transition: all ease 200ms;
   -moz-transition: all ease 200ms;
   -ms-transition: all ease 200ms;
   -o-transition: all ease 200ms;
+  -webkit-transform: skew(3deg, 2deg);
+  -moz-transform: skew(3deg, 2deg);
+  -ms-transform: skew(3deg, 2deg);
+  -o-transform: skew(3deg, 2deg);
 }
 
 .header-section h1:hover {
@@ -78,10 +66,11 @@
 
 .header-section .header-caption {
   padding-top: 2rem;
-  color: #faf4ec;
-  font-size: 1.5rem;
+  color: #faf2af;
+  font-size: 1.6rem;
   font-family: "Special Elite", cursive;
   text-transform: capitalize;
+  font-weight: bold;
 }
 
 .galaxy2 {
@@ -122,20 +111,6 @@
   }
 }
 
-.social-media {
-  color: #ea00ff;
-  position: fixed;
-  top: 60vh;
-  background-color: #f5f5de2a;
-  border-radius: 5px;
-  -webkit-border-radius: 5px;
-  -moz-border-radius: 5px;
-  -ms-border-radius: 5px;
-  -o-border-radius: 5px;
-}
-.social-media-box {
-  margin: 30px 20px;
-}
 /* @media (max-width: 768px) {
   .siteName {
     width: 85vw;
