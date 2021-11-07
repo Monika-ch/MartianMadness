@@ -29,11 +29,11 @@
   font-weight: 500;
   font-size: 1.4rem;
   font-family: "Exo", sans-serif;
-  border-radius: 3px;
-  -webkit-border-radius: 3px;
-  -moz-border-radius: 3px;
-  -ms-border-radius: 3px;
-  -o-border-radius: 3px;
+  border-radius: 10% 10% 50% 50%;
+  -webkit-border-radius: 10% 10% 50% 50%;
+  -moz-border-radius: 10% 10% 50% 50%;
+  -ms-border-radius: 10% 10% 50% 50%;
+  -o-border-radius: 10% 10% 50% 50%;
   letter-spacing: 1px;
   transform: skew(1deg, -1.5deg);
   transition: all ease 200ms;
@@ -71,7 +71,8 @@
   padding: 0.5rem 0.2rem;
   background: rgba(184, 250, 2, 0.55);
   background: #cac531; /* fallback for old browsers */
-  background: -webkit-linear-gradient(
+  background: -webkit-linear-gradient(to left, #f3f9a7, #cac531);
+  background: -moz-linear-gradient(
     to left,
     #f3f9a7,
     #cac531

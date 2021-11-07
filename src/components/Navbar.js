@@ -7,12 +7,10 @@ import {
   NavItem,
   NavLink,
   Collapse,
-  Jumbotron,
   Button,
-  Media,
 } from "reactstrap";
 import "./Navbar.css";
-import logo from "../logo.png";
+import logo152 from "../logo152.png";
 
 class NavigationBar extends Component {
   constructor(props) {
@@ -32,13 +30,26 @@ class NavigationBar extends Component {
   render() {
     return (
       <React.Fragment>
-        <div className='logo-container d-none d-md-block'>
+        <section className='social-media'>
+          <img src={logo152} alt='Martian Madness Logo' className='logo' />
+
+          <div className='social-media-box'>
+            <i className='fab fa-discord fa-3x'></i>
+          </div>
+          <div className='social-media-box'>
+            <i className='fab fa-instagram fa-3x'></i>
+          </div>
+          <div className='social-media-box'>
+            <i className='fab fa-twitter fa-3x'></i>
+          </div>
+        </section>
+        {/* <div className='logo-container d-none d-md-block'>
           <img src={logo} alt='Martian Madness Logo' className='logo' />
-        </div>
+          </div> */}
         <Navbar dark sticky='top' expand='md' className='navBar'>
           <div className='container'>
             <NavbarBrand className='d-sm-block d-md-none mr-auto' href='/'>
-              <img src={logo} alt='Martian Madness Logo' className='logo' />
+              <img src={logo152} alt='Martian Madness Logo' className='logo' />
             </NavbarBrand>
             <NavbarToggler onClick={this.toggleNav} />
             <Collapse isOpen={this.state.isNavOpen} navbar>

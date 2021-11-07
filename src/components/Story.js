@@ -101,13 +101,13 @@ class Story extends Component {
           </div>
         </section>
 
-        <div className='guide-container'>
+        {/* <div className='guide-container'>
           <img
             className='guide'
             src={`${process.env.PUBLIC_URL}/guide.png`}
             alt='guide'
           />
-        </div>
+        </div> */}
       </React.Fragment>
     );
   }

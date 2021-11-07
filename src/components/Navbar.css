@@ -1,19 +1,42 @@
+.social-media {
+  color: #ea00ff;
+  position: fixed;
+  top: 35vh;
+  /*background-color: #f5f5de2a;
+  */
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+  z-index: 1;
+}
+.social-media-box {
+  margin: 30px 20px;
+  z-index: 1;
+}
+
 .logo-container {
-  padding: 1em;
-  box-shadow: 0 4px 8px 0 rgba(251, 255, 3, 0.884),
-    0 6px 20px 0 rgba(123, 196, 105, 0.562);
+  /* margin: 30px 20px; */
+
+  /* padding: 1em;
+  box-shadow: 0 4px 30px 0 rgba(251, 255, 3, 0.884),
+    0 6px 20px 0 rgba(123, 196, 105, 0.562); */
 }
 
 .logo {
-  height: 6rem;
-  padding: 0.5em;
+  position: fixed;
+  top: 15vh;
+  left: 12px;
+  height: 7rem;
+  padding: 1.5em;
   box-shadow: 0 4px 8px 0 rgba(251, 255, 3, 0.884),
     0 6px 20px 0 rgba(123, 196, 105, 0.562);
-  border-radius: 10px;
-  -webkit-border-radius: 10px;
-  -moz-border-radius: 10px;
-  -ms-border-radius: 10px;
-  -o-border-radius: 10px;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
 }
 
 .navBar {
@@ -21,9 +44,9 @@
   /* background-color: #01061bb7; */
   /* background-color: #093438bb; */
   padding: 1em;
-  box-shadow: 0 4px 8px 5px rgba(94, 5, 102, 0.41),
-    0 6px 20px 100px rgba(0, 0, 0, 0.3);
-  background: hsla(267, 86%, 25%, 1);
+  /* box-shadow: 0 50px 100px 0 rgba(251, 255, 3, 0.7),
+    0 6px 20px 100px rgba(0, 0, 0, 0.3); */
+  background: rgb(111, 248, 31);
 
   background: radial-gradient(
     circle,
