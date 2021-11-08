@@ -2,9 +2,9 @@
   box-sizing: border-box;
   width: 80vw;
   margin: auto;
-  /*border-top: 5px inset rgba(19, 19, 16, 0.664);
-    */
-  font-size: 1.5em;
+  /* border-top: 5px inset rgba(19, 19, 16, 0.664); */
+
+  /* font-size: 0.5em; */
   font-family: "Special Elite", cursive;
   background: rgb(0, 2, 36);
   background: radial-gradient(
@@ -35,7 +35,9 @@
 }
 .roadmap-box1,
 .roadmap-box2 {
-  border: 3px solid salmon;
+  border: 1px dashed rgb(255, 238, 0);
+  border-top: none;
+  border-bottom: none;
   margin: 1.56rem;
   border-radius: 20%;
   -webkit-border-radius: 20%;
@@ -59,69 +61,24 @@
   margin: 3rem auto;
 }
 
-.roadmap-phases,
-.roadmap-percent {
-  font-size: 1.4em;
-  margin: 3rem auto;
+.roadmap-text {
+  font-size: 1.2rem;
+  color: #f8f2db;
+  line-height: 2.2rem;
+  z-index: 1;
 }
 
-.roadmap-phases {
-  font-size: 1.4em;
-  color: #fffb00;
-}
-
-.roadmap-percent {
-  margin-top: 1.8rem;
-  color: #ff6600;
-}
-/* --ROADMAP-REWARDS */
-
-.roadmap-rewards-para {
-  padding: 1rem;
-  padding-top: 0;
-  border: 3px solid #a601af;
-  border-radius: 20px;
-  -webkit-border-radius: 20px;
-  -moz-border-radius: 20px;
-  -ms-border-radius: 20px;
-  -o-border-radius: 20px;
-  margin: 3rem auto;
-  background-color: #85007a6e;
-}
-
-.roadmap-percent span {
-  font-size: 80%;
-  text-transform: capitalize;
-}
+/* --ROADMAP TIMELINE-- */
 
 .roadmap-timeline {
   margin: auto;
   width: 70%;
 }
 
-.roadmap-timeline .roadmap-subheading {
-  margin-bottom: 3.5rem;
-}
-
-.roadmap-rewards {
-  margin: auto;
-  width: 75%;
-}
-
-.roadmap-phase-heading {
-  text-align: center;
-}
-
-.roadmap-text {
-  /* text-align: justify; */
-  font-size: 1.5rem;
-  color: #f8f2db;
-  line-height: 2.2rem;
-  z-index: 1;
-}
-
-.roadmap-div {
-  z-index: 1;
+.roadmap-phases {
+  font-size: 1.3em;
+  color: #fffb00;
+  margin: 2.7rem auto 0.8rem;
 }
 
 .roadmap-timeline-para,
@@ -143,17 +100,42 @@
   -o-transform: scale(1.015);
 }
 
-.ethereum {
-  color: #9dff00;
-  font-size: 2rem;
-  font-weight: 500;
+/* --ROADMAP-REWARDS-- */
+
+.roadmap-rewards {
+  margin: auto;
+  width: 75%;
 }
 
-.ethereum:hover {
+.roadmap-rewards-para {
+  padding: 1rem;
+  padding-top: 0;
+  border: 3px dashed #a601af;
+  border-radius: 30px;
+  -webkit-border-radius: 30px;
+  -moz-border-radius: 30px;
+  -ms-border-radius: 30px;
+  -o-border-radius: 30px;
+  background-color: #85007a6e;
+  font-size: 83%;
+}
+
+.roadmap-percent {
+  font-size: 1.4em;
   color: #ff6600;
+  margin: 1.8rem auto 1rem;
 }
 
-.guide-container {
+.roadmap-percent span {
+  font-size: 80%;
+  text-transform: capitalize;
+}
+
+.roadmap-ethereum-giveaway {
+  color: #9dff00;
+}
+
+/* .guide-container {
   border-bottom: 20px solid black;
   width: 80vw;
   margin: 5rem auto;
@@ -181,4 +163,4 @@
 
 .guide-container .guide {
   width: 80%;
-}
+} */

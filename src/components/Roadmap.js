@@ -17,13 +17,14 @@ class Roadmap extends Component {
               <h2 className='roadmap-heading'>The Roadmap..</h2>
 
               <div className='row'>
-                {/* roadmap timeline */}
+                {/* --ROADMAP TIMELINE-- */}
                 <div className='col-md-5 roadmap-box1'>
                   <div className='roadmap-timeline'>
-                    <h3 className='roadmap-subheading mt-md-3'>
+                    <h3 className='roadmap-subheading mt-md-4'>
                       Timed Releases
                     </h3>
-                    <div className='roadmap-div'>
+
+                    <div>
                       <h4 className='roadmap-phases'>Phase 1</h4>
                       <p className='roadmap-timeline-para'>
                         Game rewards outlined – Breakdown the tournament and
@@ -45,45 +46,46 @@ class Roadmap extends Component {
                         Tournament.
                       </p>
                       <h4 className='roadmap-phases'>Phase 5</h4>
-                      <p className='roadmap-timeline-para'>Equipment!</p>
+                      <p className='roadmap-timeline-para'>
+                        Equipments! Equip your Martians !
+                      </p>
                     </div>
                   </div>
                 </div>
-
                 <br />
 
-                {/* roadmap rewards */}
+                {/* --ROADMAP-REWARDS-- */}
+
                 <div className='col-md-6 roadmap-box2'>
                   <div className='roadmap-rewards'>
-                    <h3 className='roadmap-subheading mt-md-3'>Sales Reward</h3>
+                    <h3 className='roadmap-subheading mt-md-4'>Sales Reward</h3>
 
                     <div className='roadmap-rewards-para'>
                       <h4 className='roadmap-percent'>
-                        25%<span>-Early adopters’ giveaway..</span>
+                        25%<span>-Early adopters’ giveaway</span>
                       </h4>
                       <p>
                         Raffle 15 Martian mints to anyone who purchased within
-                        the first 25% of sales.
+                        the first 25% of sales!
                       </p>
                     </div>
 
-                    <div className='roadmap-rewards-para'>
+                    <div className='roadmap-rewards-para my-2 mx-5'>
                       <h4 className='roadmap-percent'>
-                        50%-<span>Bring a friend..</span>
+                        50%-<span>Bring a friend</span>
                       </h4>
                       <p>
                         Refer a friend in the Discord channel and we will enter
-                        them for a raffle.
-                        <br />3 lucky referrals will be awarded a full 4 Martian
-                        team!
-                        <br /> Reserved for referrals who DO NOT currently own
-                        any Martians.
+                        them for a raffle! 3 lucky referrals will be awarded a
+                        full 4 Martian team!
+                        {/* "Reserved for referrals who DO NOT
+                        currently own any Martians!" */}
                       </p>
                     </div>
 
                     <div className='roadmap-rewards-para'>
                       <h4 className='roadmap-percent'>
-                        75% <span> - Almost there.. All holders raffle!</span>
+                        75% <span> - All holders raffle</span>
                       </h4>
                       <p>
                         Anyone currently holding a Martian will be entered into
@@ -91,9 +93,12 @@ class Roadmap extends Component {
                       </p>
                     </div>
 
-                    <div className='roadmap-rewards-para'>
+                    <div className='roadmap-rewards-para my-2 mx-5'>
                       <h4 className='roadmap-percent'>
-                        100% <span> - We made it! ETHEREUM GIVEAWAY!</span>
+                        100% -{" "}
+                        <span className='roadmap-ethereum-giveaway'>
+                          ETHEREUM GIVEAWAY!
+                        </span>
                       </h4>
                       <p>
                         20 lucky Martian holders will be awarded 0.1 Ethereum!!!
