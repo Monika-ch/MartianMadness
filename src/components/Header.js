@@ -2,6 +2,7 @@ import React, { Component } from "react";
 import { Collapse, Jumbotron, Button, Media } from "reactstrap";
 import "./Header.css";
 import NavigationBar from "./Navbar";
+import header1 from "../header1.jpeg";
 import MintCount from "./MintCount";
 
 class Header extends Component {
@@ -11,15 +12,18 @@ class Header extends Component {
         <NavigationBar />
 
         <section className='header-section'>
-          <Jumbotron>
-            <div className='img-wrapper'>
-              <h1 className='h1'>MARTiAN mADNEsS</h1>
-            </div>
-            <p className='header-caption'>
-              digital ocean of digital art - Martians
-            </p>
-            <MintCount />
-          </Jumbotron>
+          <img src={header1} alt='Martian Planets' />
+          <div className='header-content'>
+            <Jumbotron>
+              <div className='heading-wrapper'>
+                <h1 className='h1'>MARTiAN mADNEsS</h1>
+              </div>
+              <p className='header-caption'>
+                digital ocean of digital art - Martians
+              </p>
+              <MintCount />
+            </Jumbotron>
+          </div>
         </section>
 
         {/* <div>
