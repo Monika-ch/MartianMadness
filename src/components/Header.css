@@ -3,14 +3,12 @@
 .header-section {
   margin: auto;
   width: 80vw;
-  max-height: 80vh;
-  min-height: 72vh;
   overflow: hidden;
   opacity: 0.87;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   /*box-shadow: 0px 4px 100px 50px rgba(219, 5, 219, 0.2),    0 6px 20px 60px rgba(0, 0, 0, 0.19);
   */
-  background: url(../header1.jpeg) center/cover;
+  /* background: url(../header1.jpeg) center/cover; */
 
   border-bottom: 7px solid rgba(47, 47, 3, 0.623);
   border-radius: 10px;
@@ -20,7 +18,27 @@
   -o-border-radius: 10px;
 }
 
-.header-section .img-wrapper {
+.header-section img {
+  /* background-size: cover;
+  background-position: center; */
+  margin-top: 0.2rem;
+  position: relative;
+  width: 100%;
+  max-height: 75vh;
+  min-height: 68vh;
+}
+
+.header-section .header-content {
+  position: absolute;
+  width: 100%;
+  transform: translate(-10%, -100%);
+  -webkit-transform: translate(-10%, -100%);
+  -moz-transform: translate(-10%, -100%);
+  -ms-transform: translate(-10%, -100%);
+  -o-transform: translate(-10%, -100%);
+}
+
+.header-section .heading-wrapper {
   margin-top: 2rem;
   padding-top: 8rem;
   padding-bottom: 2rem;
@@ -66,6 +84,8 @@
 
 .header-section .header-caption {
   padding-top: 2rem;
+  width: 60%;
+  margin: auto;
   color: #faf2af;
   font-size: 1.6rem;
   font-family: "Special Elite", cursive;
