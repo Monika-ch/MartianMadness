@@ -16,13 +16,13 @@
   z-index: 1;
 }
 
-.logo-container {
-  /* margin: 30px 20px; */
+/* .logo-container {
+  margin: 30px 20px;
 
-  /* padding: 1em;
+  padding: 1em;
   box-shadow: 0 4px 30px 0 rgba(251, 255, 3, 0.884),
-    0 6px 20px 0 rgba(123, 196, 105, 0.562); */
-}
+    0 6px 20px 0 rgba(123, 196, 105, 0.562);
+} */
 
 .logo {
   position: fixed;

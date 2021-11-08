@@ -47,7 +47,7 @@ class Roadmap extends Component {
                       </p>
                       <h4 className='roadmap-phases'>Phase 5</h4>
                       <p className='roadmap-timeline-para'>
-                        Equipments! Equip your Martians !
+                        Equipments! Suit up your Martians with Equipments !
                       </p>
                     </div>
                   </div>
