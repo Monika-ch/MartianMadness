@@ -98,13 +98,13 @@
   font-size: 2rem;
 }
 
-.ethereum {
+.solana {
   color: #9dff00;
   font-size: 2rem;
   font-weight: 500;
 }
 
-.ethereum:hover {
+.solana:hover {
   color: #ff6600;
 }
 

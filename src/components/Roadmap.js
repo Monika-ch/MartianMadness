@@ -72,7 +72,7 @@ class Roadmap extends Component {
 
                     <div className='roadmap-rewards-para my-2 mx-5'>
                       <h4 className='roadmap-percent'>
-                        50%-<span>Bring a friend</span>
+                        50%<span>-Bring a friend</span>
                       </h4>
                       <p>
                         Refer a friend in the Discord channel and we will enter
@@ -85,7 +85,7 @@ class Roadmap extends Component {
 
                     <div className='roadmap-rewards-para'>
                       <h4 className='roadmap-percent'>
-                        75% <span> - All holders raffle</span>
+                        75%<span>-All holders raffle</span>
                       </h4>
                       <p>
                         Anyone currently holding a Martian will be entered into
@@ -95,13 +95,13 @@ class Roadmap extends Component {
 
                     <div className='roadmap-rewards-para my-2 mx-5'>
                       <h4 className='roadmap-percent'>
-                        100% -{" "}
-                        <span className='roadmap-ethereum-giveaway'>
-                          ETHEREUM GIVEAWAY!
+                        100%
+                        <span className='roadmap-solana-giveaway'>
+                          -SOLANA GIVEAWAY!
                         </span>
                       </h4>
                       <p>
-                        20 lucky Martian holders will be awarded 0.1 Ethereum!!!
+                        20 lucky Martian holders will be awarded 2 Solana!!!
                       </p>
                     </div>
                   </div>

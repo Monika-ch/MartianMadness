@@ -29,10 +29,9 @@
   height: 100%;
   /* perspective: 450px; */
 }
-.roadmap-box1,
-.roadmap-box2 {
-  border: 1px dashed rgb(255, 238, 0);
-  border-top: none;
+.roadmap-box1 {
+  border-left: 1px dashed rgb(255, 238, 0);
+  border-right: 10px solid rgb(4, 19, 3);
   border-bottom: none;
   margin: 1.56rem;
   border-radius: 20%;
@@ -40,7 +39,21 @@
   -moz-border-radius: 20%;
   -ms-border-radius: 20%;
   -o-border-radius: 20%;
+  background-color: #35032e3a;
 }
+
+.roadmap-box2 {
+  margin: 1.56rem;
+  background-color: #75006d9d;
+  border-left: 10px solid rgb(3, 44, 0);
+  border-right: 3px ridge rgb(43, 255, 0);
+  border-radius: 10% 50%;
+  -webkit-border-radius: 10% 50%;
+  -moz-border-radius: 10% 50%;
+  -ms-border-radius: 10% 50%;
+  -o-border-radius: 10% 50%;
+}
+
 .roadmap-heading,
 .roadmap-subheading {
   color: rgb(81, 255, 0);
@@ -110,26 +123,39 @@
 }
 
 .roadmap-rewards-para {
+  color: rgb(222, 253, 255);
   padding: 1rem;
   padding-top: 0;
-  border: 3px dashed #a601af;
+  border: 3px dotted #1a071b;
   border-radius: 30px;
   -webkit-border-radius: 30px;
   -moz-border-radius: 30px;
   -ms-border-radius: 30px;
   -o-border-radius: 30px;
-  background-color: #85007a6e;
+  background-color: #ff41e6be;
   font-size: 83%;
 }
 
+.roadmap-rewards div:nth-child(3) {
+  background-color: #2528e9b7;
+}
+
+.roadmap-rewards div:nth-child(4) {
+  background-color: #f5e027b7;
+}
+
+.roadmap-rewards div:nth-child(5) {
+  background-color: #25e970b7;
+}
+
 .roadmap-rewards-para:hover {
-  color: rgb(255, 200, 133);
+  color: rgb(252, 163, 255);
   background-color: #a601af98;
 }
 
 .roadmap-percent {
   font-size: 1.4em;
-  color: #ff6600;
+  color: #aff9fc;
   margin: 1.8rem auto 1rem;
 }
 
@@ -138,7 +164,7 @@
   text-transform: capitalize;
 }
 
-.roadmap-ethereum-giveaway {
+.roadmap-solana-giveaway {
   color: #9dff00;
 }
 

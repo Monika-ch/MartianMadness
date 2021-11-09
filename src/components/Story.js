@@ -66,7 +66,7 @@ class Story extends Component {
                     was announced across the solar system that a tournament
                     would be held! And the prize, a new source of endless fun
                     from a distant solar system called . . .
-                    <span className='ethereum'> ETHEREUM!!!</span>
+                    <span className='solana'> SOLANA!!!</span>
                   </p>
                 </div>
               </div>
@@ -75,28 +75,6 @@ class Story extends Component {
                   <p>. . . Let the games begin!</p>
                 </div>
               </div>
-
-              {/* <p className='story-para p1'>
-                In a remote solar system, much like our own, a species of alien had separated into 5 distinct races through colonization of different planets . .
-              </p><p className='story-para p2'>
-                . . These aliens became pigmented by the strange atmospheres of their home worlds and now have unique coloring . .
-              </p><p className='story-para p3'>
-                This is where their differences end! Through technological prosperity and a bond unbroken by color, these aliens have thrived for thousands of years and now... they’re bored! 
-              </p>
-              <p className='story-para p4'>
-                But what to do? A council of the 5 races came together to ponder
-                this very question . .
-              </p>
-              <p className='story-para p5'>A think for the ages !!</p>
-              <p className='story-para p6'>
-                In a monumental ceremony it was announced across the solar
-                system that a tournament would be held . .
-              </p>
-              <p className='story-para p7'>
-                And the prize, a new source of endless fun from a distant solar
-                system called. . . ETHEREUM!!!
-              </p>
-              <p className='story-para p8'>LET THE GAMES BEGIN!!!!!!</p> */}
             </div>
           </div>
         </section>
