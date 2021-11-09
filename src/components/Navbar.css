@@ -70,7 +70,9 @@
 }
 
 .navBar .nav_link {
-  font-family: "Exo", sans-serif;
+  /* font-family: "Exo", sans-serif; */
+  font-family: "Special Elite", cursive;
+
   color: #1f1f1b !important;
   font-size: 1.2rem;
   cursor: pointer;
