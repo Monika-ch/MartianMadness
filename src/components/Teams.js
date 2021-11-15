@@ -50,11 +50,8 @@ class Teams extends Component {
                     width='150'
                     className='team-dp'
                   />
-                  <h4>ZepherusOmega | CEO/Founder</h4>
-                  <p className=''>
-                    This is where their differences end. Through technological
-                    prosperity and a bond unbroken by color… But what to do?
-                  </p>
+                  <h4>ZepherusOmega</h4>
+                  <h5>Artist/Designer</h5>
                 </div>
                 <div className='col-md-4'>
                   <img
@@ -63,11 +60,8 @@ class Teams extends Component {
                     width='150'
                     className='team-dp'
                   />
-                  <h4>Gigabit.eth | SEO/Backend Mind</h4>
-                  <p className=''>
-                    This is where their differences end. Through technological
-                    prosperity and a bond unbroken by color… But what to do?
-                  </p>
+                  <h4>Gigabit.eth</h4>
+                  <h5>Blockchain Engineer</h5>
                 </div>
                 <div className='col-md-4'>
                   <img
@@ -76,11 +70,8 @@ class Teams extends Component {
                     width='150'
                     className='team-dp'
                   />
-                  <h4>Monika12b | DevOps/Frontend Brain</h4>
-                  <p className=''>
-                    This is where their differences end. Through technological
-                    prosperity and a bond unbroken by color… But what to do?
-                  </p>
+                  <h4>Monika12b</h4>
+                  <h5>Front-end DevOps Engineer</h5>
                 </div>
               </div>
             </div>
