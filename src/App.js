@@ -5,6 +5,7 @@ import Gallery from "./components/Gallery";
 import Roadmap from "./components/Roadmap";
 import GameMechanics from "./components/GameMechanics";
 import Teams from "./components/Teams";
+import Faq from "./components/Faq";
 import "./App.css";
 
 function App() {
@@ -16,6 +17,7 @@ function App() {
       <Roadmap />
       <GameMechanics />
       <Teams />
+      <Faq />
     </div>
   );
 }
