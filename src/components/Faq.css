@@ -26,26 +26,18 @@
   padding: 3em;
   width: 70%;
   height: 100%;
-  color: #f8f2db;
-}
-
-.faq-heading,
-.faq-subheading {
-  color: rgb(49, 5, 129);
-  text-align: center;
-  font-family: "Special Elite", cursive;
-  font-size: larger;
+  color: #816906;
 }
 
 .faq-heading {
+  color: rgb(49, 5, 129);
+  text-align: center;
+  font-family: "Special Elite", cursive;
   font-size: 2em;
-}
-
-.faq-subheading {
-  font-size: 1.5em;
   margin-bottom: 3rem;
 }
 
+/* 
 .faq-main-content {
   text-align: justify;
   font-size: 1.33rem;
@@ -57,8 +49,8 @@
   -ms-transition: all 200ms;
   -o-transition: all 200ms;
   color: rgb(36, 2, 2);
-}
-
+} */
+/* 
 .faq-main-content:hover {
   color: rgb(255, 200, 133);
   transform: scale(1.015);
@@ -66,4 +58,8 @@
   -moz-transform: scale(1.015);
   -ms-transform: scale(1.015);
   -o-transform: scale(1.015);
+} */
+
+.faq-accordion {
+  text-align: left;
 }
