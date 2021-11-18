@@ -6,6 +6,7 @@ import Roadmap from "./components/Roadmap";
 import GameMechanics from "./components/GameMechanics";
 import Teams from "./components/Teams";
 import Faq from "./components/Faq";
+import Footer from "./components/Footer";
 import "./App.css";
 
 function App() {
@@ -18,6 +19,7 @@ function App() {
       <GameMechanics />
       <Teams />
       <Faq />
+      <Footer />
     </div>
   );
 }
