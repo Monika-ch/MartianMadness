@@ -11,12 +11,16 @@
   font-size: 1.1em;
   font-family: "Special Elite", cursive;
   background: rgb(0, 2, 36);
-  background: linear-gradient(
-    150deg,
-    rgb(156, 2, 77) 0%,
-    rgba(2, 1, 0, 0.535) 100%
+  /* background: linear-gradient(
+    320deg,
+    rgb(44, 195, 255) 0%,
+    rgba(2, 1, 0, 0.747) 50%
+  ); */
+  background: radial-gradient(
+    circle,
+    rgba(2, 28, 63, 0.664) 70%,
+    rgba(7, 222, 251, 0.85) 90%
   );
-  position: relative;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   /*box-shadow: 0px 4px 100px 50px rgba(219, 5, 219, 0.2);
   */ /*clip-path: polygon(50% 0%, 0% 100%, 100% 100%);

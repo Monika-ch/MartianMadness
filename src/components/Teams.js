@@ -19,8 +19,8 @@ class Teams extends Component {
               <div className='row'>
                 <div className='col-md-5'>
                   <img
-                    src={`${process.env.PUBLIC_URL}/assets/images/martians512/Untitled_Artwork-23.png`}
-                    alt='Artwork-23'
+                    src={`${process.env.PUBLIC_URL}/assets/images/IMG_14.webp`}
+                    alt='Artwork-14'
                     width='450'
                   />
                 </div>
@@ -45,8 +45,8 @@ class Teams extends Component {
               <div className='row team-members'>
                 <div className='col-md-4'>
                   <img
-                    src={`${process.env.PUBLIC_URL}/assets/images/martians512/Untitled_Artwork-20.png`}
-                    alt='Artwork-24'
+                    src={`${process.env.PUBLIC_URL}/assets/images/IMG_2.webp`}
+                    alt='Zepherus_Omega'
                     width='150'
                     className='team-dp'
                   />
@@ -55,8 +55,8 @@ class Teams extends Component {
                 </div>
                 <div className='col-md-4'>
                   <img
-                    src={`${process.env.PUBLIC_URL}/assets/images/martians512/Untitled_Artwork-25.png`}
-                    alt='Artwork-25'
+                    src={`${process.env.PUBLIC_URL}/assets/images/IMG_2.webp`}
+                    alt='Gigabit.eth'
                     width='150'
                     className='team-dp'
                   />
@@ -65,8 +65,8 @@ class Teams extends Component {
                 </div>
                 <div className='col-md-4'>
                   <img
-                    src={`${process.env.PUBLIC_URL}/assets/images/martians512/Untitled_Artwork-21.png`}
-                    alt='Artwork-26'
+                    src={`${process.env.PUBLIC_URL}/assets/images/IMG_2.webp`}
+                    alt='Monika12b'
                     width='150'
                     className='team-dp'
                   />

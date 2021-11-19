@@ -22,12 +22,12 @@
   /*fallbackforoldbrowsers*/
   background: -webkit-linear-gradient(to left, #24fe41, #fdfc47);
   /*Chrome10-25,Safari5.1-6*/
-  background: linear-gradient(to left, #24fe41, #fdfc47);
+  background: linear-gradient(to left, #fe24fe, #fdfc47);
   /*W3C,IE10+/Edge,Firefox16+,Chrome26+,Opera12+,Safari7+*/
   border: none;
-  padding: 0.9rem 1.8rem;
+  padding: 1rem 2rem;
   font-weight: 500;
-  font-size: 1.4rem;
+  font-size: 1.5rem;
   font-family: "Exo", sans-serif;
   border-radius: 10% 10% 50% 50%;
   -webkit-border-radius: 10% 10% 50% 50%;
@@ -35,16 +35,16 @@
   -ms-border-radius: 10% 10% 50% 50%;
   -o-border-radius: 10% 10% 50% 50%;
   letter-spacing: 1px;
-  transform: skew(1deg, -1.5deg);
+  transform: skew(1deg, -1deg);
   transition: all ease 200ms;
   -webkit-transition: all ease 200ms;
   -moz-transition: all ease 200ms;
   -ms-transition: all ease 200ms;
   -o-transition: all ease 200ms;
-  -webkit-transform: skew(1deg, -1.5deg);
-  -moz-transform: skew(1deg, -1.5deg);
-  -ms-transform: skew(1deg, -1.5deg);
-  -o-transform: skew(1deg, -1.5deg);
+  -webkit-transform: skew(1deg, -1deg);
+  -moz-transform: skew(1deg, -1deg);
+  -ms-transform: skew(1deg, -1deg);
+  -o-transform: skew(1deg, -1deg);
 }
 
 .header-mint-count .mint-btn:hover {
@@ -67,8 +67,10 @@
 
 .header-mint-count .count {
   color: rgb(80, 39, 39);
+  box-shadow: 0px 4px 100px 50px rgba(219, 5, 219, 0.2),
+    0 6px 20px 60px rgba(0, 0, 0, 0.19);
   margin-top: 1rem;
-  padding: 0.5rem 0.2rem;
+  padding: 0.8rem 0.4rem;
   background: rgba(184, 250, 2, 0.55);
   background: #cac531; /* fallback for old browsers */
   background: -webkit-linear-gradient(to left, #f3f9a7, #cac531);

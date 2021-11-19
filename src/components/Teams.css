@@ -2,14 +2,14 @@
   box-sizing: border-box;
   width: 80vw;
   margin: auto;
-  border-top: 5px inset rgb(255, 255, 0);
+  border-top: 5px inset rgb(12, 71, 99);
   font-size: 1.1em;
   /* font-family: "Special Elite", cursive; */
   background: rgb(0, 2, 36);
-  background: radial-gradient(
-    circle,
+  background: linear-gradient(
+    120deg,
     rgb(199, 19, 199) 0%,
-    rgba(255, 251, 0, 0.8) 100%
+    rgba(0, 247, 255, 0.8) 100%
   );
   margin-top: 6rem;
   position: relative;
@@ -56,17 +56,17 @@
   -moz-transition: all 200ms;
   -ms-transition: all 200ms;
   -o-transition: all 200ms;
-  color: rgb(36, 2, 2);
+  color: rgb(255, 224, 186);
 }
 
-.teams-main-content:hover {
+/* .teams-main-content:hover {
   color: rgb(255, 200, 133);
   transform: scale(1.015);
   -webkit-transform: scale(1.015);
   -moz-transform: scale(1.015);
   -ms-transform: scale(1.015);
   -o-transform: scale(1.015);
-}
+} */
 
 .team-members {
   margin-top: 6rem;

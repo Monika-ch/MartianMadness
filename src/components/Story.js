@@ -11,7 +11,7 @@ class Story extends Component {
   render() {
     return (
       <React.Fragment>
-        <section className='story-section'>
+        <section className='story-section' id='story'>
           <div className='container story-container'>
             <div className='story-text'>
               <h2 className='story-heading'>The Story..</h2>
@@ -19,12 +19,13 @@ class Story extends Component {
               <div className='row'>
                 <div className='col-md-5'>
                   <img
-                    src={`${process.env.PUBLIC_URL}/assets/images/martians512/Untitled_Artwork-1.png`}
+                    src={`${process.env.PUBLIC_URL}/assets/images/IMG_1.webp`}
                     alt='Artwork-1'
-                    width='450'
+                    height='300'
+                    width='300'
                   />
                 </div>
-                <div className='col story-div'>
+                <div className='col-md-7 story-div'>
                   <p className='story-para-1'>
                     In a remote solar system, much like our own, a species of
                     alien had separated into 5 distinct races through
@@ -35,7 +36,7 @@ class Story extends Component {
                 </div>
               </div>
               <div className='row'>
-                <div className='col story-div'>
+                <div className='col-md-7 story-div'>
                   <p className='story-para-2'>
                     This is where their differences end. Through technological
                     prosperity and a bond unbroken by color, these aliens have
@@ -45,21 +46,23 @@ class Story extends Component {
                 </div>
                 <div className='col-md-5'>
                   <img
-                    src={`${process.env.PUBLIC_URL}/assets/images/martians512/Untitled_Artwork-2.png`}
+                    src={`${process.env.PUBLIC_URL}/assets/images/IMG_2.webp`}
                     alt='Artwork-2'
-                    width='450'
+                    height='300'
+                    width='300'
                   />
                 </div>
               </div>
               <div className='row'>
                 <div className='col-md-5'>
                   <img
-                    src={`${process.env.PUBLIC_URL}/assets/images/martians512/Untitled_Artwork-3.png`}
+                    src={`${process.env.PUBLIC_URL}/assets/images/IMG_3.webp`}
                     alt='Artwork-3'
-                    width='450'
+                    height='300'
+                    width='300'
                   />
                 </div>
-                <div className='col story-div'>
+                <div className='col-md-7 story-div'>
                   <p className='story-para-3'>
                     A council of the 5 races came together to ponder this very
                     question. A think for the ages! In a monumental ceremony it

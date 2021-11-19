@@ -1,5 +1,5 @@
 .social-media {
-  color: #ea00ff;
+  color: #f36aff;
   position: fixed;
   top: 35vh;
   /*background-color: #f5f5de2a;
@@ -26,12 +26,11 @@
 
 .logo {
   position: fixed;
-  top: 15vh;
+  top: 20vh;
   left: 12px;
-  height: 7rem;
-  padding: 1.5em;
-  box-shadow: 0 4px 8px 0 rgba(251, 255, 3, 0.884),
-    0 6px 20px 0 rgba(123, 196, 105, 0.562);
+  height: 6rem;
+  padding: 1em;
+  box-shadow: 0 4px 8px 0 #f36aff, 0 6px 20px 0 rgba(0, 247, 255, 0.562);
   border-radius: 50%;
   -webkit-border-radius: 50%;
   -moz-border-radius: 50%;
@@ -40,30 +39,30 @@
 }
 
 .navBar {
-  /* border-bottom: 1px solid #d9ed92; */
+  border-bottom: 1px solid #1e0833;
   /* background-color: #01061bb7; */
   /* background-color: #093438bb; */
   padding: 1em;
-  /* box-shadow: 0 50px 100px 0 rgba(251, 255, 3, 0.7),
-    0 6px 20px 100px rgba(0, 0, 0, 0.3); */
+  box-shadow: 0 50px 100px -20px rgba(39, 5, 192, 0.7),
+    0 6px 20px 100px rgba(0, 0, 0, 0.3);
   background: rgb(111, 248, 31);
 
   background: radial-gradient(
     circle,
-    rgb(111, 248, 31) 6%,
-    hsl(180, 33%, 3%) 88%
+    rgb(0, 238, 255) 6%,
+    hsl(180, 92%, 10%) 92%
   );
 
   background: -moz-radial-gradient(
     circle,
-    rgb(111, 248, 31) 6%,
-    hsl(180, 33%, 3%) 88%
+    rgb(0, 238, 255) 6%,
+    hsl(180, 93%, 6%) 94%
   );
 
   background: -webkit-radial-gradient(
     circle,
-    rgb(111, 248, 31) 6%,
-    hsl(180, 33%, 3%) 88%
+    rgb(0, 238, 255) 6%,
+    rgb(2, 49, 49) 90%
   );
 
   filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#390974", endColorstr="#221F22", GradientType=1 );
@@ -72,7 +71,7 @@
 .navBar .nav_link {
   /* font-family: "Exo", sans-serif; */
   font-family: "Special Elite", cursive;
-
+  /* font-family: "Raleway", sans-serif; */
   color: #1f1f1b !important;
   font-size: 1.2rem;
   cursor: pointer;
@@ -138,7 +137,7 @@
 .navBar .wallet {
   /* border: 1px ridge #d3bacc91; */
   color: #000011 !important;
-  background-color: #f16b36;
+  background-color: #ffae7f;
   margin-top: 0.01rem;
   margin-left: 10vw;
   position: absolute;

@@ -4,6 +4,7 @@ import "./Header.css";
 import NavigationBar from "./Navbar";
 import header1 from "../header1.jpeg";
 import MintCount from "./MintCount";
+import logo from "../logo.png";
 
 class Header extends Component {
   render() {
@@ -12,15 +13,14 @@ class Header extends Component {
         <NavigationBar />
 
         <section className='header-section'>
-          <img src={header1} alt='Martian Planets' />
+          {/* <img src={header1} alt='Martian Planets' /> */}
           <div className='header-content'>
             <Jumbotron>
               <div className='heading-wrapper'>
                 <h1 className='h1'>MARTiAN mADNEsS</h1>
+                {/* <img src={logo} alt='Artwork-2' height='100' width='100' /> */}
               </div>
-              <p className='header-caption'>
-                digital ocean of digital art - Martians
-              </p>
+
               <MintCount />
             </Jumbotron>
           </div>

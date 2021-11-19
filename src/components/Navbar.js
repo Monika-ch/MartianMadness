@@ -10,7 +10,7 @@ import {
   Button,
 } from "reactstrap";
 import "./Navbar.css";
-import logo152 from "../logo152.png";
+// import logo152 from "../logo152.png";
 
 class NavigationBar extends Component {
   constructor(props) {
@@ -31,7 +31,12 @@ class NavigationBar extends Component {
     return (
       <React.Fragment>
         <section className='social-media'>
-          <img src={logo152} alt='Martian Madness Logo' className='logo' />
+          {/* <img src={logo152} alt='Martian Madness Logo' className='logo' /> */}
+          <img
+            src={`${process.env.PUBLIC_URL}/assets/images/logo.gif`}
+            alt='Martian Madness Logo'
+            className='logo'
+          />
 
           <div className='social-media-box'>
             <i className='fab fa-discord fa-3x'></i>
@@ -49,7 +54,12 @@ class NavigationBar extends Component {
         <Navbar dark sticky='top' expand='md' className='navBar'>
           <div className='container'>
             <NavbarBrand className='d-sm-block d-md-none mr-auto' href='/'>
-              <img src={logo152} alt='Martian Madness Logo' className='logo' />
+              {/* <img src={logo152} alt='Martian Madness Logo' className='logo' /> */}
+              <img
+                src={`${process.env.PUBLIC_URL}/assets/images/logo.gif`}
+                alt='Martian Madness Logo'
+                className='logo'
+              />
             </NavbarBrand>
             <NavbarToggler onClick={this.toggleNav} />
             <Collapse isOpen={this.state.isNavOpen} navbar>

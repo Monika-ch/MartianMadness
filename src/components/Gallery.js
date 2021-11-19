@@ -22,21 +22,21 @@ class Gallery extends Component {
               <div className='row'>
                 <div className='col-lg-4 gallery-div'>
                   <img
-                    src={`${process.env.PUBLIC_URL}/assets/images/martians512/Untitled_Artwork-4.png`}
+                    src={`${process.env.PUBLIC_URL}/assets/images/IMG_4.webp`}
                     alt='Martian-4'
                     width='300'
                   />
                 </div>
                 <div className='col-lg-4 gallery-div'>
                   <img
-                    src={`${process.env.PUBLIC_URL}/assets/images/martians512/Untitled_Artwork-5.png`}
+                    src={`${process.env.PUBLIC_URL}/assets/images/IMG_5.webp`}
                     alt='Martian-5'
                     width='300'
                   />
                 </div>
                 <div className='col-lg-4 gallery-div'>
                   <img
-                    src={`${process.env.PUBLIC_URL}/assets/images/martians512/Untitled_Artwork-6.png`}
+                    src={`${process.env.PUBLIC_URL}/assets/images/IMG_6.webp`}
                     alt='Martian-6'
                     width='300'
                   />
@@ -46,14 +46,14 @@ class Gallery extends Component {
               <div className='row'>
                 <div className='col-6 gallery-div'>
                   <img
-                    src={`${process.env.PUBLIC_URL}/assets/images/martians512/Untitled_Artwork-7.png`}
+                    src={`${process.env.PUBLIC_URL}/assets/images/IMG_7.webp`}
                     alt='Martian-7'
                     width='420'
                   />
                 </div>
                 <div className='col-6 gallery-div'>
                   <img
-                    src={`${process.env.PUBLIC_URL}/assets/images/martians512/Untitled_Artwork-8.png`}
+                    src={`${process.env.PUBLIC_URL}/assets/images/IMG_8.webp`}
                     alt='Martian-8'
                     width='420'
                   />
@@ -63,21 +63,21 @@ class Gallery extends Component {
               <div className='row'>
                 <div className='col-lg-4 gallery-div'>
                   <img
-                    src={`${process.env.PUBLIC_URL}/assets/images/martians512/Untitled_Artwork-9.png`}
+                    src={`${process.env.PUBLIC_URL}/assets/images/IMG_9.webp`}
                     alt='Martian-9'
                     width='300'
                   />
                 </div>
                 <div className='col-lg-4 gallery-div'>
                   <img
-                    src={`${process.env.PUBLIC_URL}/assets/images/martians512/Untitled_Artwork-10.png`}
+                    src={`${process.env.PUBLIC_URL}/assets/images/IMG_10.webp`}
                     alt='Martian-10'
                     width='300'
                   />
                 </div>
                 <div className='col-lg-4 gallery-div'>
                   <img
-                    src={`${process.env.PUBLIC_URL}/assets/images/martians512/Untitled_Artwork-11.png`}
+                    src={`${process.env.PUBLIC_URL}/assets/images/IMG_11.webp`}
                     alt='Martian-11'
                     width='300'
                   />
@@ -87,14 +87,14 @@ class Gallery extends Component {
               <div className='row'>
                 <div className='col-6 gallery-div'>
                   <img
-                    src={`${process.env.PUBLIC_URL}/assets/images/martians512/Untitled_Artwork-12.png`}
+                    src={`${process.env.PUBLIC_URL}/assets/images/IMG_12.webp`}
                     alt='Martian-12'
                     width='420'
                   />
                 </div>
                 <div className='col-6 gallery-div'>
                   <img
-                    src={`${process.env.PUBLIC_URL}/assets/images/martians512/Untitled_Artwork-13.png`}
+                    src={`${process.env.PUBLIC_URL}/assets/images/IMG_13.webp`}
                     alt='Martian-13'
                     width='420'
                   />

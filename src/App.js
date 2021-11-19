@@ -7,10 +7,12 @@ import GameMechanics from "./components/GameMechanics";
 import Teams from "./components/Teams";
 import Faq from "./components/Faq";
 import Footer from "./components/Footer";
+// import { BrowserRouter } from "react-router-dom";
 import "./App.css";
 
 function App() {
   return (
+    // <BrowserRouter>
     <div className='App'>
       <Header />
       <Story />
@@ -21,6 +23,7 @@ function App() {
       <Faq />
       <Footer />
     </div>
+    // </BrowserRouter>
   );
 }
 
