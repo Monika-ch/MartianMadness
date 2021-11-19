@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import "./Story.css";
+import "../styled-components/Story.css";
 
 class Story extends Component {
   constructor(props) {

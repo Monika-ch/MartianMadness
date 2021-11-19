@@ -9,8 +9,7 @@ import {
   Collapse,
   Button,
 } from "reactstrap";
-import "./Navbar.css";
-// import logo152 from "../logo152.png";
+import "../styled-components/Navbar.css";
 
 class NavigationBar extends Component {
   constructor(props) {

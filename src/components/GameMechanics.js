@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import "./GameMechanics.css";
+import "../styled-components/GameMechanics.css";
 
 class GameMechanics extends Component {
   constructor(props) {

@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import "./Teams.css";
+import "../styled-components/Teams.css";
 
 class Teams extends Component {
   constructor(props) {

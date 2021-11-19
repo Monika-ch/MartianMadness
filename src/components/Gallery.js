@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import "./Gallery.css";
+import "../styled-components/Gallery.css";
 
 class Gallery extends Component {
   constructor(props) {

@@ -1,4 +1,3 @@
-import logo from "./logo.svg";
 import Header from "./components/Header";
 import Story from "./components/Story";
 import Gallery from "./components/Gallery";

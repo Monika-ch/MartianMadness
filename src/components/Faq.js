@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import { Accordion } from "react-bootstrap";
-import "./Faq.css";
+import "../styled-components/Faq.css";
 
 class Faq extends Component {
   constructor(props) {

@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import "./Roadmap.css";
+import "../styled-components/Roadmap.css";
 
 class Roadmap extends Component {
   constructor(props) {
