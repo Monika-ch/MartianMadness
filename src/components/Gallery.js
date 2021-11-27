@@ -7,8 +7,11 @@ class Gallery extends Component {
 
     this.state = {};
   }
-
   render() {
+    //   let randomImgGenerator = () => {
+    //   Math.floor(Math.random() * 31 + 1)
+    // }
+    // const imgSrc = `${process.env.PUBLIC_URL}/assets/images/IMG_${}.webp`;
     return (
       <React.Fragment>
         <section className='gallery-section'>

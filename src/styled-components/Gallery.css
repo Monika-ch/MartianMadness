@@ -23,7 +23,6 @@
   );
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   /*box-shadow: 0px 4px 100px 50px rgba(219, 5, 219, 0.2);
-  */ /*clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
   */
   -webkit-border-radius: 10px;
   -moz-border-radius: 0 10px 10px;
@@ -79,8 +78,8 @@
 
 .gallery-div img:hover {
   border-radius: 10px;
-  box-shadow: 2px 4px 20px -1px rgba(229, 255, 0, 0.918),
-    0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  /*box-shadow: 2px 4px 20px -1px rgba(229, 255, 0, 0.918),    0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  */
   box-shadow: -6px 11px 34px 1px rgba(0, 0, 0, 0.75);
   -webkit-box-shadow: -6px 11px 34px 1px rgba(0, 0, 0, 0.75);
   -moz-box-shadow: -6px 11px 34px 1px rgba(0, 0, 0, 0.75);
@@ -88,9 +87,11 @@
   -moz-border-radius: 10px;
   -ms-border-radius: 10px;
   -o-border-radius: 10px;
-  transform: translate3d(2%, 0, 1px);
-  -webkit-transform: translate3d(2%, 0, 1px);
-  -moz-transform: translate3d(2%, 0, 1px);
-  -ms-transform: translate3d(2%, 0, 1px);
-  -o-transform: translate3d(2%, 0, 1px);
+  transform: translate3d(1%, 0, 1px);
+  -webkit-transform: translate3d(1%, 0, 1px);
+  -moz-transform: translate3d(1%, 0, 1px);
+  -ms-transform: translate3d(1%, 0, 1px);
+  -o-transform: translate3d(1%, 0, 1px);
+  /*border-bottom: 10px solid rgb(180, 171, 41);
+  */
 }

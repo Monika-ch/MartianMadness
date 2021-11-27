@@ -45,7 +45,7 @@ class Teams extends Component {
               <div className='row team-members'>
                 <div className='col-md-4'>
                   <img
-                    src={`${process.env.PUBLIC_URL}/assets/images/IMG_2.webp`}
+                    src={`${process.env.PUBLIC_URL}/assets/images/Zepherus_Omega.webp`}
                     alt='Zepherus_Omega'
                     width='150'
                     className='team-dp'
