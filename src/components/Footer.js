@@ -10,9 +10,7 @@ export default function Footer() {
         <div className='container footer-container'>
           <div className='row'>
             <div className='col'>
-              <p className='footer-content p-5'>
-                Martian Madness &copy; {date}
-              </p>
+              <p className='p-5'>Martian Madness &copy; {date}</p>
             </div>
           </div>
         </div>

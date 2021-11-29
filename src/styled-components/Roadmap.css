@@ -3,18 +3,23 @@
   width: 80vw;
   margin: auto;
   margin-top: 5rem;
-  /* border-top: 5px inset rgba(19, 19, 16, 0.664); */
+  border-top: 5px inset #131310a9;
   font-family: "Special Elite", cursive;
-  background: rgb(0, 2, 36);
-  background: linear-gradient(
-    150deg,
-    rgb(0, 29, 56) 0%,
-    rgb(2, 12, 12) 50%,
-    rgb(113, 236, 252) 100%
+  background: #000224;
+  background: linear-gradient(300deg, #001d38 0%, #020c0c 50%, #71ecfc 100%);
+  background: -moz-linear-gradient(
+    300deg,
+    #001d38 0%,
+    #020c0c 50%,
+    #71ecfc 100%
   );
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-  /*clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
-     */
+  background: -webkit-linear-gradient(
+    300deg,
+    #001d38 0%,
+    #020c0c 50%,
+    #71ecfc 100%
+  );
+  box-shadow: 0 4px 8px 0 #00000033, 0 6px 20px 0 #00000030;
   border-radius: 10px;
   -webkit-border-radius: 10px;
   -moz-border-radius: 10px;
@@ -25,13 +30,15 @@
 .roadmap-container {
   box-sizing: border-box;
   padding: 3em;
-  display: flex;
   height: 100%;
-  /* perspective: 450px; */
+  font-size: 1.2rem;
+  color: #f8f2db;
+  line-height: 2.2rem;
 }
+
 .roadmap-box1 {
-  border-left: 1px dashed rgb(255, 238, 0);
-  border-right: 10px solid rgb(4, 19, 3);
+  border-left: 1px dashed #ffee00;
+  border-right: 10px solid #041303;
   border-bottom: none;
   margin: 1.56rem;
   border-radius: 20%;
@@ -45,7 +52,7 @@
 .roadmap-box2 {
   margin: 1.56rem;
   background-color: #fffcff9d;
-  border-left: 10px solid rgb(3, 44, 0);
+  border-left: 10px solid #032c00;
   /*border-right: 3px ridge rgb(43, 255, 0);
   */
   border-radius: 10% 50% 80%;
@@ -57,7 +64,7 @@
 
 .roadmap-heading,
 .roadmap-subheading {
-  color: rgb(247, 149, 1);
+  color: #f79501;
   text-align: center;
 }
 
@@ -69,13 +76,6 @@
 .roadmap-subheading {
   font-size: 1.5em;
   margin: 3rem auto;
-}
-
-.roadmap-text {
-  font-size: 1.2rem;
-  color: #f8f2db;
-  line-height: 2.2rem;
-  z-index: 1;
 }
 
 /* --ROADMAP TIMELINE-- */
@@ -108,7 +108,7 @@
 
 .roadmap-timeline-para:hover,
 .roadmap-rewards-para:hover {
-  color: rgb(255, 200, 133);
+  color: #ffc885;
   transform: scale(1.015);
   -webkit-transform: scale(1.015);
   -moz-transform: scale(1.015);
@@ -124,7 +124,7 @@
 }
 
 .roadmap-rewards-para {
-  color: rgb(222, 253, 255);
+  color: #defdff;
   padding: 1rem;
   padding-top: 0;
   border: 3px dotted #1a071b;
@@ -150,7 +150,7 @@
 }
 
 .roadmap-rewards-para:hover {
-  color: rgb(252, 163, 255);
+  color: #fca3ff;
   background-color: #a601af98;
 }
 
@@ -168,33 +168,3 @@
 .roadmap-solana-giveaway {
   color: #9dff00;
 }
-
-/* .guide-container {
-  border-bottom: 20px solid black;
-  width: 80vw;
-  margin: 5rem auto;
-  padding: 5rem 3.8rem 5rem 1rem;
-  border-radius: 20px;
-  -webkit-border-radius: 20px;
-  -moz-border-radius: 20px;
-  -ms-border-radius: 20px;
-  -o-border-radius: 20px;
-  background: #faac1ab2;
-  background: rgb(0, 2, 36);
-  background: radial-gradient(
-    circle,
-    rgb(29, 36, 250) 0%,
-    rgba(29, 250, 128, 0.77) 50%,
-    rgba(88, 21, 66, 0.535) 100%
-  );
-  background: radial-gradient(
-    circle,
-    rgb(29, 36, 250) 0%,
-    rgba(29, 250, 128, 0.77) 50%,
-    rgba(88, 21, 66, 0.535) 100%
-  );
-}
-
-.guide-container .guide {
-  width: 80%;
-} */

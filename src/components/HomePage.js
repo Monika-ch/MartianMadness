@@ -1,10 +1,10 @@
 import React, { Component } from "react";
-import { Collapse, Jumbotron, Button, Media } from "reactstrap";
+import { Jumbotron } from "reactstrap";
 import NavigationBar from "./Navbar";
 import MintCount from "./MintCount";
-import "../styled-components/Header.css";
+import "../styled-components/HomePage.css";
 
-class Header extends Component {
+class HomePage extends Component {
   render() {
     return (
       <React.Fragment>
@@ -30,16 +30,9 @@ class Header extends Component {
             width='450'
           />
         </div> */}
-
-        {/* <section className='galaxy1'></section>
-        <section className='galaxy2'></section> */}
-
-        {/* <div className='logo-container d-none d-md-block'>
-          <img src={logo} alt='Martian Madness Logo' className='logo' />
-        </div> */}
       </React.Fragment>
     );
   }
 }
 
-export default Header;
+export default HomePage;

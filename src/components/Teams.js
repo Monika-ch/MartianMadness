@@ -24,21 +24,32 @@ class Teams extends Component {
                     width='450'
                   />
                 </div>
-                <div className='col-md-7'>
-                  <p className='teams-main-content'>
+                <div className='col-md-7 teams-main-content'>
+                  <p className='p1'>
                     The talent behind the Martian Madness NFT is truly a
                     collective of highly skilled individuals. Specialists in
                     their trade who came together purely by coincidence. Our
                     focus is to deliver an exciting NFT collection with emphasis
-                    on rewarding the collectors. Our artist has been creating
-                    digital and traditional art from an early age and aims to
-                    visually tell the tale of Martian Madness. Our blockchain
-                    engineer comes from a strong background in coding, marketing
-                    and crypto and has handcrafted the backend functionality of
-                    the Martian Madness collection. Last but not least, our web
-                    developer comes from an educated design background and
-                    offers a unique and critical perspective, rivaled by none.
-                    We are Martian Madness!
+                    on rewarding the collectors.
+                  </p>
+                  <p className='p2'>
+                    Our <strong>artist</strong> has been creating digital and
+                    traditional art from an early age and aims to visually tell
+                    the tale of Martian Madness.
+                  </p>
+                  <p className='p3'>
+                    Our <strong>blockchain engineer</strong> comes from a strong
+                    background in coding, marketing and crypto and has
+                    handcrafted the backend functionality of the Martian Madness
+                    collection.
+                  </p>
+                  <p className='p4'>
+                    Last but not least, our <strong>web developer</strong> comes
+                    from an educated design background and offers a unique and
+                    critical perspective, rivaled by none.
+                  </p>
+                  <p className='p5'>
+                    <strong>Together, we are MARTiAN MADNESS !</strong>
                   </p>
                 </div>
               </div>

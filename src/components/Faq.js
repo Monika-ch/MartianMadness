@@ -14,9 +14,8 @@ class Faq extends Component {
       <React.Fragment>
         <section className='faq-section'>
           <div className='container faq-container'>
-            <div>
-              <h2 className='faq-heading'>The Faqs..</h2>
-
+            <h2 className='faq-heading'>The Faqs..</h2>
+            <div className='faq-content'>
               <Accordion flush className='faq-accordion'>
                 <Accordion.Item eventKey='0'>
                   <Accordion.Header>How do I mint a Martian?</Accordion.Header>

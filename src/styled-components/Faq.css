@@ -2,17 +2,26 @@
   box-sizing: border-box;
   width: 80vw;
   margin: auto;
-  border-top: 5px inset rgb(255, 255, 0);
+  margin-top: 5rem;
+  border-top: 5px inset #131310a9;
   font-size: 1.1em;
-  /* font-family: "Special Elite", cursive; */
-  background: rgb(0, 2, 36);
-  background: linear-gradient(
-    30deg,
-    rgb(27, 16, 27) 0%,
-    rgba(0, 119, 255, 0.8) 100%
+  background: #021020cc;
+  background: linear-gradient(30deg, #1b101b 0%, #021020cc 100%);
+  background: -moz-linear-gradient(30deg, #1b101b 0%, #021020cc 100%);
+  background: -webkit-linear-gradient(30deg, #1b101b 0%, #021020cc 100%);
+  /* background: linear-gradient(300deg, #001d38 0%, #020c0c 50%, #71ecfc 100%);
+  background: -moz-linear-gradient(
+    300deg,
+    #001d38 0%,
+    #020c0c 50%,
+    #71ecfc 100%
   );
-  margin-top: 6rem;
-  position: relative;
+  background: -webkit-linear-gradient(
+    300deg,
+    #001d38 0%,
+    #020c0c 50%,
+    #71ecfc 100%
+  ); */
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   border-radius: 10px;
   -webkit-border-radius: 10px;
@@ -26,14 +35,14 @@
   padding: 3em;
   width: 70%;
   height: 100%;
-  color: #816906;
+  font-size: 1.33rem;
 }
 
 .faq-heading {
-  color: rgb(49, 5, 129);
+  color: rgb(0, 174, 255);
   text-align: center;
   font-family: "Special Elite", cursive;
-  font-size: 2em;
+  font-size: 2.5rem;
   margin-bottom: 3rem;
 }
 
@@ -58,6 +67,15 @@
   -moz-transform: scale(1.015);
   -ms-transform: scale(1.015);
   -o-transform: scale(1.015);
+} */
+
+/* .faq-content {
+  background-color: rgb(63, 42, 14);
+  border-radius: 40%;
+  -webkit-border-radius: 40%;
+  -moz-border-radius: 40%;
+  -ms-border-radius: 40%;
+  -o-border-radius: 40%;
 } */
 
 .faq-accordion {

@@ -2,17 +2,24 @@
   box-sizing: border-box;
   width: 80vw;
   margin: auto;
-  border-top: 5px inset rgb(12, 71, 99);
+  margin-top: 5rem;
+  border-top: 5px inset #131310a9;
   font-size: 1.1em;
-  /* font-family: "Special Elite", cursive; */
-  background: rgb(0, 2, 36);
-  background: linear-gradient(
+  font-family: "Special Elite", cursive;
+  background: #0b538f;
+  background: linear-gradient(120deg, #035ca5 30%, #106314 60%, #00f7ff 100%);
+  background: -moz-linear-gradient(
     120deg,
-    rgb(199, 19, 199) 0%,
-    rgba(0, 247, 255, 0.8) 100%
+    #035ca5 30%,
+    #106314 60%,
+    #00f7ff 100%
   );
-  margin-top: 6rem;
-  position: relative;
+  background: -webkit-linear-gradient(
+    120deg,
+    #035ca5 30%,
+    #106314 60%,
+    #00f7ff 100%
+  );
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   border-radius: 10px;
   -webkit-border-radius: 10px;
@@ -26,15 +33,13 @@
   padding: 3em;
   width: 70%;
   height: 100%;
-  color: #f8f2db;
+  font-size: 1.33rem;
 }
 
 .teams-heading,
 .teams-subheading {
-  color: rgb(49, 5, 129);
+  color: #ffb300;
   text-align: center;
-  font-family: "Special Elite", cursive;
-  font-size: larger;
 }
 
 .teams-heading {
@@ -43,7 +48,7 @@
 
 .teams-subheading {
   font-size: 1.5em;
-  margin-bottom: 3rem;
+  margin-bottom: 5.5rem;
 }
 
 .teams-main-content {
@@ -56,7 +61,7 @@
   -moz-transition: all 200ms;
   -ms-transition: all 200ms;
   -o-transition: all 200ms;
-  color: rgb(255, 224, 186);
+  color: #f0ebec;
 }
 
 /* .teams-main-content:hover {

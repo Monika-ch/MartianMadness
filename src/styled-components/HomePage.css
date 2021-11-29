@@ -12,14 +12,11 @@
   background: linear-gradient(25deg, #2126b97c, #1601013f, #010a09af),
     url(../Planets.webp) center/cover;
   margin-top: 0.2rem;
-  border-bottom: 7px solid rgba(47, 47, 3, 0.623);
   border-radius: 10px;
   -webkit-border-radius: 10px;
   -moz-border-radius: 10px;
   -ms-border-radius: 10px;
   -o-border-radius: 10px;
-  /*padding: 10rem 20%;
-     */
 }
 
 .header-section .heading-wrapper {
@@ -64,17 +61,6 @@
 .header-section h1:hover {
   opacity: 1;
   text-shadow: 2px -3px 6px rgba(244, 255, 11, 0.53);
-}
-
-.header-section .header-caption {
-  padding-top: 2rem;
-  width: 60%;
-  margin: auto;
-  color: #faf2af;
-  font-size: 1.6rem;
-  font-family: "Special Elite", cursive;
-  text-transform: capitalize;
-  font-weight: bold;
 }
 
 .ufo {
