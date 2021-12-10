@@ -1,0 +1,106 @@
+@import url("https://fonts.googleapis.com/css2?family=Audiowide&family=Exo+2:ital,wght@0,300;0,400;1,300&family=Exo:ital,wght@0,300;0,400;1,300&family=Raleway:wght@300&family=Rampart+One&family=Special+Elite&display=swap");
+
+.header-section {
+  margin: auto;
+  width: 80vw;
+  height: 80vh;
+  overflow: hidden;
+  opacity: 0.87;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  /*box-shadow: 0px 4px 100px 50px rgba(219, 5, 219, 0.2),    0 6px 20px 60px rgba(0, 0, 0, 0.19);
+  */
+  background: linear-gradient(25deg, #2126b97c, #1601013f, #010a09af),
+    url(../Planets.webp) center/cover;
+  margin-top: 0.2rem;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+}
+
+.header-section .heading-wrapper {
+  margin-top: 2rem;
+  padding-top: 8rem;
+  padding-bottom: 0.5rem;
+  background-color: rgba(0, 0, 0, 0.15);
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  /* border-bottom: 1px solid #ff4800; */
+}
+
+.header-section h1 {
+  /*border-bottom: 1px solid #ff4800;
+  */
+  transform: skew(3deg, 2deg);
+  color: wheat;
+  margin: auto;
+  width: 60%;
+  font-size: 3.8vw;
+  font-family: "Audiowide", cursive;
+  background: #fda943;
+  /*fallbackforoldbrowsers*/
+  background: -webkit-linear-gradient(to right, #ff0080, #fda943, #39ffeb);
+  background: linear-gradient(to right, #ff0080, #fda943, #39ffeb);
+  /*W3C,IE10+/Edge,Firefox16+,Chrome26+,Opera12+,Safari7+*/
+  background-clip: text;
+  background-size: 100%;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  transition: all ease 200ms;
+  -webkit-transition: all ease 200ms;
+  -moz-transition: all ease 200ms;
+  -ms-transition: all ease 200ms;
+  -o-transition: all ease 200ms;
+  transform: skew(-0.06turn, -0.5deg);
+  -webkit-transform: skew(-0.06turn, -0.5deg);
+  -moz-transform: skew(-0.06turn, -0.5deg);
+  -ms-transform: skew(-0.06turn, -0.5deg);
+  -o-transform: skew(-0.06turn, -0.5deg);
+}
+
+.header-section h1:hover {
+  opacity: 1;
+  text-shadow: 2px -3px 6px rgba(244, 255, 11, 0.53);
+}
+
+.ufo {
+  margin-top: 4rem;
+  height: 40vh;
+  animation: ufoEntry alternate 1.5;
+  -webkit-animation: ufoEntry alternate 1.5;
+}
+
+@keyframes ufoEntry {
+  from {
+    width: 300%;
+  }
+
+  to {
+    width: 100%;
+  }
+}
+
+/* @media (max-width: 768px) {
+  .siteName {
+    width: 85vw;
+    height: 10vh;
+  }
+} */
+
+@media (max-width: 1200px) {
+  /* .siteName {
+    width: 65vw;
+  } */
+}
+
+@media (max-width: 768px) {
+  .social-media {
+    color: #c7fffa;
+    position: fixed;
+    top: 75vh;
+  }
+  .social-media-box {
+    margin: 20px 10px;
+    font-size: x-small;
+  }
+}

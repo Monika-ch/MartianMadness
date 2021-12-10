@@ -1,0 +1,93 @@
+.header-mint-count {
+  width: 40%;
+  margin: 4% auto;
+}
+.header-mint-count .count-wrapper {
+  /* background: #00000056; */
+  width: 13rem;
+  margin: auto;
+  padding: 1.7rem 1.5rem;
+  /* border: 5px inset rgba(8, 8, 8, 0.9); */
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+}
+
+.header-mint-count .mint-btn {
+  /*background-color: rgb(255, 240, 107);
+  */
+  background: #fdfc47;
+  /*fallbackforoldbrowsers*/
+  background: -webkit-linear-gradient(to left, #24fe41, #fdfc47);
+  /*Chrome10-25,Safari5.1-6*/
+  background: linear-gradient(to left, #fe24fe, #fdfc47);
+  /*W3C,IE10+/Edge,Firefox16+,Chrome26+,Opera12+,Safari7+*/
+  border: none;
+  padding: 1rem 2rem;
+  font-weight: 500;
+  font-size: 1.5rem;
+  font-family: "Exo", sans-serif;
+  border-radius: 10% 10% 50% 50%;
+  -webkit-border-radius: 10% 10% 50% 50%;
+  -moz-border-radius: 10% 10% 50% 50%;
+  -ms-border-radius: 10% 10% 50% 50%;
+  -o-border-radius: 10% 10% 50% 50%;
+  letter-spacing: 1px;
+  transform: skew(1deg, -1deg);
+  transition: all ease 200ms;
+  -webkit-transition: all ease 200ms;
+  -moz-transition: all ease 200ms;
+  -ms-transition: all ease 200ms;
+  -o-transition: all ease 200ms;
+  -webkit-transform: skew(1deg, -1deg);
+  -moz-transform: skew(1deg, -1deg);
+  -ms-transform: skew(1deg, -1deg);
+  -o-transform: skew(1deg, -1deg);
+}
+
+.header-mint-count .mint-btn:hover {
+  box-shadow: 0px 4px 100px 50px rgba(219, 5, 219, 0.2),
+    0 6px 20px 60px rgba(0, 0, 0, 0.19);
+  transform: skew(-1deg, 1deg) scale(1.07);
+  -webkit-transform: skew(-1deg, 1deg) scale(1.07);
+  -moz-transform: skew(-1deg, 1deg) scale(1.07);
+  -ms-transform: skew(-1deg, 1deg) scale(1.07);
+  -o-transform: skew(-1deg, 1deg) scale(1.07);
+  background: #fda943;
+  /*fallbackforoldbrowsers*/
+  background: -webkit-linear-gradient(100deg, #ff0080, #fda943, #39ffeb);
+  background: linear-gradient(100deg, #ff0080, #fda943, #39ffeb);
+}
+
+.fa-certificate {
+  color: rgb(33, 64, 235);
+}
+
+.header-mint-count .count {
+  color: rgb(80, 39, 39);
+  box-shadow: 0px 4px 100px 50px rgba(219, 5, 219, 0.2),
+    0 6px 20px 60px rgba(0, 0, 0, 0.19);
+  margin-top: 1rem;
+  padding: 0.8rem 0.4rem;
+  background: rgba(184, 250, 2, 0.55);
+  background: #cac531; /* fallback for old browsers */
+  background: -webkit-linear-gradient(to left, #f3f9a7, #cac531);
+  background: -moz-linear-gradient(
+    to left,
+    #f3f9a7,
+    #cac531
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to left,
+    #f3f9a7,
+    #cac531
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+  border-radius: 50px;
+  -webkit-border-radius: 50px;
+  -moz-border-radius: 50px;
+  -ms-border-radius: 50px;
+  -o-border-radius: 50px;
+}

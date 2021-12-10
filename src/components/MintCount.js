@@ -1,12 +1,11 @@
 import React, { Component } from "react";
-import { Collapse, Button, Media } from "reactstrap";
-import "./MintCount.css";
+import "../styled-components/MintCount.css";
 
 class MintCount extends Component {
   constructor(props) {
     super(props);
     this.state = {
-      isNavOpen: false,
+      // isNavOpen: false,
     };
   }
 

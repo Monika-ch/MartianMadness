@@ -1,14 +1,14 @@
-import logo from "./logo.svg";
-import Header from "./components/Header";
-import Story from "./components/Story";
+import Main from "./components/Main";
+import { BrowserRouter } from "react-router-dom";
 import "./App.css";
 
 function App() {
   return (
-    <div className='App'>
-      <Header />
-      <Story />
-    </div>
+    <BrowserRouter>
+      <div className='App'>
+        <Main />
+      </div>
+    </BrowserRouter>
   );
 }
 

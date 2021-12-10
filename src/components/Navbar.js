@@ -7,12 +7,11 @@ import {
   NavItem,
   NavLink,
   Collapse,
-  Jumbotron,
   Button,
-  Media,
 } from "reactstrap";
-import "./Navbar.css";
-import logo from "../logo.png";
+import { HashLink, NavHashLink } from "react-router-hash-link";
+
+import "../styled-components/Navbar.css";
 
 class NavigationBar extends Component {
   constructor(props) {
@@ -32,13 +31,45 @@ class NavigationBar extends Component {
   render() {
     return (
       <React.Fragment>
-        <div className='logo-container d-none d-md-block'>
+        <section className='social-media'>
+          {/* <img src={logo152} alt='Martian Madness Logo' className='logo' /> */}
+          {/* <NavLink className='nav_link' to='/home'>
+            <img
+              src={`${process.env.PUBLIC_URL}/assets/images/logo.gif`}
+              alt='Martian Madness Logo'
+              className='logo'
+            />
+          </NavLink> */}
+          <HashLink smooth to={"/page#home"}>
+            <img
+              src={`${process.env.PUBLIC_URL}/assets/images/logo.gif`}
+              alt='Martian Madness Logo'
+              className='logo'
+            />
+          </HashLink>
+          <div className='social-media-box'>
+            <i className='fab fa-discord fa-3x'></i>
+          </div>
+          <div className='social-media-box'>
+            <i className='fab fa-instagram fa-3x'></i>
+          </div>
+          <div className='social-media-box'>
+            <i className='fab fa-twitter fa-3x'></i>
+          </div>
+        </section>
+        {/* <div className='logo-container d-none d-md-block'>
           <img src={logo} alt='Martian Madness Logo' className='logo' />
-        </div>
-        <Navbar dark sticky='top' expand='md' className='navBar'>
+          </div> */}
+        <Navbar dark expand='md' className='navBar'>
           <div className='container'>
-            <NavbarBrand className='d-sm-block d-md-none mr-auto' href='/'>
-              <img src={logo} alt='Martian Madness Logo' className='logo' />
+            <NavbarBrand className='d-sm-block d-md-none mr-auto'>
+              <HashLink smooth to={"/page#home"}>
+                <img
+                  src={`${process.env.PUBLIC_URL}/assets/images/logo.gif`}
+                  alt='Martian Madness Logo'
+                  className='logo'
+                />
+              </HashLink>
             </NavbarBrand>
             <NavbarToggler onClick={this.toggleNav} />
             <Collapse isOpen={this.state.isNavOpen} navbar>
@@ -48,7 +79,7 @@ class NavigationBar extends Component {
                   <img src={logo} alt='planets' className='logo inline-block' />
                 </NavLink>
               </NavItem> */}
-                <NavItem>
+                {/* <NavItem>
                   <NavLink className='nav_link' to='/story'>
                     Story
                   </NavLink>
@@ -82,6 +113,58 @@ class NavigationBar extends Component {
                   <NavLink className='nav_link nav-mint-btn' to='/wallet'>
                     Mint <i class='far fa-certificate'></i>
                   </NavLink>
+                </NavItem> */}
+
+                <NavItem>
+                  <HashLink className='nav_link' smooth to={"/page#story"}>
+                    Story
+                  </HashLink>
+                </NavItem>
+                <NavItem>
+                  <HashLink
+                    className='nav_link gallery_btn'
+                    smooth
+                    to={"/page#gallery"}
+                  >
+                    Gallery
+                  </HashLink>
+                </NavItem>
+                <NavItem>
+                  <HashLink className='nav_link' smooth to={"/page#roadmap"}>
+                    Roadmap
+                  </HashLink>
+                </NavItem>
+                <NavItem>
+                  <HashLink
+                    className='nav_link'
+                    smooth
+                    to={"/page#gameMechanics"}
+                  >
+                    Game Mechanics
+                  </HashLink>
+                </NavItem>
+                <NavItem>
+                  <HashLink className='nav_link' smooth to={"/page#faq"}>
+                    Faq
+                  </HashLink>
+                </NavItem>
+                <NavItem>
+                  <HashLink
+                    className='nav_link wallet'
+                    smooth
+                    to={"/page#story"}
+                  >
+                    Connect Wallet <i class='fas fa-wallet'></i>
+                  </HashLink>
+                </NavItem>
+                <NavItem className='d-sm-block d-md-none'>
+                  <HashLink
+                    className='nav_link nav-mint-btn'
+                    smooth
+                    to={"/page#wallet"}
+                  >
+                    Mint <i class='far fa-certificate'></i>
+                  </HashLink>
                 </NavItem>
               </Nav>
             </Collapse>

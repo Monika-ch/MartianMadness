@@ -1,0 +1,86 @@
+.teams-section {
+  box-sizing: border-box;
+  width: 80vw;
+  margin: auto;
+  margin-top: 5rem;
+  border-top: 5px inset #131310a9;
+  font-size: 1.1em;
+  font-family: "Special Elite", cursive;
+  background: #0b538f;
+  background: linear-gradient(120deg, #035ca5 30%, #106314 60%, #00f7ff 100%);
+  background: -moz-linear-gradient(
+    120deg,
+    #035ca5 30%,
+    #106314 60%,
+    #00f7ff 100%
+  );
+  background: -webkit-linear-gradient(
+    120deg,
+    #035ca5 30%,
+    #106314 60%,
+    #00f7ff 100%
+  );
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+}
+
+.teams-container {
+  box-sizing: border-box;
+  padding: 3em;
+  width: 70%;
+  height: 100%;
+  font-size: 1.33rem;
+}
+
+.teams-heading,
+.teams-subheading {
+  color: #ffb300;
+  text-align: center;
+}
+
+.teams-heading {
+  font-size: 2em;
+}
+
+.teams-subheading {
+  font-size: 1.5em;
+  margin-bottom: 5.5rem;
+}
+
+.teams-main-content {
+  text-align: justify;
+  font-size: 1.33rem;
+  line-height: 2.2rem;
+  margin-top: 6rem;
+  transition: all 200ms;
+  -webkit-transition: all 200ms;
+  -moz-transition: all 200ms;
+  -ms-transition: all 200ms;
+  -o-transition: all 200ms;
+  color: #f0ebec;
+}
+
+/* .teams-main-content:hover {
+  color: rgb(255, 200, 133);
+  transform: scale(1.015);
+  -webkit-transform: scale(1.015);
+  -moz-transform: scale(1.015);
+  -ms-transform: scale(1.015);
+  -o-transform: scale(1.015);
+} */
+
+.team-members {
+  margin-top: 6rem;
+}
+
+.team-dp {
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+}
