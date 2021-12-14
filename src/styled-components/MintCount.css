@@ -1,6 +1,6 @@
 .header-mint-count {
   width: 40%;
-  margin: 4% auto;
+  margin: 5% auto;
 }
 .header-mint-count .count-wrapper {
   /* background: #00000056; */
@@ -22,8 +22,9 @@
   /*fallbackforoldbrowsers*/
   background: -webkit-linear-gradient(to left, #24fe41, #fdfc47);
   /*Chrome10-25,Safari5.1-6*/
-  background: linear-gradient(to left, #fe24fe, #fdfc47);
+  /* background: linear-gradient(to left, #fe24fe, #fdfc47); */
   /*W3C,IE10+/Edge,Firefox16+,Chrome26+,Opera12+,Safari7+*/
+  background: linear-gradient(to left, #00ffff, #fe24fe, #fdfc47);
   border: none;
   padding: 1rem 2rem;
   font-weight: 500;

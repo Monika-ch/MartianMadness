@@ -13,9 +13,9 @@
     rgb(44, 195, 255) 0%,
     rgba(2, 1, 0, 0.747) 50%
   ); */
-  background: radial-gradient(circle, #021c3fa9 70%, #07defbd9 90%);
-  background: -moz-radial-gradient(circle, #021c3fa9 70%, #07defbd9 90%);
-  background: -webkit-radial-gradient(circle, #021c3fa9 70%, #07defbd9 90%);
+  background: linear-gradient(220deg, #021c3fa9 70%, #fb07d2d9 90%);
+  background: -moz-linear-gradient(220deg, #021c3fa9 70%, #fb07d2d9 90%);
+  background: -webkit-linear-gradient(220deg, #021c3fa9 70%, #fb07d2d9 90%);
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   /*box-shadow: 0px 4px 100px 50px rgba(219, 5, 219, 0.2);
   */

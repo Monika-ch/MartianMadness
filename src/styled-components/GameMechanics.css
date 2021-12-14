@@ -11,6 +11,19 @@
   background: linear-gradient(270deg, #9c024d 0%, #02000188 100%);
   background: -moz-linear-gradient(270deg, #9c024d 0%, #02000188 100%);
   background: -webkit-linear-gradient(270deg, #9c024d 0%, #02000188 100%);
+  background: linear-gradient(220deg, #001d38 0%, #020c0c 70%, #f5841a 90%);
+  background: -moz-linear-gradient(
+    220deg,
+    #001d38 0%,
+    #020c0c 70%,
+    #f5841a 90%
+  );
+  background: -webkit-linear-gradient(
+    220deg,
+    #001d38 0%,
+    #020c0c 70%,
+    #f5e61a 90%
+  );
   box-shadow: 0 4px 8px 0 #00000033, 0 6px 20px 0 #00000030;
   /*box-shadow: 0px 4px 100px 50px rgba(219, 5, 219, 0.2);
   */
