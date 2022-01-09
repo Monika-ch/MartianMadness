@@ -24,7 +24,7 @@ body {
     rgb(0, 71, 77) 6%,
     rgb(211, 161, 212) 30%,
     rgb(64, 194, 206) 60%,
-    /* hsl(180, 33%, 3%) 88% */
+    hsl(180, 33%, 3%) 88%
   );
   filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#390974", endColorstr="#221F22", GradientType=1 );
   -webkit-filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#390974", endColorstr="#221F22", GradientType=1 );
