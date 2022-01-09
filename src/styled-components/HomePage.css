@@ -87,11 +87,11 @@
   }
 } */
 
-@media (max-width: 1200px) {
-  /* .siteName {
+/* @media (max-width: 1200px) {
+  .siteName {
     width: 65vw;
-  } */
-}
+  }
+} */
 
 @media (max-width: 768px) {
   .social-media {
