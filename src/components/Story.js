@@ -10,7 +10,6 @@ class Story extends Component {
         {
           id: 0,
           name: "Martian Image 1",
-          image: `${process.env.PUBLIC_URL}/assets/images/IMG_1.webp`,
           imageCol: "col-md-5",
           textCol: "col-md-7 story-div",
           paraClassName: "story-para-1",
@@ -19,7 +18,6 @@ class Story extends Component {
         {
           id: 1,
           name: "Martian Image 2",
-          image: `${process.env.PUBLIC_URL}/assets/images/IMG_2.webp`,
           imageCol: "col-md-5 order-last",
           textCol: "col-md-7 order-first",
           paraClassName: "story-para-2 order-1",
@@ -28,7 +26,6 @@ class Story extends Component {
         {
           id: 2,
           name: "Martian Image 3",
-          image: `${process.env.PUBLIC_URL}/assets/images/IMG_3.webp`,
           imageCol: "col-md-5",
           textCol: "col-md-7 story-div",
           paraClassName: "story-para-1",
@@ -41,18 +38,37 @@ class Story extends Component {
   }
 
   render() {
-    const story = this.state.storyContents.map((storyContent) => {
+    let images = this.props.images;
+    if (images === null || images.length === 0) {
+      return <div> </div>;
+    }
+
+    while (images.length !== 3) {
+      images.push(images[0]);
+    }
+
+    let storyArrayWithImg = [];
+    for (let i = 0; i < this.state.storyContents.length; ++i) {
+      let storyContent = this.state.storyContents[i];
+      storyContent.image = images[i].src;
+      storyArrayWithImg.push(storyContent);
+    }
+
+    console.log(JSON.stringify(storyArrayWithImg));
+    // const story = this.state.storyContents.map((storyContent) => {
+    const story = storyArrayWithImg.map((storyContent) => {
       const {
         id,
         name,
-        image,
         imageCol,
         textCol,
+        image,
         paraClassName,
         text,
         solana,
         spanClassName,
       } = storyContent;
+
       return (
         <div key={id} className='row'>
           <div className={imageCol}>

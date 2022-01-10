@@ -11,7 +11,7 @@ class Gallery extends Component {
       return <div> </div>;
     }
 
-    while (images.length != 10) {
+    while (images.length !== 10) {
       images.push(images[0]);
     }
 
