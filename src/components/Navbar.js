@@ -53,15 +53,15 @@ class NavigationBar extends Component {
             </a>
           </div>
           <div className='social-media-box'>
-            <a href='https://twitter.com/MartianM_NFT' target='_blank'>
-              <i className='fab fa-instagram fa-3x'></i>
-            </a>
-          </div>
-          <div className='social-media-box'>
             <a
               href='https://www.instagram.com/martian_madness_nft/'
               target='_blank'
             >
+              <i className='fab fa-instagram fa-3x'></i>
+            </a>
+          </div>
+          <div className='social-media-box'>
+            <a href='https://twitter.com/MartianM_NFT' target='_blank'>
               <i className='fab fa-twitter fa-3x'></i>
             </a>
           </div>

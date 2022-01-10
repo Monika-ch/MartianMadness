@@ -1,61 +1,24 @@
-.social-media {
-  color: #f36aff;
-  position: fixed;
-  top: 35vh;
-  /*background-color: #f5f5de2a;
-  */
-  border-radius: 5px;
-  -webkit-border-radius: 5px;
-  -moz-border-radius: 5px;
-  -ms-border-radius: 5px;
-  -o-border-radius: 5px;
-  z-index: 1;
-}
-.social-media-box {
-  margin: 30px 20px;
-  z-index: 1;
-}
-
-/* .logo-container {
-  margin: 30px 20px;
-
-  padding: 1em;
-  box-shadow: 0 4px 30px 0 rgba(251, 255, 3, 0.884),
-    0 6px 20px 0 rgba(123, 196, 105, 0.562);
-} */
-
-.logo {
-  position: fixed;
-  top: 20vh;
-  left: 12px;
-  height: 6rem;
-  padding: 1em;
-  box-shadow: 0 4px 8px 0 #f36aff, 0 6px 20px 0 #00f7ff8f;
-  border-radius: 50%;
-  -webkit-border-radius: 50%;
-  -moz-border-radius: 50%;
-  -ms-border-radius: 50%;
-  -o-border-radius: 50%;
-}
-
 .navBar {
   position: fixed;
   width: 100%;
   margin-top: -2px;
   border-bottom: 1px solid #1e0833;
-  padding: 1.5rem;
+  padding: 1.1rem 1.5rem;
   z-index: 1;
+  border-bottom: 2px solid black;
   box-shadow: 0 50px 100px -20px #2705c0b3, 0 6px 20px 100px #0000004d;
   background: #00eeff;
   background: radial-gradient(circle, #00eeff 6%, #011e1e 90%);
   background: -moz-radial-gradient(circle, #00eeff 6%, #011e1e 90%);
-  background: -webkit-radial-gradient(circle, #ff00d4 6%, #011e1e 90%);
-  filter: progid: DXImageTransform.Microsoft.gradient(
-    startColorstr= "#00eeff",
-    endColorstr= "#011e1e",
-    GradientType=1
+  background: -webkit-radial-gradient(
+    circle,
+    #ff00aa 6%,
+    /* #011e1e 40%,
+    #011e1e 60%, */
+    #4c00ff 90%
   );
-  -webkit-filter: progid: DXImageTransform.Microsoft.gradient(    startColorstr= "#00eeff",    endColorstr= "#011e1e",    GradientType=1  );
+  /* filter: progid: DXImageTransform.Microsoft.gradient(    startColorstr= "#00eeff",    endColorstr= "#011e1e",    GradientType=1  );
+  -webkit-filter: progid: DXImageTransform.Microsoft.gradient(    startColorstr= "#00eeff",    endColorstr= "#011e1e",    GradientType=1  ); */
 }
 
 .navBar .nav_link {
@@ -85,7 +48,7 @@
 }
 
 .navBar .nav_link:hover {
-  border: 1px solid #ff4800;
+  border: 1px solid #9beb1a;
   box-shadow: 0 4px 8px 0 #db05db91, 0 6px 20px 0 #00000030;
   border-radius: 3px;
   -webkit-border-radius: 3px;
@@ -122,54 +85,120 @@
 }
 
 .navBar .wallet {
-  /* border: 1px ridge #d3bacc91; */
+  /*border: 1px ridge #d3bacc91;
+  */
   color: #000011 !important;
-  background-color: #ffae7f;
-  margin-top: 0.01rem;
+  background-color: #cfffa3;
+  margin-top: 0.05rem;
   margin-left: 10vw;
   position: fixed;
   font-size: 1.3rem;
-  padding: 1.1rem 0.7rem 1.1rem 1.2rem !important;
+  padding: 0.7rem 0.7rem 0.7rem 1.2rem !important;
   box-shadow: -3px 4px 8px 0 #8b8eb191, 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   border-radius: 20px 50px;
   -webkit-border-radius: 20px 50px;
   -moz-border-radius: 20px 50px;
   -ms-border-radius: 20px 50px;
   -o-border-radius: 20px 50px;
-  transition: border-radius ease 400ms, transform ease 250ms;
-  -webkit-transition: border-radius ease 400ms, transform ease 250ms;
-  -moz-transition: border-radius ease 400ms, transform ease 250ms;
-  -ms-transition: border-radius ease 400ms, transform ease 250ms;
-  -o-transition: border-radius ease 400ms, transform ease 250ms;
+  transition: border-radius ease 400ms, transform ease 250ms,
+    border-left ease 400ms;
+  -webkit-transition: border-radius ease 400ms, transform ease 250ms,
+    border-left ease 400ms;
+  -moz-transition: border-radius ease 400ms, transform ease 250ms,
+    border-left ease 400ms;
+  -ms-transition: border-radius ease 400ms, transform ease 250ms,
+    border-left ease 400ms;
+  -o-transition: border-radius ease 400ms, transform ease 250ms,
+    border-left ease 400ms;
 }
 
 .navBar .wallet:hover {
-  border-right: 5px solid #ffe135e0;
-  /* border-left: 5px solid rgba(255, 225, 53, 0.877); */
-  background: #a1e9e2;
+  background: #ffb151;
   /*fallbackforoldbrowsers*/
   background: -webkit-linear-gradient(to right, #ff3a9c, #ffb151, #40e0d0);
   /*Chrome10-25,Safari5.1-6*/
   background: linear-gradient(to right, #ff3a9c, #ffb151, #40e0d0);
   /*W3C,IE10+/Edge,Firefox16+,Chrome26+,Opera12+,Safari7+*/
   box-shadow: -3px 4px 8px 0 #8b8eb191, 0 6px 20px 0 #00000030;
-  border-radius: 20px 50px;
-  -webkit-border-radius: 20px 50px;
-  -moz-border-radius: 20px 50px;
-  -ms-border-radius: 20px 50px;
-  -o-border-radius: 20px 50px;
-  transform: scale(1.07) !important;
-  -webkit-transform: scale(1.07) !important;
-  -moz-transform: scale(1.07) !important;
-  -ms-transform: scale(1.07) !important;
-  -o-transform: scale(1.07) !important;
+  border-radius: 20px 30px;
+  -webkit-border-radius: 20px 30px;
+  -moz-border-radius: 20px 30px;
+  -ms-border-radius: 20px 30px;
+  -o-border-radius: 20px 30px;
+  transform: scale(1.02) !important;
+  -webkit-transform: scale(1.02) !important;
+  -moz-transform: scale(1.02) !important;
+  -ms-transform: scale(1.02) !important;
+  -o-transform: scale(1.02) !important;
+  border: none;
+  border-left: 10px inset #ffb151;
 }
 
 .fa-wallet {
   padding-left: 2px;
-  color: #0400ff;
+  color: #880139;
   font-size: 1.4rem;
 }
+
+.logo {
+  position: fixed;
+  top: 9vh;
+  left: 0.9rem;
+  height: 6rem;
+  padding: 0.8rem;
+  box-shadow: 0 4px 8px 0 #2a51ff, 0 6px 10px 0 #1100a7c4;
+  border-radius: 10% 50%;
+  -webkit-border-radius: 10% 50%;
+  -moz-border-radius: 10% 50%;
+  -ms-border-radius: 10% 50%;
+  -o-border-radius: 10% 50%;
+}
+
+.logo:hover {
+  transform: scale(1.01);
+  box-shadow: 0 4px 8px 0 #fdff6a, 0 6px 20px 0 #00f7ff8f;
+  border-radius: 40%;
+  -webkit-border-radius: 40%;
+  -moz-border-radius: 40%;
+  -ms-border-radius: 40%;
+  -o-border-radius: 40%;
+  -webkit-transform: scale(1.01);
+  -moz-transform: scale(1.01);
+  -ms-transform: scale(1.01);
+  -o-transform: scale(1.01);
+}
+
+.social-media {
+  color: #f36aff;
+  position: fixed;
+  top: 22vh;
+  /* background-color: #f5f5de2a; */
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+  z-index: 1;
+}
+
+.social-media-box {
+  margin: 7px 18px;
+  z-index: 1;
+}
+
+.fa-discord,
+.fa-instagram,
+.fa-twitter {
+  color: #8aff7f;
+  border: 1px solid rgba(0, 0, 255, 0.4);
+  padding: 1rem;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+}
+
 .navBar .nav-mint-btn {
   color: black !important;
   font-size: 0.87rem;

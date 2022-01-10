@@ -13,11 +13,11 @@ class HomePage extends Component {
         <section className='header-section'>
           <div className='header-content'>
             <Jumbotron>
-              <div className='heading-wrapper'>
+              <div className='head-wrapper'>
                 <h1 className='h1'>MARTiAN mADNEsS</h1>
+                <h2 className='h2'>Mint your Martian NFT</h2>
+                <MintCount />
               </div>
-
-              <MintCount />
             </Jumbotron>
           </div>
         </section>

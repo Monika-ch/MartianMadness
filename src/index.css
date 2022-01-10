@@ -9,21 +9,27 @@ body {
   background: #3a0977;
   background: radial-gradient(
     circle,
-    rgb(228, 15, 79) 6%,
+    rgb(94, 7, 33) 6%,
     rgb(71, 9, 56) 40%,
     hsl(180, 33%, 3%) 88%
   );
   background: -moz-radial-gradient(
     circle,
-    rgb(228, 15, 79) 6%,
+    rgb(94, 7, 33) 6%,
     rgb(71, 9, 56) 40%,
     hsl(180, 33%, 3%) 88%
   );
   background: -webkit-radial-gradient(
     circle,
-    rgb(228, 15, 79) 6%,
-    rgb(71, 9, 56) 40%,
-    hsl(180, 33%, 3%) 88%
+    rgb(255, 248, 143) 0%,
+    rgb(34, 1, 43) 16%,
+    rgb(0, 19, 11) 30%,
+    rgb(31, 21, 1) 50%,
+    rgb(34, 0, 25) 60%,
+    rgb(0, 0, 12) 80%,
+    rgb(32, 1, 25) 85%,
+    hsl(180, 33%, 3%) 90%,
+    hsl(50, 79%, 7%) 100%
   );
   filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#390974", endColorstr="#221F22", GradientType=1 );
   -webkit-filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#390974", endColorstr="#221F22", GradientType=1 );

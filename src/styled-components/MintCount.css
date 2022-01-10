@@ -1,30 +1,50 @@
 .header-mint-count {
-  width: 40%;
-  margin: 5% auto;
-}
-.header-mint-count .count-wrapper {
-  /* background: #00000056; */
-  width: 13rem;
-  margin: auto;
-  padding: 1.7rem 1.5rem;
-  /* border: 5px inset rgba(8, 8, 8, 0.9); */
-  border-radius: 50%;
-  -webkit-border-radius: 50%;
-  -moz-border-radius: 50%;
-  -ms-border-radius: 50%;
-  -o-border-radius: 50%;
+  width: 80%;
+  margin: 9.5rem auto 2rem;
+  padding: 1rem 2rem;
+  background-color: #af01af21;
+  background: linear-gradient(to top, #2e2e0056, #af01af21, #46460556);
+  background: #af01af21;
+  background: linear-gradient(
+    90deg,
+    #0000000e 10%,
+    #af01af8a 30%,
+    #0e000ec0 60%,
+    #1313000e 92%
+  );
+  background: -moz-linear-gradient(
+    90deg,
+    #0000000e 10%,
+    #af01af8a 30%,
+    #0e000ec0 60%,
+    #1313000e 92%
+  );
+  background: -webkit-linear-gradient(
+    90deg,
+    #0000000e 10%,
+    #af01af8a 30%,
+    #0e000ec0 60%,
+    #1313000e 92%
+  );
+  /*border-top: 1px inset #fdfd47b0;
+  border-left: 1px inset #00fd2ac4;
+  */
+  /* border-bottom: 1px inset #5d82fc56; */
+  /*border-right: 1px inset #e63c11c5;
+  */border-radius: 100px;
+  -webkit-border-radius: 100px;
+  -moz-border-radius: 100px;
+  -ms-border-radius: 100px;
+  -o-border-radius: 100px;
 }
 
 .header-mint-count .mint-btn {
-  /*background-color: rgb(255, 240, 107);
-  */
   background: #fdfc47;
+  /*W3C,IE10+/Edge,Firefox16+,Chrome26+,Opera12+,Safari7+*/
+  background: linear-gradient(to left, #24fe41, #fdfc47);
   /*fallbackforoldbrowsers*/
   background: -webkit-linear-gradient(to left, #24fe41, #fdfc47);
   /*Chrome10-25,Safari5.1-6*/
-  /* background: linear-gradient(to left, #fe24fe, #fdfc47); */
-  /*W3C,IE10+/Edge,Firefox16+,Chrome26+,Opera12+,Safari7+*/
-  background: linear-gradient(to left, #00ffff, #fe24fe, #fdfc47);
   border: none;
   padding: 1rem 2rem;
   font-weight: 500;
@@ -70,7 +90,7 @@
   color: rgb(80, 39, 39);
   box-shadow: 0px 4px 100px 50px rgba(219, 5, 219, 0.2),
     0 6px 20px 60px rgba(0, 0, 0, 0.19);
-  margin-top: 1rem;
+  margin-top: 1.5rem;
   padding: 0.8rem 0.4rem;
   background: rgba(184, 250, 2, 0.55);
   background: #cac531; /* fallback for old browsers */
