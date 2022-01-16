@@ -7,6 +7,7 @@ import GameMechanics from "./GameMechanics";
 import Teams from "./Teams";
 import Faq from "./Faq";
 import Footer from "./Footer";
+import shuffle from "../Helper"
 // import Wallet from "./Wallet";
 
 // const randomImageGenerator = () => {
@@ -136,18 +137,6 @@ const images = [
   },
 ];
 
-function shuffle(arr) {
-  let arrLength = arr.length;
-  while (arrLength) {
-    let randomIndex = Math.floor(Math.random() * arrLength);
-    arrLength--;
-    let temp = arr[randomIndex];
-    arr[randomIndex] = arr[arrLength];
-    arr[arrLength] = temp;
-  }
-  return arr;
-}
-
 // const randomImageGenerator = images.slice(0, 10).map(function () {
 //   return this.splice(Math.floor(Math.random() * this.length), 1)[0];
 // }, images.slice());
@@ -165,7 +154,7 @@ export default function Main() {
         <Story images={shuffledArr.slice(0, 3)} />
       </section>
       <section id='gallery'>
-        <Gallery images={shuffledArr.slice(3, 13)} />
+        <Gallery images={shuffledArr.slice(3)} />
         {/* <Gallery images={images.randomImageGenerator} /> */}
       </section>
       <section id='roadmap'>
