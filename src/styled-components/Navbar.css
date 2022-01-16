@@ -1,11 +1,12 @@
 .navBar {
   position: fixed;
   width: 100%;
-  margin-top: -2px;
-  border-bottom: 1px solid #1e0833;
-  padding: 1.1rem 1.5rem;
+  top: 0;
+  border-bottom: 1px inset #4097e9;
+  padding: 0.7rem;
+    padding-bottom: 0.9rem;
   z-index: 1;
-  border-bottom: 2px solid black;
+  /* border-bottom: 5px solid black; */
   box-shadow: 0 50px 100px -20px #2705c0b3, 0 6px 20px 100px #0000004d;
   background: #00eeff;
   background: radial-gradient(circle, #00eeff 6%, #011e1e 90%);
@@ -14,7 +15,7 @@
     circle,
     #ff00aa 6%,
     /* #011e1e 40%,
-    #011e1e 60%, */
+    #011e1e 60%, */ 
     #4c00ff 90%
   );
   /* filter: progid: DXImageTransform.Microsoft.gradient(    startColorstr= "#00eeff",    endColorstr= "#011e1e",    GradientType=1  );
@@ -28,7 +29,7 @@
   color: #1f1f1b !important;
   font-size: 1.2rem;
   cursor: pointer;
-  padding: 0.7rem 1.7rem !important;
+  padding: 0.5rem 1.3rem !important;
   margin: 0.9rem 0.9rem 0.3rem;
   text-decoration: none;
   /* margin-right: 0.9rem;
@@ -93,7 +94,8 @@
   margin-left: 10vw;
   position: fixed;
   font-size: 1.3rem;
-  padding: 0.7rem 0.7rem 0.7rem 1.2rem !important;
+  border: 5px solid black;
+  padding: 0.5rem 0.5rem 0.5rem 1rem !important;
   box-shadow: -3px 4px 8px 0 #8b8eb191, 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   border-radius: 20px 50px;
   -webkit-border-radius: 20px 50px;

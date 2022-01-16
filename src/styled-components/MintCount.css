@@ -1,6 +1,6 @@
 .header-mint-count {
   width: 80%;
-  margin: 9.5rem auto 2rem;
+  margin: 7.5rem auto 2rem;
   padding: 1rem 2rem;
   background-color: #af01af21;
   background: linear-gradient(to top, #2e2e0056, #af01af21, #46460556);
@@ -8,21 +8,27 @@
   background: linear-gradient(
     90deg,
     #0000000e 10%,
-    #af01af8a 30%,
+    #7701777e 30%,
+    #af01afe1 40%,
+        #1e004e75 50%,
     #0e000ec0 60%,
     #1313000e 92%
   );
   background: -moz-linear-gradient(
     90deg,
     #0000000e 10%,
-    #af01af8a 30%,
+    #7701777e 30%,
+    #af01afe1 40%,
+        #1e004e75 50%,
     #0e000ec0 60%,
     #1313000e 92%
   );
   background: -webkit-linear-gradient(
     90deg,
     #0000000e 10%,
-    #af01af8a 30%,
+    #7701777e 30%,
+    #af01afe1 40%,
+        #1e004e75 50%,
     #0e000ec0 60%,
     #1313000e 92%
   );
@@ -31,7 +37,8 @@
   */
   /* border-bottom: 1px inset #5d82fc56; */
   /*border-right: 1px inset #e63c11c5;
-  */border-radius: 100px;
+  */
+  border-radius: 100px;
   -webkit-border-radius: 100px;
   -moz-border-radius: 100px;
   -ms-border-radius: 100px;
