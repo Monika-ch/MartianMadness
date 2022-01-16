@@ -4,7 +4,7 @@
   top: 0;
   border-bottom: 1px inset #4097e9;
   padding: 0.7rem;
-    padding-bottom: 0.9rem;
+  padding-bottom: 0.9rem;
   z-index: 1;
   /* border-bottom: 5px solid black; */
   box-shadow: 0 50px 100px -20px #2705c0b3, 0 6px 20px 100px #0000004d;
@@ -15,7 +15,7 @@
     circle,
     #ff00aa 6%,
     /* #011e1e 40%,
-    #011e1e 60%, */ 
+    #011e1e 60%, */
     #4c00ff 90%
   );
   /* filter: progid: DXImageTransform.Microsoft.gradient(    startColorstr= "#00eeff",    endColorstr= "#011e1e",    GradientType=1  );
@@ -61,6 +61,16 @@
   -moz-transform: scale(1.1) !important;
   -ms-transform: scale(1.1) !important;
   -o-transform: scale(1.1) !important;
+}
+
+.navBar .nav_link:active {
+  border: 1px solid #1a28eb;
+  box-shadow: 0 4px 8px 0 #05db4591, 0 6px 20px 0 #00000030;
+}
+
+.navBar .nav_link:enabled {
+  border-bottom: 10px solid #1a28eb;
+  box-shadow: 0 4px 8px 0 #05db4591, 0 6px 20px 0 #00000030;
 }
 
 .navBar .gallery_btn {
@@ -132,8 +142,12 @@
   -moz-transform: scale(1.02) !important;
   -ms-transform: scale(1.02) !important;
   -o-transform: scale(1.02) !important;
-  border: none;
-  border-left: 10px inset #ffb151;
+  border: 5px solid black;
+  border-left: 13px inset #b1660a;
+}
+
+.navBar .wallet:active {
+  box-shadow: 0 4px 8px 0 #eeff00, 0 6px 20px 0 #ffe600;
 }
 
 .fa-wallet {
@@ -149,25 +163,34 @@
   height: 6rem;
   padding: 0.8rem;
   box-shadow: 0 4px 8px 0 #2a51ff, 0 6px 10px 0 #1100a7c4;
+  transition: border-radius ease 400ms, box-shadow ease 250ms;
   border-radius: 10% 50%;
   -webkit-border-radius: 10% 50%;
   -moz-border-radius: 10% 50%;
   -ms-border-radius: 10% 50%;
   -o-border-radius: 10% 50%;
+  -webkit-transition: border-radius ease 400ms, box-shadow ease 250ms;
+  -moz-transition: border-radius ease 400ms, box-shadow ease 250ms;
+  -ms-transition: border-radius ease 400ms, box-shadow ease 250ms;
+  -o-transition: border-radius ease 400ms, box-shadow ease 250ms;
 }
 
 .logo:hover {
   transform: scale(1.01);
-  box-shadow: 0 4px 8px 0 #fdff6a, 0 6px 20px 0 #00f7ff8f;
-  border-radius: 40%;
-  -webkit-border-radius: 40%;
-  -moz-border-radius: 40%;
-  -ms-border-radius: 40%;
-  -o-border-radius: 40%;
+  box-shadow: 0 4px 8px 0 #ff0062, 0 6px 20px 0 #88ff008f;
+  border-radius: 50% 10%;
+  -webkit-border-radius: 50% 10%;
+  -moz-border-radius: 50% 10%;
+  -ms-border-radius: 50% 10%;
+  -o-border-radius: 50% 10%;
   -webkit-transform: scale(1.01);
   -moz-transform: scale(1.01);
   -ms-transform: scale(1.01);
   -o-transform: scale(1.01);
+}
+
+.logo:active {
+  box-shadow: 0 4px 8px 0 #eeff00, 0 6px 20px 0 #ffe600d5;
 }
 
 .social-media {
@@ -195,10 +218,41 @@
   border: 1px solid rgba(0, 0, 255, 0.4);
   padding: 1rem;
   border-radius: 50%;
+  transition: color ease 300ms, border-radius ease 300ms, transform ease 250ms;
   -webkit-border-radius: 50%;
   -moz-border-radius: 50%;
   -ms-border-radius: 50%;
   -o-border-radius: 50%;
+  -webkit-transition: color ease 300ms, border ease 300ms,
+    border-radius ease 300ms, transform ease 250ms;
+  -moz-transition: color ease 300ms, border-radius ease 300ms,
+    transform ease 250ms;
+  -ms-transition: color ease 300ms, border-radius ease 300ms,
+    transform ease 250ms;
+  -o-transition: color ease 300ms, border-radius ease 300ms,
+    transform ease 250ms;
+}
+
+.fa-discord:hover,
+.fa-instagram:hover,
+.fa-twitter:hover {
+  color: #ff0062;
+  transform: scale(1.05);
+  border-radius: 40%;
+  -webkit-border-radius: 40%;
+  -moz-border-radius: 40%;
+  -ms-border-radius: 40%;
+  -o-border-radius: 40%;
+  -webkit-transform: scale(1.05);
+  -moz-transform: scale(1.05);
+  -ms-transform: scale(1.05);
+  -o-transform: scale(1.05);
+}
+
+.fa-discord:active,
+.fa-instagram:active,
+.fa-twitter:active {
+  border: 1px solid #00ff55;
 }
 
 .navBar .nav-mint-btn {
@@ -244,7 +298,6 @@
     color: #000011 !important;
     border: none;
     margin: 1rem 1rem 0.25rem;
-
     position: static;
     /*font-size: 0.87em;
     */ /*font-weight: 600;
@@ -265,6 +318,7 @@
     -ms-transition: border-radius ease 300ms, transform ease 350ms;
     -o-transition: border-radius ease 300ms, transform ease 350ms;
   }
+
   .navBar .wallet:hover {
     border: none;
     margin: 0.7rem 1rem 0.1rem;
