@@ -63,7 +63,7 @@
   text-align: justify;
   font-size: 1.33rem;
   line-height: 2.2rem;
-  margin-top: 6rem;
+  margin-top: 3rem;
   transition: all 200ms;
   -webkit-transition: all 200ms;
   -moz-transition: all 200ms;
@@ -81,8 +81,12 @@
   -o-transform: scale(1.015);
 } */
 
-.team-members {
-  margin-top: 6rem;
+.team-members h4 {
+  color: #00f7ff;
+}
+
+.team-members h5 {
+  color: #0084ff;
 }
 
 .team-dp {
@@ -91,4 +95,12 @@
   -moz-border-radius: 50%;
   -ms-border-radius: 50%;
   -o-border-radius: 50%;
+}
+
+.p5-together {
+  color: #00ff95;
+  font-size: 1.8rem;
+  margin-top: 4rem;
+  font-weight: 100;
+  border-bottom: 1px solid #0084ff;
 }
