@@ -17,7 +17,7 @@ class Roadmap extends Component {
 
             <div className='row'>
               {/* --ROADMAP TIMELINE-- */}
-              <div className='col-md-5 roadmap-box1'>
+              <div className='col-md-5 roadmap-time-release-box'>
                 <div className='roadmap-timeline'>
                   <h3 className='roadmap-subheading mt-md-4'>Timed Releases</h3>
 
@@ -53,11 +53,11 @@ class Roadmap extends Component {
 
               {/* --ROADMAP-REWARDS-- */}
 
-              <div className='col-md-6 roadmap-box2'>
+              <div className='col-md-6 roadmap-rewards-box'>
                 <div className='roadmap-rewards'>
                   <h3 className='roadmap-subheading mt-md-4'>Sales Reward</h3>
 
-                  <div className='roadmap-rewards-para'>
+                  <div className='roadmap-rewards-para roadmap-rewards-para-1'>
                     <h4 className='roadmap-percent'>
                       25%<span>-Early adopters’ giveaway</span>
                     </h4>
@@ -67,7 +67,7 @@ class Roadmap extends Component {
                     </p>
                   </div>
 
-                  <div className='roadmap-rewards-para my-2 mx-5'>
+                  <div className='roadmap-rewards-para roadmap-rewards-para-2 my-2 mx-5'>
                     <h4 className='roadmap-percent'>
                       50%<span>-Bring a friend</span>
                     </h4>
@@ -75,12 +75,10 @@ class Roadmap extends Component {
                       Refer a friend in the Discord channel and we will enter
                       them for a raffle! 3 lucky referrals will be awarded a
                       full 4 Martian team!
-                      {/* "Reserved for referrals who DO NOT
-                        currently own any Martians!" */}
                     </p>
                   </div>
 
-                  <div className='roadmap-rewards-para'>
+                  <div className='roadmap-rewards-para roadmap-rewards-para-3 mt-4'>
                     <h4 className='roadmap-percent'>
                       75%<span>-All holders raffle</span>
                     </h4>
@@ -90,7 +88,7 @@ class Roadmap extends Component {
                     </p>
                   </div>
 
-                  <div className='roadmap-rewards-para my-2 mx-5'>
+                  <div className='roadmap-rewards-para roadmap-rewards-para-4 my-2 mx-5'>
                     <h4 className='roadmap-percent'>
                       100%
                       <span className='roadmap-solana-giveaway'>
