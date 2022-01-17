@@ -16,9 +16,11 @@ class Faq extends Component {
           <div className='container faq-container'>
             <h2 className='faq-heading'>The Faqs..</h2>
             <div className='faq-content'>
-              <Accordion flush className='faq-accordion'>
+              <Accordion>
                 <Accordion.Item eventKey='0'>
-                  <Accordion.Header>How do I mint a Martian?</Accordion.Header>
+                  <Accordion.Header>
+                    How do I mint a Martian?
+                  </Accordion.Header>
                   <Accordion.Body>
                     You will need a Solana compatible wallet, our recommended
                     choice is Phantom. You will need to fund your Solana wallet
