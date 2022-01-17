@@ -119,6 +119,10 @@ const images = [
     id: 29,
     src: `${process.env.PUBLIC_URL}/assets/images/IMG_30.webp`,
   },
+  {
+    id: 30,
+    src: `${process.env.PUBLIC_URL}/assets/images/IMG_31.webp`,
+  },
 ];
 
 export default images;
