@@ -1,7 +1,7 @@
 const storyContents = [
   {
     id: 0,
-    name: "Martian Image 1",
+    name: "",
     imageCol: "col-md-5",
     textCol: "col-md-7 story-div",
     paraClassName: "story-para-1",
@@ -9,7 +9,7 @@ const storyContents = [
   },
   {
     id: 1,
-    name: "Martian Image 2",
+    name: "",
     imageCol: "col-md-5 order-last",
     textCol: "col-md-7 order-first",
     paraClassName: "story-para-2 order-1",
@@ -17,7 +17,7 @@ const storyContents = [
   },
   {
     id: 2,
-    name: "Martian Image 3",
+    name: "",
     imageCol: "col-md-5",
     textCol: "col-md-7 story-div",
     paraClassName: "story-para-1",

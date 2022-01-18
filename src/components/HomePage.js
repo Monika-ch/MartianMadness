@@ -21,15 +21,6 @@ class HomePage extends Component {
             </Jumbotron>
           </div>
         </section>
-
-        {/* <div>
-          <img
-            className='ufo'
-            src={`${process.env.PUBLIC_URL}/ufo.png`}
-            alt='ufo'
-            width='450'
-          />
-        </div> */}
       </React.Fragment>
     );
   }

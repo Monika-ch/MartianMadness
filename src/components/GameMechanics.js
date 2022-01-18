@@ -19,10 +19,10 @@ class GameMechanics extends Component {
             </h3>
             {/* row 1: 3 imgs */}
             <div className='row'>
-              <div className='col-lg-4 game-mechanics-div'>
+              <div className='col-lg-4 ufo-1 game-mechanics-div'>
                 <img
-                  src={`${process.env.PUBLIC_URL}/assets/images/martians512/Untitled_Artwork-4.png`}
-                  alt='Martian-4'
+                  src={`${process.env.PUBLIC_URL}/assets/images/UFO.webp`}
+                  alt=''
                   width='300'
                 />
               </div>
@@ -34,10 +34,10 @@ class GameMechanics extends Component {
                 </p>
                 <h4 className='text-warning'>Details coming soon !</h4>
               </div>
-              <div className='col-lg-4 game-mechanics-div'>
+              <div className='col-lg-4 ufo-2 game-mechanics-div'>
                 <img
-                  src={`${process.env.PUBLIC_URL}/assets/images/martians512/Untitled_Artwork-6.png`}
-                  alt='Martian-6'
+                  src={`${process.env.PUBLIC_URL}/assets/images/UFO.webp`}
+                  alt=''
                   width='300'
                 />
               </div>

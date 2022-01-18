@@ -35,8 +35,8 @@ class Teams extends Component {
                     <div className='row team-members'>
                       <div className='col mt-5 mx-md-auto'>
                         <img
-                          src={`${process.env.PUBLIC_URL}/assets/images/Monika12b.webp`}
-                          alt='Monika12b'
+                          src={`${process.env.PUBLIC_URL}/assets/images/Moon12b.webp`}
+                          alt='Moon12b'
                           width='150'
                           className='team-dp'
                         />
