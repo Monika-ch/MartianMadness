@@ -17,7 +17,7 @@ class Roadmap extends Component {
 
             <div className='row'>
               {/* --ROADMAP TIMELINE-- */}
-              <div className='col-md-5 roadmap-time-release-box'>
+              <div className='col-lg-5 col-md-6 roadmap-time-release-box'>
                 <div className='roadmap-timeline'>
                   <h3 className='roadmap-subheading mt-md-4'>Timed Releases</h3>
 

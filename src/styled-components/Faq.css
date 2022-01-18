@@ -4,7 +4,6 @@
   margin: auto;
   margin-top: 5rem;
   border-top: 5px inset #131310a9;
-  font-size: 1.1em;
   background: #021020cc;
   background: linear-gradient(30deg, #1b101b 0%, #021020cc 100%);
   background: -moz-linear-gradient(30deg, #1b101b 0%, #021020cc 100%);
@@ -19,7 +18,7 @@
 
 .faq-container {
   box-sizing: border-box;
-  padding: 3em;
+  padding: 3rem;
   width: 70%;
   height: 100%;
   font-size: 1.33rem;
@@ -40,7 +39,8 @@
 }
 
 .accordion-item {
-  font-size: 80%;
+  font-family: "Special Elite", cursive;
+  font-size: 90%;
   color: darkblue;
   background-color: rgb(177, 253, 158);
   border-radius: 20px;
@@ -58,6 +58,7 @@
 .accordion-button {
   background-color: rgb(169, 245, 255);
   border-bottom: 3px dotted rgba(0, 0, 0, 0.048);
+  font-size: 1.17rem;
 }
 
 .accordion-button:focus {
@@ -66,7 +67,8 @@
 
 .accordion-button:not(.collapsed) {
   background-color: rgb(26, 24, 8);
-  color: rgb(95, 136, 248);
+  color: rgb(155, 250, 3);
+  font-weight: 500;
   font-size: 70%;
 }
 

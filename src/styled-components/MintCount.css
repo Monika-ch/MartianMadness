@@ -10,8 +10,8 @@
     #0000000e 10%,
     #7701777e 30%,
     #ff44ff 40%,
-    #ff009575 50%,
-    #0e000ec0 60%,
+    #ff009575 45%,
+    #0e000ec0 55%,
     #1313000e 92%
   );
   background: -moz-linear-gradient(
@@ -19,8 +19,8 @@
     #0000000e 10%,
     #7701777e 30%,
     #ff44ff 40%,
-    #ff009575 50%,
-    #0e000ec0 60%,
+    #ff009575 45%,
+    #0e000ec0 55%,
     #1313000e 92%
   );
   background: -webkit-linear-gradient(
@@ -28,16 +28,10 @@
     #0000000e 10%,
     #7701777e 30%,
     #ff44ff 40%,
-    #ff009575 50%,
-    #0e000ec0 60%,
+    #ff009575 45%,
+    #0e000ec0 55%,
     #1313000e 92%
   );
-  /*border-top: 1px inset #fdfd47b0;
-  border-left: 1px inset #00fd2ac4;
-  */
-  /* border-bottom: 1px inset #5d82fc56; */
-  /*border-right: 1px inset #e63c11c5;
-  */
   border-radius: 100px;
   -webkit-border-radius: 100px;
   -moz-border-radius: 100px;
@@ -85,8 +79,9 @@
   -o-transform: skew(-1deg, 1deg) scale(1.07);
   background: #fda943;
   /*fallbackforoldbrowsers*/
-  background: -webkit-linear-gradient(100deg, #ff0080, #fda943, #39ffeb);
   background: linear-gradient(100deg, #ff0080, #fda943, #39ffeb);
+  background: -webkit-linear-gradient(100deg, #ff0080, #fda943, #39ffeb);
+  background: -moz-linear-gradient(100deg, #ff0080, #fda943, #39ffeb);
 }
 
 .fa-certificate {
@@ -99,20 +94,19 @@
     0 6px 20px 60px rgba(0, 0, 0, 0.19);
   margin-top: 1.5rem;
   padding: 0.8rem 0.4rem;
-  background: rgba(184, 250, 2, 0.55);
-  background: #cac531; /* fallback for old browsers */
+  background: #cac531;
+  /* fallback for old browsers */
+  background: linear-gradient(
+    to left,
+    #f3f9a7,
+    #cac531
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
   background: -webkit-linear-gradient(to left, #f3f9a7, #cac531);
   background: -moz-linear-gradient(
     to left,
     #f3f9a7,
     #cac531
   ); /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(
-    to left,
-    #f3f9a7,
-    #cac531
-  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-
   border-radius: 50px;
   -webkit-border-radius: 50px;
   -moz-border-radius: 50px;
