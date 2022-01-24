@@ -8,33 +8,22 @@
   z-index: 1;
   /* border-bottom: 5px solid black; */
   box-shadow: 0 50px 100px -20px #2705c0b3, 0 6px 20px 100px #0000004d;
-  background: #00eeff;
-  background: radial-gradient(circle, #00eeff 6%, #011e1e 90%);
-  background: -moz-radial-gradient(circle, #00eeff 6%, #011e1e 90%);
-  background: -webkit-radial-gradient(
-    circle,
-    #ff00aa 6%,
-    /* #011e1e 40%,
-    #011e1e 60%, */
-    #4c00ff 90%
-  );
-  /* filter: progid: DXImageTransform.Microsoft.gradient(    startColorstr= "#00eeff",    endColorstr= "#011e1e",    GradientType=1  );
-  -webkit-filter: progid: DXImageTransform.Microsoft.gradient(    startColorstr= "#00eeff",    endColorstr= "#011e1e",    GradientType=1  ); */
+  background: #ff00aa;
+  background: radial-gradient(circle, #ff00aa 6%, #4c00ff 90%);
+  background: -moz-radial-gradient(circle, #ff00aa 6%, #4c00ff 90%);
+  background: -webkit-radial-gradient(circle, #ff00aa 6%, #4c00ff 90%);
+  filter: progid: DXImageTransform.Microsoft.gradient(    startColorstr= "#ff00aa",    endColorstr= "#4c00ff",    GradientType=1  );
+  -webkit-filter: progid: DXImageTransform.Microsoft.gradient(    startColorstr= "#ff00aa",    endColorstr= "#4c00ff",    GradientType=1  );
 }
 
 .navBar .nav_link {
-  /* font-family: "Exo", sans-serif; */
   font-family: "Special Elite", cursive;
-  /* font-family: "Raleway", sans-serif; */
   color: #1f1f1b !important;
   font-size: 1.2rem;
   cursor: pointer;
   padding: 0.5rem 1.3rem !important;
   margin: 0.9rem 0.9rem 0.3rem;
   text-decoration: none;
-  /* margin-right: 0.9rem;
-  margin-left: 0.9rem; */
-  /* letter-spacing: 1px; */
   box-shadow: 0 4px 8px 0 #6f701969, 0 6px 20px 0 #00000030;
   border-radius: 8px;
   -webkit-border-radius: 8px;
@@ -63,7 +52,8 @@
   -o-transform: scale(1.1) !important;
 }
 
-.navBar .nav_link:active {
+.navBar .nav_link:active,
+.navBar .gallery_btn:active {
   border: 1px solid #1a28eb;
   box-shadow: 0 4px 8px 0 #05db4591, 0 6px 20px 0 #00000030;
 }
@@ -96,8 +86,6 @@
 }
 
 .navBar .wallet {
-  /*border: 1px ridge #d3bacc91;
-  */
   color: #000011 !important;
   background-color: #cfffa3;
   margin-top: 0.05rem;
@@ -255,6 +243,83 @@
   border: 1px solid #00ff55;
 }
 
+/* @media (max-width: px) {
+} */
+
+@media (max-width: 768px) {
+  .logo {
+    height: 2.7rem;
+    padding: 0.22rem;
+    top: 8px;
+    box-shadow: 0 2px 5px 0 #1f360d, 0 3px 5px 0 #aaffc8c4;
+  }
+
+  .social-media {
+    position: fixed;
+    top: 18vh;
+  }
+
+  .social-media-box {
+    margin: 4px 0;
+    font-size: 9px;
+  }
+
+  .fa-discord,
+  .fa-instagram,
+  .fa-twitter {
+    padding: 0.5rem;
+  }
+
+  .navBar .nav_link {
+    display: block;
+    font-size: 1rem;
+  }
+
+  .navBar .nav_link:hover,
+  .navBar .gallery_btn:hover,
+  .navBar .nav-mint-btn:hover {
+    border: 1px solid #0b012f;
+    transform: scale(1.05);
+    -webkit-transform: scale(1.05);
+    -moz-transform: scale(1.05);
+    -ms-transform: scale(1.05);
+    -o-transform: scale(1.05);
+  }
+
+  .navBar .wallet {
+    font-size: 1.05rem;
+    border: 1px solid transparent;
+    margin: 1rem 1rem 0.25rem;
+    position: static;
+    padding: 0.4rem 1rem;
+    letter-spacing: 0.5px;
+    word-spacing: 1px;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+  }
+
+  .navBar .wallet:hover {
+    border: 1px solid #0b012f;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    transform: scale(1.1) !important;
+    -webkit-transform: scale(1.1) !important;
+    -moz-transform: scale(1.1) !important;
+    -ms-transform: scale(1.1) !important;
+    -o-transform: scale(1.1) !important;
+}
+
+  .fa-wallet {
+    font-size: 1.3rem;
+  }
+}
+
 .navBar .nav-mint-btn {
   color: black !important;
   font-size: 0.87rem;
@@ -273,69 +338,4 @@
   -ms-border-radius: 5px;
   -o-border-radius: 5px;
   letter-spacing: 1px;
-}
-
-/* @media (max-width: px) {
-} */
-
-@media (max-width: 768px) {
-  .logo {
-    height: 3rem;
-    padding: 0.25em;
-    border-radius: 20%;
-    -webkit-border-radius: 20%;
-    -moz-border-radius: 20%;
-    -ms-border-radius: 20%;
-    -o-border-radius: 20%;
-  }
-
-  .navBar {
-    background-color: #093438;
-    position: fixed;
-  }
-
-  .navBar .wallet {
-    color: #000011 !important;
-    border: none;
-    margin: 1rem 1rem 0.25rem;
-    position: static;
-    /*font-size: 0.87em;
-    */ /*font-weight: 600;
-    */
-    padding: 0.4rem 1rem !important;
-    letter-spacing: 0.5px;
-    word-spacing: 1px;
-    /*box-shadow: 0 4px 8px 0 #dbc60591, 0 6px 20px 0 #00000030;
-    */
-    border-radius: 5px;
-    -webkit-border-radius: 5px;
-    -moz-border-radius: 5px;
-    -ms-border-radius: 5px;
-    -o-border-radius: 5px;
-    transition: border-radius ease 300ms, transform ease 350ms;
-    -webkit-transition: border-radius ease 300ms, transform ease 350ms;
-    -moz-transition: border-radius ease 300ms, transform ease 350ms;
-    -ms-transition: border-radius ease 300ms, transform ease 350ms;
-    -o-transition: border-radius ease 300ms, transform ease 350ms;
-  }
-
-  .navBar .wallet:hover {
-    border: none;
-    margin: 0.7rem 1rem 0.1rem;
-    padding: 0.1rem 2rem;
-    border-radius: 20px;
-    -webkit-border-radius: 20px;
-    -moz-border-radius: 20px;
-    -ms-border-radius: 20px;
-    -o-border-radius: 20px;
-    transform: scale(1.03) !important;
-    -webkit-transform: scale(1.03) !important;
-    -moz-transform: scale(1.03) !important;
-    -ms-transform: scale(1.03) !important;
-    -o-transform: scale(1.03) !important;
-  }
-
-  .fa-wallet {
-    font-size: 1.3rem;
-  }
 }
