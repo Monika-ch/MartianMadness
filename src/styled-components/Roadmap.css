@@ -2,22 +2,22 @@
   box-sizing: border-box;
   width: 80vw;
   margin: auto;
-  margin-top: 5rem;
+  margin-top: 4.5rem;
   border-top: 5px inset #131310a9;
   font-family: "Special Elite", cursive;
   background: #000224;
-  background: linear-gradient(300deg, #001d38 0%, #020c0c 50%, #71ecfc 100%);
+  background: linear-gradient(220deg, #001d38 0%, #020c0c 70%, #f5841a 90%);
   background: -moz-linear-gradient(
-    300deg,
+    220deg,
     #001d38 0%,
-    #020c0c 50%,
-    #71ecfc 100%
+    #020c0c 70%,
+    #f5841a 90%
   );
   background: -webkit-linear-gradient(
-    300deg,
+    220deg,
     #001d38 0%,
-    #020c0c 50%,
-    #71ecfc 100%
+    #020c0c 70%,
+    #f5841a 90%
   );
   box-shadow: 0 4px 8px 0 #00000033, 0 6px 20px 0 #00000030;
   border-radius: 10px;
@@ -36,25 +36,22 @@
   line-height: 2.2rem;
 }
 
-.roadmap-box1 {
+.roadmap-time-release-box {
   border-left: 1px dashed #ffee00;
   border-right: 10px solid #041303;
   border-bottom: none;
   margin: 1.56rem;
-  border-radius: 20%;
-  -webkit-border-radius: 20%;
-  -moz-border-radius: 20%;
-  -ms-border-radius: 20%;
-  -o-border-radius: 20%;
+  border-radius: 50% 10%;
+  -webkit-border-radius: 50% 10%;
+  -moz-border-radius: 50% 10%;
+  -ms-border-radius: 50% 10%;
+  -o-border-radius: 50% 10%;
   background-color: #35032e3a;
 }
 
-.roadmap-box2 {
+.roadmap-rewards-box {
   margin: 1.56rem;
-  background-color: #fffcff9d;
   border-left: 10px solid #032c00;
-  /*border-right: 3px ridge rgb(43, 255, 0);
-  */
   border-radius: 10% 50% 80%;
   -webkit-border-radius: 10% 50% 80%;
   -moz-border-radius: 10% 50% 80%;
@@ -69,8 +66,8 @@
 }
 
 .roadmap-heading {
-  font-size: 2em;
-  margin-bottom: 5rem;
+  font-size: 2rem;
+  margin-bottom: 2rem;
 }
 
 .roadmap-subheading {
@@ -93,6 +90,7 @@
 
 .roadmap-timeline-para:hover {
   border-bottom: 1px solid #ff6600;
+  color: #ffc885;
 }
 
 /* --COMMON-- */
@@ -108,7 +106,6 @@
 
 .roadmap-timeline-para:hover,
 .roadmap-rewards-para:hover {
-  color: #ffc885;
   transform: scale(1.015);
   -webkit-transform: scale(1.015);
   -moz-transform: scale(1.015);
@@ -128,30 +125,38 @@
   padding: 1rem;
   padding-top: 0;
   border: 3px dotted #1a071b;
-  border-radius: 30px;
-  -webkit-border-radius: 30px;
-  -moz-border-radius: 30px;
-  -ms-border-radius: 30px;
-  -o-border-radius: 30px;
+  border-radius: 30px 120px;
+  -webkit-border-radius: 30px 120px;
+  -moz-border-radius: 30px 120px;
+  -ms-border-radius: 30px 120px;
+  -o-border-radius: 30px 120px;
   background-color: #0b092cbe;
   font-size: 83%;
 }
 
-.roadmap-rewards div:nth-child(3) {
+.roadmap-rewards-para-1:hover,
+.roadmap-rewards-para-3:hover {
+  background-color: #36050cd7;
+}
+
+.roadmap-rewards-para-2 {
   background-color: #2528e9b7;
 }
 
-.roadmap-rewards div:nth-child(4) {
-  background-color: #0d1518d7;
+.roadmap-rewards-para-2:hover {
+  background-color: #1518c7b7;
 }
 
-.roadmap-rewards div:nth-child(5) {
-  background-color: #000000e8;
+.roadmap-rewards-para-4 {
+  background-color: #a80068e8;
+}
+
+.roadmap-rewards-para-4:hover {
+  background-color: #b9005de8;
 }
 
 .roadmap-rewards-para:hover {
-  color: #fca3ff;
-  background-color: #a601af98;
+  border-color: #746c02;
 }
 
 .roadmap-percent {

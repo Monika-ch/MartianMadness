@@ -6,10 +6,11 @@
   border-top: 5px inset rgba(19, 19, 16, 0.664);
   font-size: 1.1em;
   font-family: "Special Elite", cursive;
-  background: #021c3fa9;
-  background: radial-gradient(circle, #021c3fa9 70%, #07defbd9 90%);
-  background: -moz-radial-gradient(circle, #021c3fa9 70%, #07defbd9 90%);
-  background: -webkit-radial-gradient(circle, #021c3fa9 70%, #07defbd9 90%);
+  background: #021125a9;
+  /* background: linear-gradient(220deg, #021c3fa9 70%, #07defbd9 90%); */
+  background: linear-gradient(220deg, #021125a9 70%, #ff0080d9 90%);
+  background: -moz-linear-gradient(220deg, #021125a9 70%, #ff0080d9 90%);
+  background: -webkit-linear-gradient(220deg, #021125a9 70%, #ff0080d9 90%);
   box-shadow: 0 4px 8px 0 #00000033, 0 6px 20px 0 #00000030;
   /*box-shadow: 0px 4px 100px 50px rgba(219, 5, 219, 0.2);
     */

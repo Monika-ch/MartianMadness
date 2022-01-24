@@ -48,13 +48,22 @@ class NavigationBar extends Component {
             />
           </HashLink>
           <div className='social-media-box'>
-            <i className='fab fa-discord fa-3x'></i>
+            <a href='https://discord.gg/2QGQuBTBA7' target='_blank'>
+              <i className='fab fa-discord fa-3x'></i>
+            </a>
           </div>
           <div className='social-media-box'>
-            <i className='fab fa-instagram fa-3x'></i>
+            <a
+              href='https://www.instagram.com/martian_madness_nft/'
+              target='_blank'
+            >
+              <i className='fab fa-instagram fa-3x'></i>
+            </a>
           </div>
           <div className='social-media-box'>
-            <i className='fab fa-twitter fa-3x'></i>
+            <a href='https://twitter.com/MartianM_NFT' target='_blank'>
+              <i className='fab fa-twitter fa-3x'></i>
+            </a>
           </div>
         </section>
         {/* <div className='logo-container d-none d-md-block'>
@@ -144,8 +153,8 @@ class NavigationBar extends Component {
                   </HashLink>
                 </NavItem>
                 <NavItem>
-                  <HashLink className='nav_link' smooth to={"/page#faq"}>
-                    Faq
+                  <HashLink className='nav_link' smooth to={"/page#teams"}>
+                    Teams/Faq
                   </HashLink>
                 </NavItem>
                 <NavItem>

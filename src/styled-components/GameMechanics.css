@@ -11,6 +11,19 @@
   background: linear-gradient(270deg, #9c024d 0%, #02000188 100%);
   background: -moz-linear-gradient(270deg, #9c024d 0%, #02000188 100%);
   background: -webkit-linear-gradient(270deg, #9c024d 0%, #02000188 100%);
+  background: linear-gradient(220deg, #001d38 0%, #020c0c 70%, #f5841a 90%);
+  background: -moz-linear-gradient(
+    220deg,
+    #001d38 0%,
+    #020c0c 70%,
+    #f5841a 90%
+  );
+  background: -webkit-linear-gradient(
+    220deg,
+    #001d38 0%,
+    #020c0c 70%,
+    #f5e61a 90%
+  );
   box-shadow: 0 4px 8px 0 #00000033, 0 6px 20px 0 #00000030;
   /*box-shadow: 0px 4px 100px 50px rgba(219, 5, 219, 0.2);
   */
@@ -43,6 +56,14 @@
   margin-bottom: 5.5rem;
 }
 
+.ufo-2 {
+  transform: rotateY(0.5turn);
+  -webkit-transform: rotateY(0.5turn);
+  -moz-transform: rotateY(0.5turn);
+  -ms-transform: rotateY(0.5turn);
+  -o-transform: rotateY(0.5turn);
+}
+
 .game-mechanics-div img {
   margin: 0.6rem 0.45rem;
   border-radius: 5px;
@@ -51,16 +72,16 @@
   -moz-border-radius: 5px;
   -ms-border-radius: 5px;
   -o-border-radius: 5px;
-  transition: transform 200ms ease-in-out;
-  -webkit-transition: transform 200ms ease-in-out;
-  -moz-transition: transform 200ms ease-in-out;
-  -ms-transition: transform 200ms ease-in-out;
-  -o-transition: transform 200ms ease-in-out;
+  transition: animation 400ms ease-in-out;
+  -webkit-transition: animation 400ms ease-in-out;
+  -moz-transition: animation 400ms ease-in-out;
+  -ms-transition: animation 400ms ease-in-out;
+  -o-transition: animation 400ms ease-in-out;
 }
 
 .game-mechanics-div img:hover {
   border-radius: 10px;
-  box-shadow: 2px 4px 20px -1px #e5ff00ea, 0 6px 20px 0 #00000030;
+  animation: 3s slidein infinite alternate-reverse;
   box-shadow: -6px 11px 34px 1px #000000bf;
   -webkit-box-shadow: -6px 11px 34px 1px #000000bf;
   -moz-box-shadow: -6px 11px 34px 1px #000000bf;
@@ -68,9 +89,52 @@
   -moz-border-radius: 10px;
   -ms-border-radius: 10px;
   -o-border-radius: 10px;
-  transform: translate3d(2%, 0, 1px);
-  -webkit-transform: translate3d(2%, 0, 1px);
-  -moz-transform: translate3d(2%, 0, 1px);
-  -ms-transform: translate3d(2%, 0, 1px);
-  -o-transform: translate3d(2%, 0, 1px);
+  -webkit-animation: 3s slidein infinite alternate-reverse;
+}
+
+@keyframes slidein {
+  0% {
+    box-shadow: 2px 4px 7px -1px #ff0000ea, 0 6px 20px 0 #00000030;
+    transform: translate3d(2%, 0, 1px);
+    -webkit-transform: translate3d(2%, 0, 1px);
+    -moz-transform: translate3d(2%, 0, 1px);
+    -ms-transform: translate3d(2%, 0, 1px);
+    -o-transform: translate3d(2%, 0, 1px);
+  }
+
+  25% {
+    box-shadow: 2px 4px 7px -1px #2bff00ea, 0 6px 20px 0 #00000030;
+    transform: translate3d(3%, 0, 1px);
+    -webkit-transform: translate3d(3%, 0, 1px);
+    -moz-transform: translate3d(3%, 0, 1px);
+    -ms-transform: translate3d(3%, 0, 1px);
+    -o-transform: translate3d(3%, 0, 1px);
+  }
+
+  50% {
+    box-shadow: 2px 4px 7px -1px #e5ff00ea, 0 6px 20px 0 #00000030;
+    transform: translate3d(2%, 0, 1px);
+    -webkit-transform: translate3d(2%, 0, 1px);
+    -moz-transform: translate3d(2%, 0, 1px);
+    -ms-transform: translate3d(2%, 0, 1px);
+    -o-transform: translate3d(2%, 0, 1px);
+  }
+
+  75% {
+    box-shadow: 2px 4px 7px -1px #ff00d4ea, 0 6px 20px 0 #00000030;
+    transform: translate3d(3%, 0, 1px);
+    -webkit-transform: translate3d(3%, 0, 1px);
+    -moz-transform: translate3d(3%, 0, 1px);
+    -ms-transform: translate3d(3%, 0, 1px);
+    -o-transform: translate3d(3%, 0, 1px);
+  }
+
+  100% {
+    box-shadow: 2px 4px 7px -1px #0044ffea, 0 6px 20px 0 #00000030;
+    transform: translate3d(1%, 0, 1px);
+    -webkit-transform: translate3d(1%, 0, 1px);
+    -moz-transform: translate3d(1%, 0, 1px);
+    -ms-transform: translate3d(1%, 0, 1px);
+    -o-transform: translate3d(1%, 0, 1px);
+  }
 }
