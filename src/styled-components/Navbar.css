@@ -243,8 +243,12 @@
   border: 1px solid #00ff55;
 }
 
-/* @media (max-width: px) {
-} */
+@media (max-width: 1200px) {
+  .navBar .wallet {
+    top: 3.5rem;
+    right: 1px;
+  }
+}
 
 @media (max-width: 768px) {
   .logo {
@@ -313,7 +317,7 @@
     -moz-transform: scale(1.1) !important;
     -ms-transform: scale(1.1) !important;
     -o-transform: scale(1.1) !important;
-}
+  }
 
   .fa-wallet {
     font-size: 1.3rem;

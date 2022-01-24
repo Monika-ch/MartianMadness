@@ -112,6 +112,13 @@
   -o-border-radius: 50px;
 }
 
+@media (max-width: 1200px) {
+  .header-mint-count {
+    width: 80%;
+    margin: 18rem auto 2rem;
+  }
+}
+
 @media (max-width: 768px) {
   .header-mint-count {
     width: 100%;

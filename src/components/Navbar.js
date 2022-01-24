@@ -32,14 +32,6 @@ class NavigationBar extends Component {
     return (
       <React.Fragment>
         <section className='social-media'>
-          {/* <img src={logo152} alt='Martian Madness Logo' className='logo' /> */}
-          {/* <NavLink className='nav_link' to='/home'>
-            <img
-              src={`${process.env.PUBLIC_URL}/assets/images/logo.gif`}
-              alt='Martian Madness Logo'
-              className='logo'
-            />
-          </NavLink> */}
           <HashLink smooth to={"/page#home"}>
             <img
               src={`${process.env.PUBLIC_URL}/assets/images/logo.gif`}
@@ -71,7 +63,7 @@ class NavigationBar extends Component {
           </div> */}
         <Navbar dark expand='md' className='navBar'>
           <div className='container'>
-            <NavbarBrand className='d-sm-block d-md-none mr-auto'>
+            <NavbarBrand className='d-sm-block d-lg-none mr-auto'>
               <HashLink smooth to={"/page#home"}>
                 <img
                   src={`${process.env.PUBLIC_URL}/assets/images/logo.gif`}
@@ -83,16 +75,6 @@ class NavigationBar extends Component {
             <NavbarToggler onClick={this.toggleNav} />
             <Collapse isOpen={this.state.isNavOpen} navbar>
               <Nav navbar className='m-auto'>
-                {/* <NavItem>
-                  <NavLink>
-                    <img
-                      src={`${process.env.PUBLIC_URL}/assets/images/logo.gif`}
-                      alt='Martian Madness Logo'
-                      className='logo'
-                    />{" "}
-                  </NavLink>
-                </NavItem> */}
-
                 <NavItem>
                   <HashLink className='nav_link' smooth to={"/page#story"}>
                     Story
