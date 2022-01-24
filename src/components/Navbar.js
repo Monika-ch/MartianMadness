@@ -153,8 +153,8 @@ class NavigationBar extends Component {
                   </HashLink>
                 </NavItem>
                 <NavItem>
-                  <HashLink className='nav_link' smooth to={"/page#faq"}>
-                    Faq
+                  <HashLink className='nav_link' smooth to={"/page#teams"}>
+                    Teams/Faq
                   </HashLink>
                 </NavItem>
                 <NavItem>

@@ -35,25 +35,25 @@ class Teams extends Component {
                     <div className='row team-members'>
                       <div className='col mt-5 mx-md-auto'>
                         <img
-                          src={`${process.env.PUBLIC_URL}/assets/images/Moon12b.webp`}
-                          alt='Moon12b'
-                          width='150'
-                          className='team-dp'
-                        />
-                        <h4>Monika12b</h4>
-                        <h5>Front-end DevOps Engineer</h5>
-                      </div>
-                    </div>
-                    <div className='row team-members'>
-                      <div className='col mt-5 mx-md-auto'>
-                        <img
-                          src={`${process.env.PUBLIC_URL}/assets/images/IMG_32.webp`}
+                          src={`${process.env.PUBLIC_URL}/assets/images/Gigabit.eth.webp`}
                           alt='Gigabit.eth'
                           width='150'
                           className='team-dp'
                         />
                         <h4>Gigabit.eth</h4>
                         <h5>Blockchain Engineer</h5>
+                      </div>
+                      <div className='row team-members'>
+                        <div className='col mt-5 mx-md-auto'>
+                          <img
+                            src={`${process.env.PUBLIC_URL}/assets/images/Moon12b.webp`}
+                            alt='Moon12b'
+                            width='150'
+                            className='team-dp'
+                          />
+                          <h4>Monika12b</h4>
+                          <h5>Front-end DevOps Engineer</h5>
+                        </div>
                       </div>
                     </div>
                   </div>
