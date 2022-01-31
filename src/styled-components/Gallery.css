@@ -86,5 +86,32 @@
 }
 
 .gallery-div img:active {
-    box-shadow: -6px 21px 54px 1px #d2fd46bf;
+  box-shadow: -6px 21px 54px 1px #d2fd46bf;
+}
+
+@media (max-width: 1850px) {
+  .gallery-section {
+    width: 100%;
+  }
+  /* .gallery-div-3img img {
+    width: 260px;
+  }
+  .gallery-div-2img img {
+    width: 350px;
+  } */
+}
+
+/* @media (max-width: 1200px) {
+  .gallery-div-3img img {
+    width: 230px;
+  }
+  .gallery-div-2img img {
+    width: 300px;
+  }
+} */
+
+@media (max-width: 768px) {
+  .gallery-container {
+    width: 100%;
+  }
 }

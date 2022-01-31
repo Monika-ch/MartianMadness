@@ -21,10 +21,10 @@ export default function Main() {
       <section id='story'>
         <Story images={shuffledArr.slice(0, 3)} />
       </section>
-      {/* <section id='gallery'>
+      <section id='gallery'>
         <Gallery images={shuffledArr.slice(3)} />
       </section>
-      <section id='roadmap'>
+      {/* <section id='roadmap'>
         <Roadmap />
       </section>
       <section id='gameMechanics'>
