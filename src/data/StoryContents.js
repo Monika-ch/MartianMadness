@@ -10,7 +10,7 @@ const storyContents = [
   {
     id: 1,
     name: "",
-    imageCol: "col col-lg-5 order-last",
+    imageCol: "col col-lg-5 order-sm-last",
     textCol: "col col-lg-7 story-div order-lg-first",
     paraClassName: "story-para-2 order-1",
     text: "This is where their differences end. Through technological prosperity and a bond unbroken by color, these aliens have thrived for thousands of years and now, they’re bored… But what to do?",
