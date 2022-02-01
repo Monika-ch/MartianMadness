@@ -7,18 +7,11 @@
   border-top: 5px inset rgba(19, 19, 16, 0.664);
   font-size: 1.1rem;
   font-family: "Special Elite", cursive;
-  background: rgb(0, 2, 36);
-  /* background: linear-gradient(
-    320deg,
-    rgb(44, 195, 255) 0%,
-    rgba(2, 1, 0, 0.747) 50%
-  ); */
+  background: #021c3fa9;
   background: linear-gradient(220deg, #021c3fa9 70%, #fb07d2d9 90%);
   background: -moz-linear-gradient(220deg, #021c3fa9 70%, #fb07d2d9 90%);
   background: -webkit-linear-gradient(220deg, #021c3fa9 70%, #fb07d2d9 90%);
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-  /*box-shadow: 0px 4px 100px 50px rgba(219, 5, 219, 0.2);
-  */
   -webkit-border-radius: 10px;
   -moz-border-radius: 0 10px 10px;
   -ms-border-radius: 0 10px 10px;
@@ -105,18 +98,22 @@
 } */
 
 @media (max-width: 768px) {
+  .gallery-section {
+    margin-top: 0;
+    padding-top: 4rem;
+  }
   .gallery-heading {
-    font-size: 1.4em;
+    font-size: 1.35em;
   }
   .gallery-subheading {
-    font-size: 1em;
+    font-size: 1rem;
     margin-bottom: 2.5rem;
   }
   .gallery-container {
     width: 100%;
   }
   .gallery-div-3img img {
-    width: 100px;
+    width: 120px;
   }
   .gallery-div-2img img {
     width: 150px;
@@ -124,10 +121,16 @@
 }
 
 @media (max-width: 580px) {
+  .gallery-container {
+    padding: 0 2.5rem;
+  }
   .gallery-div-3img img {
-    width: 80px;
+    width: 90px;
   }
   .gallery-div-2img img {
-    width: 135px;
+    width: 145px;
+  }
+  .gallery-div img {
+    margin: 1.5rem 0.1rem;
   }
 }

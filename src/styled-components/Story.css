@@ -95,6 +95,10 @@
   font-weight: 500;
 }
 
+.solana:hover {
+  color: #ff6600;
+}
+
 @media (max-width:1850px) {
   .story-section {
     width: 100%;
@@ -140,24 +144,22 @@
     font-size: 1.5rem;
   }
 }
-.solana:hover {
-  color: #ff6600;
-}
 
 @media (max-width: 768px) {
   .story-section {
     width: 100%;
     padding: 3rem 0 2rem 0;
+    margin-top: 0;
   }
 
   .story-container {
-    /* margin: auto; */
     width: 80%;
     padding: 0;
   }
 
   .story-text {
-    font-size: 1rem;
+    font-size: .8rem;
+    line-height: 1.75rem;
   }
 
   .story-para-1 {
@@ -169,46 +171,21 @@
   }
 
   .story-para-3 {
-    margin: 4rem 0;
+    margin: 4rem 0 1rem 0;
   }
 
   .story-end-wrapper {
     padding: 2rem;
-    font-size: 1.5rem;
-  }
-}
-
-@media (max-width: 768px) {
-  .story-section {
-    width: 100%;
-    padding: 3rem 0 2rem 0;
+    font-size: 1.25rem;
   }
 
-  .story-container {
-    /* margin: auto; */
-    width: 80%;
-    padding: 0;
+  .story-text img {
+    width: 200px;
+    display: block;
+    margin: auto;
   }
 
-  .story-text {
-    font-size: 1rem;
-  }
-
-  .story-para-1 {
-    margin: 2.5rem 0 4rem 0;
-  }
-
-  .story-para-2 {
-    margin: 4rem 0;
-  }
-
-  .story-para-3 {
-    margin: 4rem 0;
-  }
-
-
-  .story-end-wrapper {
-    padding: 2rem;
-    font-size: 1.5rem;
+  .solana {
+      font-size: 1.7rem;
   }
 }
