@@ -145,7 +145,12 @@
 
   .header-section h1 {
     margin-bottom: 1rem;
-    padding-top: 2rem;
-    font-size: larger;
+    padding-top: .2rem;
+    font-size: 9vw;
+  }
+
+  .header-section h2 {
+    font-size: 7vw;
+    width: 70%;
   }
 }

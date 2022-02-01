@@ -122,8 +122,8 @@
 @media (max-width: 768px) {
   .header-mint-count {
     width: 100%;
-    margin: 8.5rem auto 2rem;
-    padding: 0.7rem 1rem;
+    margin: 5rem auto 2rem;
+    padding: 2rem 1rem;
     background: linear-gradient(
       90deg,
       #0000000e 10%,
