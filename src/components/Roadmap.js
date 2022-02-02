@@ -17,9 +17,11 @@ class Roadmap extends Component {
 
             <div className='row'>
               {/* --ROADMAP TIMELINE-- */}
-              <div className='col-lg-5 col-md-6 roadmap-time-release-box'>
+              <div className='col-xl-5 col-lg-6 col-md-6 roadmap-time-release-box'>
                 <div className='roadmap-timeline'>
-                  <h3 className='roadmap-subheading mt-md-4'>Timed Releases</h3>
+                  <h3 className='roadmap-subheading my-md-5 mt-5 mb-4'>
+                    Timed Releases
+                  </h3>
 
                   <div>
                     <h4 className='roadmap-phases'>Phase 1</h4>
@@ -43,7 +45,7 @@ class Roadmap extends Component {
                       Tournament.
                     </p>
                     <h4 className='roadmap-phases'>Phase 5</h4>
-                    <p className='roadmap-timeline-para'>
+                    <p className='roadmap-timeline-para mb-5'>
                       Equipments! Suit up your Martians with Equipments !
                     </p>
                   </div>
@@ -55,7 +57,9 @@ class Roadmap extends Component {
 
               <div className='col-md-6 roadmap-rewards-box'>
                 <div className='roadmap-rewards'>
-                  <h3 className='roadmap-subheading mt-md-4'>Sales Reward</h3>
+                  <h3 className='roadmap-subheading my-md-5 mb-4 mt-5'>
+                    Sales Reward
+                  </h3>
 
                   <div className='roadmap-rewards-para roadmap-rewards-para-1'>
                     <h4 className='roadmap-percent'>
@@ -67,7 +71,7 @@ class Roadmap extends Component {
                     </p>
                   </div>
 
-                  <div className='roadmap-rewards-para roadmap-rewards-para-2 my-2 mx-5'>
+                  <div className='roadmap-rewards-para roadmap-rewards-para-2 my-2 mx-lg-5'>
                     <h4 className='roadmap-percent'>
                       50%<span>-Bring a friend</span>
                     </h4>
@@ -78,7 +82,7 @@ class Roadmap extends Component {
                     </p>
                   </div>
 
-                  <div className='roadmap-rewards-para roadmap-rewards-para-3 mt-4'>
+                  <div className='roadmap-rewards-para roadmap-rewards-para-3 mt-lg-4'>
                     <h4 className='roadmap-percent'>
                       75%<span>-All holders raffle</span>
                     </h4>
@@ -88,7 +92,7 @@ class Roadmap extends Component {
                     </p>
                   </div>
 
-                  <div className='roadmap-rewards-para roadmap-rewards-para-4 my-2 mx-5'>
+                  <div className='roadmap-rewards-para roadmap-rewards-para-4 mt-2 mb-5 mx-lg-5'>
                     <h4 className='roadmap-percent'>
                       100%
                       <span className='roadmap-solana-giveaway'>
