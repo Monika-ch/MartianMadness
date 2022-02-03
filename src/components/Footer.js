@@ -10,7 +10,7 @@ export default function Footer() {
         <div className='container footer-container'>
           <div className='row'>
             <div className='col'>
-              <p className='p-5'>Martian Madness &copy; {date}</p>
+              <p className='py-4 p-md-5'>Martian Madness &copy; {date}</p>
             </div>
           </div>
         </div>

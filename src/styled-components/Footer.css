@@ -2,8 +2,8 @@
   box-sizing: border-box;
   width: 80vw;
   margin: auto;
+  margin-top: 5rem;
   border-top: 5px inset #131310a9;
-  font-size: 1.1em;
   font-family: "Special Elite", cursive;
   background: #000224;
   background: linear-gradient(
@@ -21,7 +21,6 @@
     rgb(27, 16, 27) 0%,
     rgba(0, 119, 255, 0.8) 100%
   );
-  margin-top: 5rem;
   box-shadow: 0 4px 8px 0 #00000033, 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   border-radius: 10px;
   -webkit-border-radius: 10px;
@@ -36,4 +35,18 @@
   color: #fffcf1;
   font-size: 1.5em;
   border-bottom: 1px solid black;
+}
+
+@media (max-width: 1200px) {
+  .footer-section {
+    width: 100%;
+    border-radius: 10px 10px 0 0;
+    -webkit-border-radius: 10px 10px 0 0;
+    -moz-border-radius: 10px 10px 0 0;
+    -ms-border-radius: 10px 10px 0 0;
+    -o-border-radius: 10px 10px 0 0;
+}
+  .footer-container {
+    font-size: 1em;
+  }
 }
