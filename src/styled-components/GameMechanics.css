@@ -5,7 +5,7 @@
   margin: auto;
   margin-top: 5rem;
   border-top: 5px inset #131310a9;
-  font-size: 1.1em;
+  font-size: 1.33rem;
   font-family: "Special Elite", cursive;
   background: #02000188;
   background: linear-gradient(270deg, #9c024d 0%, #02000188 100%);
@@ -38,7 +38,6 @@
   padding: 3rem;
   width: 70%;
   height: 100%;
-  font-size: 1.33rem;
 }
 
 .game-mechanics-heading,
@@ -136,5 +135,66 @@
     -moz-transform: translate3d(1%, 0, 1px);
     -ms-transform: translate3d(1%, 0, 1px);
     -o-transform: translate3d(1%, 0, 1px);
+  }
+}
+
+@media (max-width: 1500px) {
+  .game-mechanics-div img{
+    width: 240px;
+  }
+}
+
+@media (max-width: 1200px) {
+  .game-mechanics-section {
+    margin-top: 0;
+    width: 100%;
+    padding-top: 4rem;
+    font-size: 1rem;
+  }
+
+  .game-mechanics-container {
+    padding: 0;
+    width: 80%;
+  }
+
+  .game-mechanics-heading {
+    font-size: 1.35em;
+  }
+
+  .game-mechanics-subheading {
+    font-size: 1.1em;
+    margin-bottom: 0.5rem;
+  }
+
+  .ufo-1 {
+    transform: rotate(0.1turn);
+    -webkit-transform: rotate(0.1turn);
+    -moz-transform: rotate(0.1turn);
+    -ms-transform: rotate(0.1turn);
+    -o-transform: rotate(0.1turn);
+  }
+
+  .ufo-1 img {
+    width: 200px;
+  }
+
+  .game-mechanics-div img {
+    margin: 0;
+    padding: 0;
+  }
+
+  .game-mechanics-div p {
+    margin: 2rem 0 0 0;
+  }
+
+  .game-mechanics-div h4 {
+    margin: 3rem 0 2rem 0;
+    background-color: #7702fc8a;
+    padding: 0.7rem 0;
+    border-radius: 20px 0 20px;
+    -webkit-border-radius: 20px 0 20px;
+    -moz-border-radius: 20px 0 20px;
+    -ms-border-radius: 20px 0 20px;
+    -o-border-radius: 20px 0 20px;
   }
 }

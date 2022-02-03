@@ -20,23 +20,23 @@ export default function Main() {
       </section>
       {/* <section id='story'>
         <Story images={shuffledArr.slice(0, 3)} />
-      </section>
+      </section> */}
       <section id='gallery'>
         <Gallery images={shuffledArr.slice(3)} />
       </section>
-      <section id='roadmap'>
+      {/* <section id='roadmap'>
         <Roadmap />
-      </section>
+      </section> */}
       <section id='gameMechanics'>
         <GameMechanics />
-      </section> */}
+      </section>
       {/* <section id='teams'>
         <Teams />
-      </section> */}
+      </section> 
       <section id='faq'>
         <Faq />
       </section>
-      <Footer />
+      <Footer />*/}
     </div>
   );
 }
