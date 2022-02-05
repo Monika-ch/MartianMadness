@@ -21,29 +21,43 @@ class Teams extends Component {
                 <div className='col-md-5'>
                   <div className='container'>
                     <div className='row team-members'>
-                      <div className='col mt-5 mx-md-auto'>
-                        <img
-                          src={`${process.env.PUBLIC_URL}/assets/images/Zepherus_Omega.webp`}
-                          alt='Zepherus_Omega'
-                          width='150'
-                          className='team-dp'
-                        />
-                        <h4>ZepherusOmega</h4>
-                        <h5>Artist/Designer</h5>
-                      </div>
+                      <a
+                        href='https://twitter.com/zepherus_omega'
+                        target='_blank'
+                      >
+                        <div className='col mt-5 mx-md-auto'>
+                          <img
+                            src={`${process.env.PUBLIC_URL}/assets/images/Zepherus_Omega.webp`}
+                            alt='Zepherus_Omega'
+                            width='150'
+                            className='team-dp'
+                          />
+
+                          <h4>ZepherusOmega</h4>
+                          <h5>Artist/Designer</h5>
+                        </div>
+                      </a>
                     </div>
                     <div className='row team-members'>
-                      <div className='col mt-5 mx-md-auto'>
-                        <img
-                          src={`${process.env.PUBLIC_URL}/assets/images/Gigabit.eth.webp`}
-                          alt='Gigabit.eth'
-                          width='150'
-                          className='team-dp'
-                        />
-                        <h4>Gigabit.eth</h4>
-                        <h5>Blockchain Engineer</h5>
-                      </div>
-                      <div className='row team-members'>
+                      <a href='https://twitter.com/gigabit_eth' target='_blank'>
+                        <div className='col mt-5 mx-md-auto'>
+                          <img
+                            src={`${process.env.PUBLIC_URL}/assets/images/Gigabit.eth.webp`}
+                            alt='Gigabit.eth'
+                            width='150'
+                            className='team-dp'
+                          />
+                          <h4>Gigabit.eth</h4>
+                          <h5>Blockchain Engineer</h5>
+                        </div>
+                      </a>
+                    </div>
+
+                    <div className='row team-members'>
+                      <a
+                        href='https://www.linkedin.com/in/monika12b/'
+                        target='_blank'
+                      >
                         <div className='col mt-5 mx-md-auto'>
                           <img
                             src={`${process.env.PUBLIC_URL}/assets/images/Moon12b.webp`}
@@ -54,7 +68,7 @@ class Teams extends Component {
                           <h4>Monika12b</h4>
                           <h5>Front-end DevOps Engineer</h5>
                         </div>
-                      </div>
+                      </a>
                     </div>
                   </div>
                 </div>

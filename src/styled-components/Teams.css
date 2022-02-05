@@ -81,6 +81,10 @@
   -o-transform: scale(1.015);
 } */
 
+.team-members a {
+  text-decoration: none;
+}
+
 .team-members h4 {
   color: #00f7ff;
 }

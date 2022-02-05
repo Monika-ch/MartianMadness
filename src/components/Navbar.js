@@ -46,7 +46,7 @@ class NavigationBar extends Component {
           </div>
           <div className='social-media-box'>
             <a
-              href='https://www.instagram.com/martian_madness_nft/'
+              href='https://www.instagram.com/martian.madness.sol/'
               target='_blank'
             >
               <i className='fab fa-instagram fa-3x'></i>
