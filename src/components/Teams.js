@@ -19,7 +19,7 @@ class Teams extends Component {
               <div className='row'>
                 {/* TEAM MEMBERSDISPLAY */}
                 <div className='col-md-5'>
-                  <div className='container'>
+                  <div className='container team-members-container'>
                     <div className='row team-members'>
                       <a
                         href='https://twitter.com/zepherus_omega'
@@ -52,7 +52,6 @@ class Teams extends Component {
                         </div>
                       </a>
                     </div>
-
                     <div className='row team-members'>
                       <a
                         href='https://www.linkedin.com/in/monika12b/'
@@ -66,7 +65,7 @@ class Teams extends Component {
                             className='team-dp'
                           />
                           <h4>Monika12b</h4>
-                          <h5>Front-end DevOps Engineer</h5>
+                          <h5>Frontend/DevOps Engineer</h5>
                         </div>
                       </a>
                     </div>
@@ -75,25 +74,25 @@ class Teams extends Component {
 
                 {/* TEAM INTRO */}
                 <div className='col-md-7 teams-main-content'>
-                  <p className='p1 mb-5'>
+                  <p className='p1 mb-md-5'>
                     The talent behind the Martian Madness NFT is truly a
                     collective of highly skilled individuals. Specialists in
                     their trade who came together purely by coincidence. Our
                     focus is to deliver an exciting NFT collection with emphasis
                     on rewarding the collectors.
                   </p>
-                  <p className='p2 mb-5'>
+                  <p className='p2 mb-md-5'>
                     Our <strong>artist</strong> has been creating digital and
                     traditional art from an early age and aims to visually tell
                     the tale of Martian Madness.
                   </p>
-                  <p className='p3 mb-5'>
+                  <p className='p3 mb-md-5'>
                     Our <strong>blockchain engineer</strong> comes from a strong
                     background in coding, marketing and crypto and has
                     handcrafted the backend functionality of the Martian Madness
                     collection.
                   </p>
-                  <p className='p4 mb-5'>
+                  <p className='p4 mb-md-5'>
                     Last but not least, our <strong>web developer</strong> comes
                     from an educated design background and offers a unique and
                     critical perspective, rivaled by none.

@@ -6,22 +6,19 @@
   border-top: 5px inset #131310a9;
   font-size: 1.1em;
   font-family: "Special Elite", cursive;
-  background: #0b538f;
-  background: linear-gradient(120deg, #035ca5 30%, #106314 60%, #00f7ff 100%);
+  background: #000813de;
+  background: linear-gradient(
+    220deg,
+    #000813de 74%,
+    #ebee23d9 87%,
+    #17ff17d9 95%
+  );
   background: -moz-linear-gradient(
-    120deg,
-    #035ca5 30%,
-    #106314 60%,
-    #00f7ff 100%
+    220deg,
+    #000813de 74%,
+    #ebee23d9 87%,
+    #17ff17d9 95%
   );
-  background: -webkit-linear-gradient(
-    120deg,
-    #035ca5 30%,
-    #106314 60%,
-    #00f7ff 100%
-  );
-  background: linear-gradient(220deg, #021c3fa9 70%, #ff0080d9 90%);
-  background: -moz-linear-gradient(220deg, #021c3fa9 70%, #ff0080d9 90%);
   background: -webkit-linear-gradient(
     220deg,
     #000813de 74%,
@@ -107,4 +104,82 @@
   margin-top: 4rem;
   font-weight: 100;
   border-bottom: 1px solid #0084ff;
+}
+
+@media (max-width: 1200px) {
+  .teams-section {
+    width: 100%;
+    padding-top: 4rem;
+  }
+  .teams-container {
+    width: 100%;
+  }
+  .teams-subheading {
+    margin-bottom: 2.5rem;
+  }
+}
+
+@media (max-width: 767px) {
+  .teams-section {
+    margin-top: 0;
+  }
+
+  .teams-heading {
+    font-size: 1.5rem;
+  }
+
+  .teams-subheading {
+    font-size: 1.1rem;
+    margin-bottom: 0;
+  }
+
+  .teams-container {
+    padding: 0;
+    width: 82%;
+  }
+
+  .team-members-container {
+    display: flex;
+    justify-content: space-between;
+    padding: 0;
+    margin: 0;
+  }
+  .team-members h4 {
+    font-size: 70%;
+  }
+
+  .team-members h5 {
+    font-size: 70%;
+  }
+  .team-dp {
+    width: 100px;
+  }
+
+  .teams-main-content {
+    font-size: 0.8rem;
+    line-height: 1.75rem;
+  }
+  .p5-together {
+    background-color: #74005b59;
+    font-size: 1.2rem;
+    margin: 2rem 0 2.5rem 0;
+    border-bottom: none;
+    border-radius: 5px 80px 5px;
+    -webkit-border-radius: 5px 80px 5px;
+    -moz-border-radius: 5px 80px 5px;
+    -ms-border-radius: 5px 80px 5px;
+    -o-border-radius: 5px 80px 5px;
+  }
+}
+
+@media (max-width: 450px) {
+  .team-members h4 {
+    font-size: 65%;
+  }
+  .team-members h5 {
+    font-size: 65%;
+  }
+  .team-dp {
+    width: 80px;
+  }
 }
