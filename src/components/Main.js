@@ -33,10 +33,10 @@ export default function Main() {
       <section id='teams'>
         <Teams />
       </section>
-      {/* <section id='faq'>
+      <section id='faq'>
         <Faq />
       </section>
-      <Footer />*/}
+      <Footer />
     </div>
   );
 }
