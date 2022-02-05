@@ -93,9 +93,8 @@ class Teams extends Component {
                     collection.
                   </p>
                   <p className='p4 mb-md-5'>
-                    Last but not least, our <strong>web developer</strong> comes
-                    from an educated design background and offers a unique and
-                    critical perspective, rivaled by none.
+                    Last but not least, our <strong>web developer</strong> brings a unique and
+                    critical perspective of beautiful and accessible UI, rivaled by none.
                   </p>
                 </div>
               </div>
