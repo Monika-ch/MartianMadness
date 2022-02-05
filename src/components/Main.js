@@ -1,4 +1,4 @@
-import React, { Component } from "react";
+import React from "react";
 import HomePage from "./HomePage";
 import Story from "./Story";
 import Gallery from "./Gallery";
@@ -18,15 +18,15 @@ export default function Main() {
       <section id='home'>
         <HomePage />
       </section>
-      <section id='story'>
+      {/* <section id='story'>
         <Story images={shuffledArr.slice(0, 3)} />
-      </section>
+      </section> */}
       <section id='gallery'>
         <Gallery images={shuffledArr.slice(3)} />
       </section>
-      <section id='roadmap'>
+      {/* <section id='roadmap'>
         <Roadmap />
-      </section>
+      </section> */}
       <section id='gameMechanics'>
         <GameMechanics />
       </section>

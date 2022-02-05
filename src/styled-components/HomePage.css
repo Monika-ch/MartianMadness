@@ -107,44 +107,50 @@
   border-bottom: 1px solid rgb(255, 0, 212);
 }
 
-.ufo {
-  margin-top: 4rem;
-  height: 40vh;
-  animation: ufoEntry alternate 1.5;
-  -webkit-animation: ufoEntry alternate 1.5;
+@media (max-width: 1200px) {
+  .header-section {
+    width: 100vw;
+    height: 100vh;
+    background: linear-gradient(25deg, #0031115e, #1601011e, #001f1b6c),
+      url(../Planets.webp) center/cover;
+  }
+
+  .header-section .head-wrapper {
+    width: 80%;
+    height: 100vh;
+  }
+
+  .header-section h1 {
+    padding-top: 7rem;
+    font-size: 5rem;
+  }
+
+  .header-section h2 {
+    font-size: 2.5rem;
+  }
 }
-
-@keyframes ufoEntry {
-  from {
-    width: 300%;
-  }
-
-  to {
-    width: 100%;
-  }
-}
-
-/* @media (max-width: 768px) {
-  .siteName {
-    width: 85vw;
-    height: 10vh;
-  }
-} */
-
-/* @media (max-width: 1200px) {
-  .siteName {
-    width: 65vw;
-  }
-} */
 
 @media (max-width: 768px) {
-  .social-media {
-    color: #c7fffa;
-    position: fixed;
-    top: 75vh;
+  .header-section {
+    width: 100vw;
+    height: 100vh;
+    background: linear-gradient(25deg, #0031115e, #1601011e, #001f1b6c),
+      url(../Planets.webp) center/cover;
   }
-  .social-media-box {
-    margin: 20px 10px;
-    font-size: x-small;
+
+  .header-section .head-wrapper {
+    width: 100%;
+    height: 100vh;
+  }
+
+  .header-section h1 {
+    margin-bottom: 1rem;
+    padding-top: .2rem;
+    font-size: 9vw;
+  }
+
+  .header-section h2 {
+    font-size: 7vw;
+    width: 70%;
   }
 }

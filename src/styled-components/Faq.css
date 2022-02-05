@@ -21,7 +21,6 @@
   padding: 3rem;
   width: 70%;
   height: 100%;
-  font-size: 1.33rem;
 }
 
 .faq-heading {
@@ -50,11 +49,6 @@
   -o-border-radius: 20px;
 }
 
-/* .accordion-item:first-of-type .accordion-button {
-  border-top-left-radius: 20px;
-  border-top-right-radius: 20px;
-} */
-
 .accordion-button {
   background-color: rgb(169, 245, 255);
   border-bottom: 3px dotted rgba(0, 0, 0, 0.048);
@@ -74,4 +68,39 @@
 
 .accordion-body {
   padding-bottom: 5rem;
+}
+
+@media (max-width: 768px) {
+  .faq-section {
+    width: 100%;
+    margin: 0;
+    padding: 4rem 0;
+  }
+  .faq-container {
+    padding: 0;
+    width: 80%;
+  }
+  .faq-heading {
+    font-size: 1.6rem;
+  }
+  .accordion-item {
+    font-size: 80%;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+  }
+  .accordion-button {
+    font-size: 0.8rem;
+  }
+  .accordion-button:not(.collapsed) {
+    background-color: rgb(26, 24, 8);
+    margin-bottom: 0;
+    padding-bottom: 0.5rem;
+    font-size: 60%;
+  }
+  .accordion-body {
+    padding-bottom: 2rem;
+  }
 }

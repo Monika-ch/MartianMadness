@@ -35,52 +35,56 @@ class Gallery extends Component {
             </h3>
             <div className='row'>
               {images.slice(0, 3).map((img) => (
-                <div className='col-lg-4 gallery-div'>
+                <div className='col-4 gallery-div gallery-div-3img'>
                   <img
                     id={img.id}
-                    name='Martian'
                     src={img.src}
-                    width='300'
+                    width='100%'
+                    max-width='300'
                     onClick={onclickImage}
+                    alt=''
                   />
                 </div>
               ))}
             </div>
             <div className='row'>
               {images.slice(3, 5).map((img) => (
-                <div className='col-lg-6 gallery-div'>
+                <div className='col-6 gallery-div gallery-div-2img'>
                   <img
                     id={img.id}
-                    name='Martian'
                     src={img.src}
-                    width='420'
+                    width='100%'
+                    max-width='420'
                     onClick={onclickImage}
+                    alt=''
                   />
                 </div>
               ))}
             </div>
             <div className='row'>
               {images.slice(5, 8).map((img) => (
-                <div className='col-lg-4 gallery-div'>
+                <div className='col-4 gallery-div gallery-div-3img'>
                   <img
                     id={img.id}
-                    name='Martian'
                     src={img.src}
-                    width='300'
+                    width='100%'
+                    max-width='300'
                     onClick={onclickImage}
+                    alt=''
                   />
                 </div>
               ))}
             </div>
             <div className='row'>
               {images.slice(8, 10).map((img) => (
-                <div className='col-lg-6 gallery-div'>
+                <div className='col-6 gallery-div gallery-div-2img'>
                   <img
                     id={img.id}
-                    name='Martian'
                     src={img.src}
-                    width='420'
+                    width='100%'
+                    max-width='420'
                     onClick={onclickImage}
+                    alt=''
                   />
                 </div>
               ))}
