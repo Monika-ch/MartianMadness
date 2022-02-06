@@ -40,7 +40,12 @@ class NavigationBar extends Component {
             />
           </HashLink>
           <div className='social-media-box'>
-            <a href='https://discord.gg/2QGQuBTBA7' target='_blank'>
+            <a
+              href='https://discord.gg/2QGQuBTBA7'
+              target='_blank'
+              rel='noopener noreferrer'
+              aria-label='Discord'
+            >
               <i className='fab fa-discord fa-3x'></i>
             </a>
           </div>
@@ -48,12 +53,19 @@ class NavigationBar extends Component {
             <a
               href='https://www.instagram.com/martian.madness.sol/'
               target='_blank'
+              rel='noopener noreferrer'
+              aria-label='Instagram'
             >
               <i className='fab fa-instagram fa-3x'></i>
             </a>
           </div>
           <div className='social-media-box'>
-            <a href='https://twitter.com/MartianM_NFT' target='_blank'>
+            <a
+              href='https://twitter.com/MartianM_NFT'
+              target='_blank'
+              rel='noopener noreferrer'
+              aria-label='Twitter'
+            >
               <i className='fab fa-twitter fa-3x'></i>
             </a>
           </div>

@@ -24,6 +24,7 @@ class Teams extends Component {
                       <a
                         href='https://twitter.com/zepherus_omega'
                         target='_blank'
+                        rel='noopener noreferrer'
                       >
                         <div className='col mt-5 mx-md-auto'>
                           <img
@@ -39,7 +40,11 @@ class Teams extends Component {
                       </a>
                     </div>
                     <div className='row team-members'>
-                      <a href='https://twitter.com/gigabit_eth' target='_blank'>
+                      <a
+                        href='https://twitter.com/gigabit_eth'
+                        target='_blank'
+                        rel='noopener noreferrer'
+                      >
                         <div className='col mt-5 mx-md-auto'>
                           <img
                             src={`${process.env.PUBLIC_URL}/assets/images/Gigabit.eth.webp`}
@@ -56,6 +61,7 @@ class Teams extends Component {
                       <a
                         href='https://www.linkedin.com/in/monika12b/'
                         target='_blank'
+                        rel='noopener noreferrer'
                       >
                         <div className='col mt-5 mx-md-auto'>
                           <img
@@ -93,8 +99,9 @@ class Teams extends Component {
                     collection.
                   </p>
                   <p className='p4 mb-md-5'>
-                    Last but not least, our <strong>web developer</strong> brings a unique and
-                    critical perspective of beautiful and accessible UI, rivaled by none.
+                    Last but not least, our <strong>web developer</strong>{" "}
+                    brings a unique and critical perspective of beautiful and
+                    accessible UI, rivaled by none.
                   </p>
                 </div>
               </div>
