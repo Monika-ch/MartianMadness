@@ -112,7 +112,7 @@ class NavigationBar extends Component {
                     smooth
                     to={"/page#gameMechanics"}
                   >
-                    Game Mechanics
+                    GameMechanics
                   </HashLink>
                 </NavItem>
                 <NavItem>
@@ -124,7 +124,7 @@ class NavigationBar extends Component {
                   <HashLink
                     className='nav_link wallet'
                     smooth
-                    to={"/page#story"}
+                    to={"/page#wallet"}
                   >
                     Connect Wallet <i class='fas fa-wallet'></i>
                   </HashLink>
