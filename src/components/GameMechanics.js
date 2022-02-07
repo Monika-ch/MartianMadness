@@ -23,6 +23,7 @@ class GameMechanics extends Component {
                   src={`${process.env.PUBLIC_URL}/assets/images/UFO.webp`}
                   alt=''
                   width='300'
+                  height='300'
                 />
               </div>
               <div className='col col-lg-4 game-mechanics-div'>
@@ -38,6 +39,7 @@ class GameMechanics extends Component {
                   src={`${process.env.PUBLIC_URL}/assets/images/UFO.webp`}
                   alt=''
                   width='300'
+                  height='300'
                 />
               </div>
             </div>

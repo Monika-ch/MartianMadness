@@ -287,10 +287,11 @@
     margin: auto;
   }
   .logo {
-    height: 2.7rem;
+    height: 3rem;
     padding: 0.22rem;
     top: 8px;
-    box-shadow: 0 2px 5px 0 #1f360d, 0 3px 5px 0 #aaffc8c4;
+    left: 1rem;
+    box-shadow: 0 2px 5px 0 #0167ff, 0 3px 5px 0 #aaffc8c4;
   }
 
   .social-media {

@@ -153,6 +153,7 @@
   }
   .team-dp {
     width: 100px;
+    height: 100px;
   }
 
   .teams-main-content {
@@ -181,5 +182,6 @@
   }
   .team-dp {
     width: 80px;
+    height: 80px
   }
 }

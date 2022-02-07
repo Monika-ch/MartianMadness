@@ -91,9 +91,11 @@
 @media (max-width: 1200px) {
   .gallery-div-3img img {
     width: 260px;
+    height: 260px;
   }
   .gallery-div-2img img {
     width: 400px;
+    height: 400px;
   }
   .gallery-container {
     width: 100%;
@@ -123,21 +125,25 @@
   }
   .gallery-div-3img img {
     width: 120px;
+    height: 120px;
   }
   .gallery-div-2img img {
     width: 150px;
+    height: 150px;
   }
 }
 
-@media (max-width: 580px) {
+@media (max-width: 480px) {
   .gallery-container {
     padding: 0 2.5rem;
   }
   .gallery-div-3img img {
     width: 90px;
+    height: 90px;
   }
   .gallery-div-2img img {
     width: 145px;
+    height: 145px;
   }
   .gallery-div img {
     margin: 1.5rem 0.1rem;

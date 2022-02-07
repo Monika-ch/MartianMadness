@@ -41,6 +41,7 @@ class Gallery extends Component {
                     src={img.src}
                     width='100%'
                     max-width='300'
+                    height='auto'
                     onClick={onclickImage}
                     alt=''
                   />
@@ -55,6 +56,7 @@ class Gallery extends Component {
                     src={img.src}
                     width='100%'
                     max-width='420'
+                    height='auto'
                     onClick={onclickImage}
                     alt=''
                   />
@@ -69,6 +71,7 @@ class Gallery extends Component {
                     src={img.src}
                     width='100%'
                     max-width='300'
+                    height='auto'
                     onClick={onclickImage}
                     alt=''
                   />
@@ -83,6 +86,7 @@ class Gallery extends Component {
                     src={img.src}
                     width='100%'
                     max-width='420'
+                    height='auto'
                     onClick={onclickImage}
                     alt=''
                   />

@@ -46,7 +46,7 @@ class Story extends Component {
       return (
         <div key={id} className='row'>
           <div className={imageCol}>
-            <img src={image} alt={name} width='300' />
+            <img src={image} alt={name} width='300' height='300' />
           </div>
           <div className={textCol}>
             <p className={paraClassName}>

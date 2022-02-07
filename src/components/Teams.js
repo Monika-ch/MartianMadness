@@ -31,6 +31,7 @@ class Teams extends Component {
                             src={`${process.env.PUBLIC_URL}/assets/images/Zepherus_Omega.webp`}
                             alt='Zepherus_Omega'
                             width='150'
+                            height='150'
                             className='team-dp'
                           />
 
@@ -50,6 +51,7 @@ class Teams extends Component {
                             src={`${process.env.PUBLIC_URL}/assets/images/Gigabit.eth.webp`}
                             alt='Gigabit.eth'
                             width='150'
+                            height='150'
                             className='team-dp'
                           />
                           <h4>Gigabit.eth</h4>
@@ -68,6 +70,7 @@ class Teams extends Component {
                             src={`${process.env.PUBLIC_URL}/assets/images/Moon12b.webp`}
                             alt='Moon12b'
                             width='150'
+                            height='150'
                             className='team-dp'
                           />
                           <h4>Monika12b</h4>
