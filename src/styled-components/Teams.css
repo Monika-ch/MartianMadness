@@ -47,12 +47,7 @@
   text-align: center;
 }
 
-.teams-heading {
-  font-size: 2em;
-}
-
 .teams-subheading {
-  font-size: 1.5em;
   margin-bottom: 5.5rem;
 }
 
@@ -109,13 +104,18 @@
 @media (max-width: 1200px) {
   .teams-section {
     width: 100%;
-    padding-top: 4rem;
+    padding: 4rem 0;
   }
   .teams-container {
-    width: 100%;
+    padding: 0;
+    width: 80%;
+  }
+  .teams-heading {
+    font-size: 2rem;
   }
   .teams-subheading {
     margin-bottom: 2.5rem;
+    font-size: 1.5rem;
   }
 }
 
@@ -173,7 +173,7 @@
   }
 }
 
-@media (max-width: 450px) {
+@media (max-width: 480px) {
   .team-members h4 {
     font-size: 65%;
   }
@@ -182,6 +182,6 @@
   }
   .team-dp {
     width: 80px;
-    height: 80px
+    height: 80px;
   }
 }

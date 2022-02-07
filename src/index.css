@@ -32,3 +32,11 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
+
+.section-heading {
+  font-size: 2em;
+}
+
+.section-subheading {
+  font-size: 1.5em;
+}

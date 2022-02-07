@@ -91,8 +91,8 @@
   font-size: 1.6em;
   box-shadow: 0px 4px 100px 50px rgba(219, 5, 219, 0.2),
     0 6px 20px 60px rgba(0, 0, 0, 0.19);
-  margin-top: 1.5rem;
-  padding: 0.8rem 0.4rem;
+  margin-top: 1.3rem;
+  padding: 0.6rem 0;
   background: #cac531;
   /* fallback for old browsers */
   background: linear-gradient(
@@ -116,7 +116,7 @@
 @media (max-width: 1200px) {
   .header-mint-count {
     width: 80%;
-    margin: 7rem auto 2rem;
+    margin: 13rem auto 2rem;
   }
   .header-mint-count .count {
     color: rgb(80, 39, 39);
@@ -179,10 +179,13 @@
 @media (max-width: 480px) {
   .header-mint-count {
     width: 100%;
-    margin: 12rem auto 2rem;
     padding: 1rem 1rem;
+    margin: 2rem auto 2rem;
   }
   .header-mint-count .count {
     margin: 0.8rem 0;
+    padding: 0.1rem;
+    font-size: 1rem;
   }
 }
+

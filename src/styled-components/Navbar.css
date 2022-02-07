@@ -282,7 +282,7 @@
   }
 }
 
-@media (max-width: 768px) {
+@media (max-width: 767px) {
   .navBar > .container {
     margin: auto;
   }
@@ -308,7 +308,6 @@
   .fa-instagram,
   .fa-twitter {
     padding: 0.5rem;
-    color: #8aff7f;
   }
 
   .navBar .nav_link {
@@ -379,4 +378,16 @@
   -ms-border-radius: 5px;
   -o-border-radius: 5px;
   letter-spacing: 1px;
+}
+
+@media (max-width: 480px) {
+  .logo {
+    height: 2.7rem;
+  }
+  .fa-discord,
+  .fa-instagram,
+  .fa-twitter {
+    padding: 0.5rem;
+    font-size: 1.8rem;
+  }
 }

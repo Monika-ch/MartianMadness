@@ -14,8 +14,8 @@ class Teams extends Component {
         <section className='teams-section'>
           <div className='container teams-container'>
             <div>
-              <h2 className='teams-heading'>The Teams..</h2>
-              <h3 className='teams-subheading'>Martian Madness Team!</h3>
+              <h2 className='teams-heading section-heading'>The Teams..</h2>
+              <h3 className='teams-subheading section-subheading'>Martian Madness Team!</h3>
               <div className='row'>
                 {/* TEAM MEMBERSDISPLAY */}
                 <div className='col-md-5'>

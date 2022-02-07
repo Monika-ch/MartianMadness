@@ -13,13 +13,13 @@ class Roadmap extends Component {
       <React.Fragment>
         <section className='roadmap-section'>
           <div className='container roadmap-container'>
-            <h2 className='roadmap-heading'>The Roadmap..</h2>
+            <h2 className='roadmap-heading section-heading'>The Roadmap..</h2>
 
             <div className='row'>
               {/* --ROADMAP TIMELINE-- */}
               <div className='col-xl-5 col-lg-6 col-md-6 roadmap-time-release-box'>
                 <div className='roadmap-timeline'>
-                  <h3 className='roadmap-subheading my-md-5 mt-5 mb-4'>
+                  <h3 className='roadmap-subheading section-subheading my-md-5 mt-5 mb-4'>
                     Timed Releases
                   </h3>
 
@@ -57,7 +57,7 @@ class Roadmap extends Component {
 
               <div className='col-md-6 roadmap-rewards-box'>
                 <div className='roadmap-rewards'>
-                  <h3 className='roadmap-subheading my-md-5 mb-4 mt-5'>
+                  <h3 className='roadmap-subheading section-subheading my-md-5 mb-4 mt-5'>
                     Sales Reward
                   </h3>
 

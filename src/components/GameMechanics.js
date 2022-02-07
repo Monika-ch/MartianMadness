@@ -13,8 +13,8 @@ class GameMechanics extends Component {
       <React.Fragment>
         <section className='game-mechanics-section'>
           <div className='container game-mechanics-container'>
-            <h2 className='game-mechanics-heading'>The Game Mechanics..</h2>
-            <h3 className='game-mechanics-subheading'>
+            <h2 className='game-mechanics-heading section-heading'>The Game Mechanics..</h2>
+            <h3 className='game-mechanics-subheading section-subheading'>
               A Battle on Martians Collection
             </h3>
             <div className='row'>
