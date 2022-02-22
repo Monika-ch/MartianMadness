@@ -63,15 +63,6 @@
   color: #f0ebec;
 }
 
-/* .teams-main-content:hover {
-  color: rgb(255, 200, 133);
-  transform: scale(1.015);
-  -webkit-transform: scale(1.015);
-  -moz-transform: scale(1.015);
-  -ms-transform: scale(1.015);
-  -o-transform: scale(1.015);
-} */
-
 .team-members a {
   text-decoration: none;
 }
@@ -112,6 +103,9 @@
   .teams-subheading {
     margin-bottom: 2.5rem;
   }
+  .teams-main-content p {
+    font-size: 1rem;
+  }
 }
 
 @media (max-width: 767px) {
@@ -146,7 +140,7 @@
     height: 100px;
   }
 
-  .teams-main-content {
+  .teams-main-content p {
     font-size: 0.8rem;
     line-height: 1.75rem;
   }

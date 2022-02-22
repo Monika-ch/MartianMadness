@@ -113,7 +113,17 @@
   -o-border-radius: 50px;
 }
 
-@media (max-width: 1200px) {
+@media (max-width: 1200px) and (min-width: 1024px) {  .header-mint-count {
+    width: 80%;
+    margin: 3rem auto 2rem;
+  }
+  .header-mint-count .count {
+    color: rgb(80, 39, 39);
+    font-size: 1.4em;
+  }
+}
+
+@media (max-width: 1023px) {
   .header-mint-count {
     width: 80%;
     margin: 13rem auto 2rem;

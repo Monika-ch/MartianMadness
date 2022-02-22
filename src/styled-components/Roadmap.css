@@ -169,7 +169,7 @@
 }
 
 @media (max-width: 1300px) and (min-width: 1201px) {
-  .roadmap-rewards-para{
+  .roadmap-rewards-para {
     margin-left: 0 !important;
     margin-right: 0 !important;
   }
@@ -189,7 +189,7 @@
 
   .roadmap-time-release-box,
   .roadmap-rewards-box {
-    font-size: 0.8rem;
+    font-size: 1rem;
     margin: 0;
   }
 
@@ -228,6 +228,14 @@
 
   .roadmap-rewards-para-1 {
     background-color: #51015ce3;
+  }
+
+  .roadmap-rewards-para {
+    font-size: 0.8rem;
+  }
+
+  .roadmap-time-release-box {
+    font-size: 0.8rem;
   }
 }
 

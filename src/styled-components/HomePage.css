@@ -107,7 +107,16 @@
   border-bottom: 1px solid rgb(255, 0, 212);
 }
 
-@media (max-width: 1200px) {
+@media (max-width: 1200px) and (min-width: 1024px) {
+  .header-section .head-wrapper {
+    width: 80%;
+    height: 100vh;
+    padding: 8rem 3rem;
+    margin-top: 0;
+  }
+}
+
+@media (max-width: 1023px) {
   .header-section {
     width: 100vw;
     height: 100vh;
@@ -131,10 +140,10 @@
   }
 }
 
-@media (max-width: 768px) {
+@media (max-width: 767px) {
   .header-section {
     width: 100vw;
-    height: 100%;
+    height: 100vh;
     background: linear-gradient(25deg, #0031115e, #1601011e, #001f1b6c),
       url(../Planets.webp) center/cover;
   }
@@ -142,6 +151,7 @@
   .header-section .head-wrapper {
     width: 100%;
     height: 100%;
+    padding: 8rem 3rem;
   }
 
   .header-section h1 {
