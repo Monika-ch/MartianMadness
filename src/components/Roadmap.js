@@ -17,7 +17,7 @@ class Roadmap extends Component {
 
             <div className='row'>
               {/* --ROADMAP TIMELINE-- */}
-              <div className='col-xl-5 col-lg-6 col-md-6 roadmap-time-release-box'>
+              <div className='col-xl-5 col-md-6 roadmap-time-release-box'>
                 <div className='roadmap-timeline'>
                   <h3 className='roadmap-subheading section-subheading my-md-5 mt-5 mb-4'>
                     Timed Releases
@@ -55,7 +55,7 @@ class Roadmap extends Component {
 
               {/* --ROADMAP-REWARDS-- */}
 
-              <div className='col-md-6 roadmap-rewards-box'>
+              <div className='col-xl-5 col-md-6 roadmap-rewards-box'>
                 <div className='roadmap-rewards'>
                   <h3 className='roadmap-subheading section-subheading my-md-5 mb-4 mt-5'>
                     Sales Reward
@@ -71,7 +71,7 @@ class Roadmap extends Component {
                     </p>
                   </div>
 
-                  <div className='roadmap-rewards-para roadmap-rewards-para-2 my-2 mx-lg-5'>
+                  <div className='roadmap-rewards-para roadmap-rewards-para-2 my-2 mx-xl-5'>
                     <h4 className='roadmap-percent'>
                       50%<span>-Bring a friend</span>
                     </h4>
@@ -92,7 +92,7 @@ class Roadmap extends Component {
                     </p>
                   </div>
 
-                  <div className='roadmap-rewards-para roadmap-rewards-para-4 mt-2 mb-5 mx-lg-5'>
+                  <div className='roadmap-rewards-para roadmap-rewards-para-4 mt-2 mb-5 mx-xl-5'>
                     <h4 className='roadmap-percent'>
                       100%
                       <span className='roadmap-solana-giveaway'>

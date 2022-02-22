@@ -94,10 +94,9 @@
 }
 
 @media (max-width:1850px) {
-  .story-section {
-    width: 100%;
+  /* .story-section {
     padding: 3rem 0 2rem 0;
-  }
+  } */
   .story-container {
     width: 80%;
     padding: 0;

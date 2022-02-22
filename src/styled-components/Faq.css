@@ -25,7 +25,6 @@
 
 .faq-heading {
   color: rgb(0, 174, 255);
-  text-align: center;
   font-family: "Special Elite", cursive;
   margin-bottom: 3rem;
 }
@@ -73,9 +72,6 @@
   .faq-section {
     width: 100%;
   }
-  .faq-heading {
-    font-size: 2rem;
-  }
 }
 
 @media (max-width: 768px) {
@@ -86,9 +82,6 @@
   .faq-container {
     padding: 0;
     width: 80%;
-  }
-  .faq-heading {
-    font-size: 1.6rem;
   }
   .accordion-item {
     font-size: 80%;

@@ -44,7 +44,6 @@
 .teams-heading,
 .teams-subheading {
   color: #ffb300;
-  text-align: center;
 }
 
 .teams-subheading {
@@ -110,12 +109,8 @@
     padding: 0;
     width: 80%;
   }
-  .teams-heading {
-    font-size: 2rem;
-  }
   .teams-subheading {
     margin-bottom: 2.5rem;
-    font-size: 1.5rem;
   }
 }
 
@@ -124,12 +119,7 @@
     margin-top: 0;
   }
 
-  .teams-heading {
-    font-size: 1.5rem;
-  }
-
   .teams-subheading {
-    font-size: 1.1rem;
     margin-bottom: 0;
   }
 
@@ -183,5 +173,11 @@
   .team-dp {
     width: 80px;
     height: 80px;
+  }
+}
+
+@media (max-width: 300px) {
+  .team-members-container {
+    display: block;
   }
 }

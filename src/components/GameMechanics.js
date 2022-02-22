@@ -28,7 +28,7 @@ class GameMechanics extends Component {
               </div>
               <div className='col col-lg-4 game-mechanics-div'>
                 <p className='text-info mt-lg-5'>
-                  Madness Madness NFT is a generative art project designed to
+                  Martian Madness NFT is a generative art project designed to
                   give token holders a chance to earn big rewards through
                   competitive games.
                 </p>
