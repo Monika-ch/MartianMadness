@@ -4,7 +4,6 @@
   margin: auto;
   margin-top: 4rem;
   border-top: 5px inset rgba(19, 19, 16, 0.664);
-  font-size: 1.1em;
   font-family: "Special Elite", cursive;
   background: #021125a9;
   background: linear-gradient(220deg, #021125a9 70%, #ff0080d9 90%);
@@ -35,12 +34,7 @@
   text-align: center;
 }
 
-.story-heading {
-  font-size: 2em;
-}
-
 .story-subheading {
-  font-size: 1.5em;
   margin-bottom: 3rem;
 }
 .story-text {
@@ -100,10 +94,9 @@
 }
 
 @media (max-width:1850px) {
-  .story-section {
-    width: 100%;
+  /* .story-section {
     padding: 3rem 0 2rem 0;
-  }
+  } */
   .story-container {
     width: 80%;
     padding: 0;
@@ -181,6 +174,7 @@
 
   .story-text img {
     width: 200px;
+    height: 200px;
     display: block;
     margin: auto;
   }

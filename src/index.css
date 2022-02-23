@@ -32,3 +32,34 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
+
+.section-heading {
+  font-size: 2em;
+  text-align: center;
+}
+
+.section-subheading {
+  font-size: 1.5em;
+  text-align: center;
+}
+
+@media (max-width: 1200px) {
+  /* .section {
+    width: 100%;
+  } */
+  .section-heading {
+    font-size: 2rem;
+  }
+  .section-subheading {
+    font-size: 1.5rem;
+  }
+}
+
+@media (max-width: 767px) {
+  .section-heading {
+    font-size: 1.6rem;
+  }
+  .section-subheading {
+    font-size: 1.1rem;
+  }
+}

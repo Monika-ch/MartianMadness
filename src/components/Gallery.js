@@ -29,8 +29,8 @@ class Gallery extends Component {
       <React.Fragment>
         <section className='gallery-section'>
           <div className='container gallery-container'>
-            <h2 className='gallery-heading'>The Gallery..</h2>
-            <h3 className='gallery-subheading'>
+            <h2 className='gallery-heading section-heading'>The Gallery..</h2>
+            <h3 className='gallery-subheading section-subheading'>
               Martians Collection - An Instance
             </h3>
             <div className='row'>
@@ -41,6 +41,7 @@ class Gallery extends Component {
                     src={img.src}
                     width='100%'
                     max-width='300'
+                    height='auto'
                     onClick={onclickImage}
                     alt=''
                   />
@@ -55,6 +56,7 @@ class Gallery extends Component {
                     src={img.src}
                     width='100%'
                     max-width='420'
+                    height='auto'
                     onClick={onclickImage}
                     alt=''
                   />
@@ -69,6 +71,7 @@ class Gallery extends Component {
                     src={img.src}
                     width='100%'
                     max-width='300'
+                    height='auto'
                     onClick={onclickImage}
                     alt=''
                   />
@@ -83,6 +86,7 @@ class Gallery extends Component {
                     src={img.src}
                     width='100%'
                     max-width='420'
+                    height='auto'
                     onClick={onclickImage}
                     alt=''
                   />

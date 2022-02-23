@@ -46,7 +46,7 @@ class Story extends Component {
       return (
         <div key={id} className='row'>
           <div className={imageCol}>
-            <img src={image} alt={name} width='300' />
+            <img src={image} alt={name} width='300' height='300' />
           </div>
           <div className={textCol}>
             <p className={paraClassName}>
@@ -62,8 +62,10 @@ class Story extends Component {
         <section className='story-section' id='story'>
           <div className='container story-container'>
             <div className='story-text'>
-              <h2 className='story-heading'>The Story..</h2>
-              <h3 className='story-subheading'>Era of Martians</h3>
+              <h2 className='story-heading section-heading'>The Story..</h2>
+              <h3 className='story-subheading section-subheading'>
+                Era of Martians
+              </h3>
               {story}
               <div className='row'>
                 <div className='col story-end-wrapper'>

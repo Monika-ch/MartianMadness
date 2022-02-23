@@ -14,7 +14,7 @@ class Faq extends Component {
       <React.Fragment>
         <section className='faq-section'>
           <div className='container faq-container'>
-            <h2 className='faq-heading'>The Faqs..</h2>
+            <h2 className='faq-heading section-heading'>The Faqs..</h2>
             <div className='faq-content'>
               <Accordion>
                 <Accordion.Item eventKey='0'>

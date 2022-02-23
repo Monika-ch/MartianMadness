@@ -14,8 +14,8 @@ class Teams extends Component {
         <section className='teams-section'>
           <div className='container teams-container'>
             <div>
-              <h2 className='teams-heading'>The Teams..</h2>
-              <h3 className='teams-subheading'>Martian Madness Team!</h3>
+              <h2 className='teams-heading section-heading'>The Teams..</h2>
+              <h3 className='teams-subheading section-subheading'>Martian Madness Team!</h3>
               <div className='row'>
                 {/* TEAM MEMBERSDISPLAY */}
                 <div className='col-md-5'>
@@ -24,12 +24,14 @@ class Teams extends Component {
                       <a
                         href='https://twitter.com/zepherus_omega'
                         target='_blank'
+                        rel='noopener noreferrer'
                       >
                         <div className='col mt-5 mx-md-auto'>
                           <img
                             src={`${process.env.PUBLIC_URL}/assets/images/Zepherus_Omega.webp`}
                             alt='Zepherus_Omega'
                             width='150'
+                            height='150'
                             className='team-dp'
                           />
 
@@ -39,12 +41,17 @@ class Teams extends Component {
                       </a>
                     </div>
                     <div className='row team-members'>
-                      <a href='https://twitter.com/gigabit_eth' target='_blank'>
+                      <a
+                        href='https://twitter.com/gigabit_eth'
+                        target='_blank'
+                        rel='noopener noreferrer'
+                      >
                         <div className='col mt-5 mx-md-auto'>
                           <img
                             src={`${process.env.PUBLIC_URL}/assets/images/Gigabit.eth.webp`}
                             alt='Gigabit.eth'
                             width='150'
+                            height='150'
                             className='team-dp'
                           />
                           <h4>Gigabit.eth</h4>
@@ -56,12 +63,14 @@ class Teams extends Component {
                       <a
                         href='https://www.linkedin.com/in/monika12b/'
                         target='_blank'
+                        rel='noopener noreferrer'
                       >
                         <div className='col mt-5 mx-md-auto'>
                           <img
                             src={`${process.env.PUBLIC_URL}/assets/images/Moon12b.webp`}
                             alt='Moon12b'
                             width='150'
+                            height='150'
                             className='team-dp'
                           />
                           <h4>Monika12b</h4>
@@ -93,8 +102,9 @@ class Teams extends Component {
                     collection.
                   </p>
                   <p className='p4 mb-md-5'>
-                    Last but not least, our <strong>web developer</strong> brings a unique and
-                    critical perspective of beautiful and accessible UI, rivaled by none.
+                    Last but not least, our <strong>web developer</strong>{" "}
+                    brings a unique and critical perspective of beautiful and
+                    accessible UI, rivaled by none.
                   </p>
                 </div>
               </div>

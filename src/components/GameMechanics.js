@@ -13,8 +13,8 @@ class GameMechanics extends Component {
       <React.Fragment>
         <section className='game-mechanics-section'>
           <div className='container game-mechanics-container'>
-            <h2 className='game-mechanics-heading'>The Game Mechanics..</h2>
-            <h3 className='game-mechanics-subheading'>
+            <h2 className='game-mechanics-heading section-heading'>The Game Mechanics..</h2>
+            <h3 className='game-mechanics-subheading section-subheading'>
               A Battle on Martians Collection
             </h3>
             <div className='row'>
@@ -23,11 +23,12 @@ class GameMechanics extends Component {
                   src={`${process.env.PUBLIC_URL}/assets/images/UFO.webp`}
                   alt=''
                   width='300'
+                  height='300'
                 />
               </div>
               <div className='col col-lg-4 game-mechanics-div'>
                 <p className='text-info mt-lg-5'>
-                  Madness Madness NFT is a generative art project designed to
+                  Martian Madness NFT is a generative art project designed to
                   give token holders a chance to earn big rewards through
                   competitive games.
                 </p>
@@ -38,6 +39,7 @@ class GameMechanics extends Component {
                   src={`${process.env.PUBLIC_URL}/assets/images/UFO.webp`}
                   alt=''
                   width='300'
+                  height='300'
                 />
               </div>
             </div>
