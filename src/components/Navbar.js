@@ -5,11 +5,9 @@ import {
   Nav,
   NavbarToggler,
   NavItem,
-  NavLink,
   Collapse,
-  Button,
 } from "reactstrap";
-import { HashLink, NavHashLink } from "react-router-hash-link";
+import { HashLink } from "react-router-hash-link";
 
 import "../styled-components/Navbar.css";
 
