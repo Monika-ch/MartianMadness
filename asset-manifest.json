@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/martian_madness/static/css/main.03ac3a48.css",
+    "main.js": "/martian_madness/static/js/main.fa96ac37.js",
+    "static/js/787.b7180c5c.chunk.js": "/martian_madness/static/js/787.b7180c5c.chunk.js",
+    "static/media/Planets.webp": "/martian_madness/static/media/Planets.3a2b03de4fb654adbb6e.webp",
+    "index.html": "/martian_madness/index.html",
+    "main.03ac3a48.css.map": "/martian_madness/static/css/main.03ac3a48.css.map",
+    "main.fa96ac37.js.map": "/martian_madness/static/js/main.fa96ac37.js.map",
+    "787.b7180c5c.chunk.js.map": "/martian_madness/static/js/787.b7180c5c.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.03ac3a48.css",
+    "static/js/main.fa96ac37.js"
+  ]
+}
